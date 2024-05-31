@@ -3,6 +3,15 @@ Guide to run jobs and manage Linux terminal in Snellius: the National Supercompu
 
 ## Basic Commands in Snellius
 
+- Send files from Snellius -> Local: TERMINAL AT LOCAL
+    ```
+    rsync -av scur1216@snellius.surf.nl:~/atremote.txt "/Users/datoapanta/Desktop/"
+    ```
+- Send files from Local -> Snellius: TERMINAL AT LOCAL
+    ```
+    rsync -av "/Users/datoapanta/Downloads/kaggle.json" scur0402@snellius.surf.nl:/scratch-shared/scur0402_models
+    ```
+    
 - To send job
     ```
     sbatch install_environment.job
