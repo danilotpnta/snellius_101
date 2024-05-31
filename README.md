@@ -4,37 +4,53 @@ Guide to run jobs and manage Linux terminal in Snellius: the National Supercompu
 ## Basic Commands in Snellius
 
 - To send job
-sbatch install_environment.job
-
+    ```
+    sbatch install_environment.job
+    ```
 - To check queue
-squeue
-
+    ```
+    squeue
+    ```
 - Cancels and stops a job, independent of whether it is running or pending
-scancel JOBID
+    ```
+    scancel JOBID
+    ```
 
 - Shows additional information of a specific job, like the estimated start time.
-scontrol show job JOBID 
+    ```
+    scontrol show job JOBID 
+    ```
 
 - Get access to GPU from terminal
-srun --partition=gpu --gpus=1 --ntasks=1 --cpus-per-task=4 --time=03:00:00 --pty bash -i
+    ```
+    srun --partition=gpu --gpus=1 --ntasks=1 --cpus-per-task=4 --time=03:00:00 --pty bash -i
+    ```
 
 - To query job accounting information: ID, user, state of the job (running, completed, failed), start and end time, CPU usage, memory usage 
-sacct
-sacct -j [jobid] --format=JobID,JobName,Partition,State,ExitCode
+    ```
+    sacct -j [jobid] --format=JobID,JobName,Partition,State,ExitCode
+    ```
 
 - To watch the queue every second
-watch -n 1 squeue
+    ```
+    watch -n 1 squeue
+    ```
 
 - To see how muchr emianign bidget we still have:
-accuse
+    ```
+    accuse
+    ```
 
 - When you sbatch a job then this sends you an email when the job starts to run
-#SBATCH --mail-type=BEGIN,END,FAIL        # Notifications for job start, end, and fail
-#SBATCH --mail-user=your_email@gmail.com  # Your email address
+    ```
+    #SBATCH --mail-type=BEGIN,END,FAIL        # Notifications for job start, end, and fail
+    #SBATCH --mail-user=your_email@gmail.com  # Your email address
+    ```
 
 - To test if jobs will break at the start
-ssh to gcn1
-
+    ```
+    ssh to gcn1
+    ```
 
 ## To use rclone
 1. Install rclone on your system by following the installation instructions for your operating system. You can find the installation guide at [rclone.org](https://rclone.org/docs/#installing).
