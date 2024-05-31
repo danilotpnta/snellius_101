@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=dw_HaN-Seg
+#SBATCH --ntasks=1
+#SBATCH --time=01:00:00
+#SBATCH --output=/home/scur0402/jobs/logs/dw_HaN-Seg_%A.out
+
+module purge
+module load 2023
+module load Python/3.11.3-GCCcore-12.3.0
+
+# shared home dir
+# DATA_ROOT="/scratch-shared/scur0402"
+# cd $DATA_ROOT
+
+# donwloading HaN-Seg
+CODE="0001"
+
+cd /home/scur0402/danilo/adapt_med_seg/adapt_med_seg/utils
+
+export PYTHONPATH="/home/scur0402/danilo/adapt_med_seg/adapt_med_seg:$PYTHONPATH"
+echo "PYTHONPATH is set to $PYTHONPATH"
+
+
+srun python download_m3d_seg_dataset.py $CODE
