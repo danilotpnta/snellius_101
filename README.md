@@ -1,6 +1,15 @@
 # snellius_101
 Guide to run jobs and manage Linux terminal in Snellius: the National Supercomputer, the Netherlands
 
+<table align="center" name="fig3">
+    <tr align="center">
+                    <td><img src="./assets/snellius.jpg" alt="Snellius"></td>
+            </tr>
+            <tr align="left">
+                <td colspan="2"><b>Figure 1.</b> <a href="https://www.surf.nl/en/services/snellius-the-national-supercomputer">Snellius: the National Supercomputer</a></td>
+    </tr>
+</table>
+
 ## Basic Commands in Snellius
 
 - Send files from Snellius -> Local: TERMINAL AT LOCAL
@@ -11,7 +20,7 @@ Guide to run jobs and manage Linux terminal in Snellius: the National Supercompu
     ```
     rsync -av "/Users/datoapanta/Downloads/kaggle.json" scur0402@snellius.surf.nl:/scratch-shared/scur0402_models
     ```
-    
+
 - To send job
     ```
     sbatch install_environment.job
