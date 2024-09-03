@@ -1,0 +1,47 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn10.local.snellius.surf.nl -L 5796:localhost:5796
+
+After connection is established in your local browser go to the address:
+http://localhost:5796
+[I 09:52:44.620 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045
+[I 09:52:44.621 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 09:52:44.621 NotebookApp] http://localhost:5796/?token=b811c9c25b3433c967408172b2dbb0a7e3819455285047ea
+[I 09:52:44.621 NotebookApp]  or http://127.0.0.1:5796/?token=b811c9c25b3433c967408172b2dbb0a7e3819455285047ea
+[I 09:52:44.621 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:52:44.626 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-503828-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5796/?token=b811c9c25b3433c967408172b2dbb0a7e3819455285047ea
+     or http://127.0.0.1:5796/?token=b811c9c25b3433c967408172b2dbb0a7e3819455285047ea
+slurmstepd: error: *** JOB 4953332 ON gcn10 CANCELLED AT 2024-01-23T10:14:15 ***
+
+JOB STATISTICS
+==============
+Job ID: 4953332
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 06:31:12 core-walltime
+Job Wall-clock time: 00:21:44
+Memory Utilized: 56.42 MB
+Memory Efficiency: 0.05% of 120.00 GB

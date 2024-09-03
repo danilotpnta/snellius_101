@@ -1,0 +1,53 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn10.local.snellius.surf.nl -L 5630:localhost:5630
+
+After connection is established in your local browser go to the address:
+http://localhost:5630
+[I 09:52:44.620 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045
+[I 09:52:44.620 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 09:52:44.620 NotebookApp] http://localhost:5630/?token=fc30c66b39376b2f21d0888f472e7268cd57ac6210e60e27
+[I 09:52:44.620 NotebookApp]  or http://127.0.0.1:5630/?token=fc30c66b39376b2f21d0888f472e7268cd57ac6210e60e27
+[I 09:52:44.620 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:52:44.625 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-503827-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5630/?token=fc30c66b39376b2f21d0888f472e7268cd57ac6210e60e27
+     or http://127.0.0.1:5630/?token=fc30c66b39376b2f21d0888f472e7268cd57ac6210e60e27
+[I 10:11:26.185 NotebookApp] 302 GET /?token=fc30c66b39376b2f21d0888f472e7268cd57ac6210e60e27 (::1) 0.490000ms
+[W 10:11:32.820 NotebookApp] Notebook FACT-project/LUMEN.ipynb is not trusted
+[I 10:11:33.628 NotebookApp] Kernel started: 3da479a0-b8b0-41d3-8742-68cd57575394, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 92394b48-0da2-45a0-8287-bf815c41c9f3
+[I 10:13:31.813 NotebookApp] Starting buffering for 3da479a0-b8b0-41d3-8742-68cd57575394:2dc513f616b140578163683f24d3fb84
+slurmstepd: error: *** JOB 4953379 ON gcn10 CANCELLED AT 2024-01-23T10:14:21 ***
+
+JOB STATISTICS
+==============
+Job ID: 4953379
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 06:33:00 core-walltime
+Job Wall-clock time: 00:21:50
+Memory Utilized: 4.16 GB
+Memory Efficiency: 3.47% of 120.00 GB

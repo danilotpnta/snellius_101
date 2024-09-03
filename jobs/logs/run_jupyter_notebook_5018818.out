@@ -1,0 +1,55 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int5-pub.snellius.surf.nl scur1045@gcn62.local.snellius.surf.nl -L 5828:localhost:5828
+
+After connection is established in your local browser go to the address:
+http://localhost:5828
+[I 04:36:27.628 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 04:36:27.628 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 04:36:27.628 NotebookApp] http://localhost:5828/?token=10a8f7068c36dfcf7cd2cf8b7c68f4977871a37303393bf1
+[I 04:36:27.628 NotebookApp]  or http://127.0.0.1:5828/?token=10a8f7068c36dfcf7cd2cf8b7c68f4977871a37303393bf1
+[I 04:36:27.629 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 04:36:27.633 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-427660-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5828/?token=10a8f7068c36dfcf7cd2cf8b7c68f4977871a37303393bf1
+     or http://127.0.0.1:5828/?token=10a8f7068c36dfcf7cd2cf8b7c68f4977871a37303393bf1
+[I 09:55:09.242 NotebookApp] 302 GET /?token=10a8f7068c36dfcf7cd2cf8b7c68f4977871a37303393bf1 (::1) 2.850000ms
+[I 09:55:55.638 NotebookApp] 302 GET /?token=10a8f7068c36dfcf7cd2cf8b7c68f4977871a37303393bf1 (::1) 0.400000ms
+[I 09:56:06.018 NotebookApp] Kernel started: f0e9ee4b-4769-41e2-b515-f47e8b9d8e06, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 14e78599-aa04-4aab-aec0-d3df6d2b4cdf
+[I 09:58:06.504 NotebookApp] Saving file at /LUMEN-Ablation.ipynb
+[I 10:00:06.477 NotebookApp] Saving file at /LUMEN-Ablation.ipynb
+slurmstepd: error: *** JOB 5018818 ON gcn62 CANCELLED AT 2024-01-30T10:36:19 DUE TO TIME LIMIT ***
+[I 10:36:19.446 NotebookApp] Starting buffering for f0e9ee4b-4769-41e2-b515-f47e8b9d8e06:f7e112a9430a42038c725f0ce628fc44
+
+JOB STATISTICS
+==============
+Job ID: 5018818
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 4-12:01:12 core-walltime
+Job Wall-clock time: 06:00:04
+Memory Utilized: 9.16 GB
+Memory Efficiency: 7.63% of 120.00 GB

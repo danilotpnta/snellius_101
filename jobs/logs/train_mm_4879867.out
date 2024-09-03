@@ -1,0 +1,1019 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+/var/spool/slurm/slurmd/job4879867/slurm_script: line 16: cd: /home/scur1045/...: No such file or directory
+/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/transformers/models/vit/feature_extraction_vit.py:31: FutureWarning: The class ViTFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use ViTImageProcessor instead.
+  FutureWarning,
+/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/transformers/models/t5/tokenization_t5.py:173: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-large automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  FutureWarning,
+------------------Mini Batch - 1------------------
+------------------Mini Batch - 2------------------
+------------------Mini Batch - 3------------------
+------------------Mini Batch - 4------------------
+------------------Mini Batch - 5------------------
+------------------Mini Batch - 6------------------
+------------------Mini Batch - 7------------------
+------------------Mini Batch - 8------------------
+------------------Mini Batch - 9------------------
+------------------Mini Batch - 10------------------
+------------------Mini Batch - 11------------------
+Mini-batch progress (Train) | Epoch: 1:   0%|          | 0/928 [00:00<?, ?it/s]Mini-batch progress (Train) | Epoch: 1:   0%|          | 1/928 [00:02<42:20,  2.74s/it]Mini-batch progress (Train) | Epoch: 1:   0%|          | 2/928 [00:03<22:58,  1.49s/it]Mini-batch progress (Train) | Epoch: 1:   0%|          | 3/928 [00:03<16:39,  1.08s/it]Mini-batch progress (Train) | Epoch: 1:   0%|          | 4/928 [00:04<14:06,  1.09it/s]Mini-batch progress (Train) | Epoch: 1:   1%|          | 5/928 [00:05<12:19,  1.25it/s]Mini-batch progress (Train) | Epoch: 1:   1%|          | 6/928 [00:05<11:35,  1.32it/s]Mini-batch progress (Train) | Epoch: 1:   1%|          | 7/928 [00:06<11:12,  1.37it/s]Mini-batch progress (Train) | Epoch: 1:   1%|          | 8/928 [00:07<10:42,  1.43it/s]Mini-batch progress (Train) | Epoch: 1:   1%|          | 9/928 [00:07<10:22,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:   1%|          | 10/928 [00:08<09:57,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:   1%|          | 11/92------------------Mini Batch - 12------------------
+------------------Mini Batch - 13------------------
+------------------Mini Batch - 14------------------
+------------------Mini Batch - 15------------------
+------------------Mini Batch - 16------------------
+------------------Mini Batch - 17------------------
+------------------Mini Batch - 18------------------
+------------------Mini Batch - 19------------------
+------------------Mini Batch - 20------------------
+------------------Mini Batch - 21------------------
+------------------Mini Batch - 22------------------
+8 [00:09<09:52,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:   1%|▏         | 12/928 [00:09<10:03,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:   1%|▏         | 13/928 [00:10<09:50,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 14/928 [00:11<10:00,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 15/928 [00:11<10:07,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 16/928 [00:12<09:50,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 17/928 [00:12<09:45,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 18/928 [00:13<09:36,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 19/928 [00:14<09:34,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 20/928 [00:14<09:25,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 21/928 [00:15<09:56,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 22/928 [00:16<09:37,  1.57it------------------Mini Batch - 23------------------
+------------------Mini Batch - 24------------------
+------------------Mini Batch - 25------------------
+------------------Mini Batch - 26------------------
+------------------Mini Batch - 27------------------
+------------------Mini Batch - 28------------------
+------------------Mini Batch - 29------------------
+------------------Mini Batch - 30------------------
+------------------Mini Batch - 31------------------
+------------------Mini Batch - 32------------------
+------------------Mini Batch - 33------------------
+------------------Mini Batch - 34------------------
+/s]Mini-batch progress (Train) | Epoch: 1:   2%|▏         | 23/928 [00:16<09:26,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 24/928 [00:17<09:25,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 25/928 [00:17<09:27,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 26/928 [00:18<09:36,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 27/928 [00:19<09:27,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 28/928 [00:19<09:26,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 29/928 [00:20<09:47,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 30/928 [00:21<09:31,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 31/928 [00:21<09:50,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:   3%|▎         | 32/928 [00:22<09:48,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:   4%|▎         | 33/928 [00:23<10:20,  1.44it/s]Mini-batch progress------------------Mini Batch - 35------------------
+------------------Mini Batch - 36------------------
+------------------Mini Batch - 37------------------
+------------------Mini Batch - 38------------------
+------------------Mini Batch - 39------------------
+------------------Mini Batch - 40------------------
+------------------Mini Batch - 41------------------
+------------------Mini Batch - 42------------------
+------------------Mini Batch - 43------------------
+------------------Mini Batch - 44------------------
+------------------Mini Batch - 45------------------
+ (Train) | Epoch: 1:   4%|▎         | 34/928 [00:23<10:13,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:   4%|▍         | 35/928 [00:24<10:03,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:   4%|▍         | 36/928 [00:25<09:48,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:   4%|▍         | 37/928 [00:25<09:50,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:   4%|▍         | 38/928 [00:26<09:40,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:   4%|▍         | 39/928 [00:27<09:31,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:   4%|▍         | 40/928 [00:27<09:38,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:   4%|▍         | 41/928 [00:28<09:28,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▍         | 42/928 [00:29<09:16,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▍         | 43/928 [00:29<09:28,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▍         | 44/928 [00:30<09:37,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:   ------------------Mini Batch - 46------------------
+------------------Mini Batch - 47------------------
+------------------Mini Batch - 48------------------
+------------------Mini Batch - 49------------------
+------------------Mini Batch - 50------------------
+------------------Mini Batch - 51------------------
+------------------Mini Batch - 52------------------
+------------------Mini Batch - 53------------------
+------------------Mini Batch - 54------------------
+------------------Mini Batch - 55------------------
+------------------Mini Batch - 56------------------
+5%|▍         | 45/928 [00:31<09:55,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▍         | 46/928 [00:31<09:43,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▌         | 47/928 [00:32<10:00,  1.47it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▌         | 48/928 [00:33<09:37,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▌         | 49/928 [00:33<09:26,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▌         | 50/928 [00:34<09:19,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:   5%|▌         | 51/928 [00:35<09:47,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▌         | 52/928 [00:35<09:31,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▌         | 53/928 [00:36<09:27,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▌         | 54/928 [00:36<09:14,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▌         | 55/928 [00:37<09:41,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▌         | 56/928------------------Mini Batch - 57------------------
+------------------Mini Batch - 58------------------
+------------------Mini Batch - 59------------------
+------------------Mini Batch - 60------------------
+------------------Mini Batch - 61------------------
+------------------Mini Batch - 62------------------
+------------------Mini Batch - 63------------------
+------------------Mini Batch - 64------------------
+------------------Mini Batch - 65------------------
+------------------Mini Batch - 66------------------
+------------------Mini Batch - 67------------------
+ [00:38<09:41,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▌         | 57/928 [00:38<09:19,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▋         | 58/928 [00:39<09:19,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▋         | 59/928 [00:40<09:35,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:   6%|▋         | 60/928 [00:41<10:07,  1.43it/s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 61/928 [00:41<10:27,  1.38it/s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 62/928 [00:42<10:37,  1.36it/s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 63/928 [00:43<10:17,  1.40it/s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 64/928 [00:43<10:14,  1.41it/s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 65/928 [00:44<09:41,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 66/928 [00:45<09:18,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 67/928 [00:45<09:18,  1.54it/------------------Mini Batch - 68------------------
+------------------Mini Batch - 69------------------
+------------------Mini Batch - 70------------------
+------------------Mini Batch - 71------------------
+------------------Mini Batch - 72------------------
+------------------Mini Batch - 73------------------
+------------------Mini Batch - 74------------------
+------------------Mini Batch - 75------------------
+------------------Mini Batch - 76------------------
+------------------Mini Batch - 77------------------
+------------------Mini Batch - 78------------------
+------------------Mini Batch - 79------------------
+s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 68/928 [00:46<09:07,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:   7%|▋         | 69/928 [00:46<08:48,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 70/928 [00:47<08:46,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 71/928 [00:48<08:46,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 72/928 [00:48<08:56,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 73/928 [00:49<08:57,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 74/928 [00:50<08:55,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 75/928 [00:50<08:59,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 76/928 [00:51<08:57,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 77/928 [00:52<09:04,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:   8%|▊         | 78/928 [00:52<09:12,  1.54it/s]Mini-batch progress ------------------Mini Batch - 80------------------
+------------------Mini Batch - 81------------------
+------------------Mini Batch - 82------------------
+------------------Mini Batch - 83------------------
+------------------Mini Batch - 84------------------
+------------------Mini Batch - 85------------------
+------------------Mini Batch - 86------------------
+------------------Mini Batch - 87------------------
+------------------Mini Batch - 88------------------
+------------------Mini Batch - 89------------------
+------------------Mini Batch - 90------------------
+(Train) | Epoch: 1:   9%|▊         | 79/928 [00:53<09:02,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▊         | 80/928 [00:53<08:57,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▊         | 81/928 [00:54<08:49,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▉         | 82/928 [00:55<08:50,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▉         | 83/928 [00:55<08:56,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▉         | 84/928 [00:56<08:53,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▉         | 85/928 [00:57<08:43,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▉         | 86/928 [00:57<08:41,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▉         | 87/928 [00:58<08:47,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:   9%|▉         | 88/928 [00:59<10:49,  1.29it/s]Mini-batch progress (Train) | Epoch: 1:  10%|▉         | 89/928 [01:00<10:00,  1.40it/s]Mini-batch progress (Train) | Epoch: 1:  10------------------Mini Batch - 91------------------
+------------------Mini Batch - 92------------------
+------------------Mini Batch - 93------------------
+------------------Mini Batch - 94------------------
+------------------Mini Batch - 95------------------
+------------------Mini Batch - 96------------------
+------------------Mini Batch - 97------------------
+------------------Mini Batch - 98------------------
+------------------Mini Batch - 99------------------
+------------------Mini Batch - 100------------------
+------------------Mini Batch - 101------------------
+%|▉         | 90/928 [01:00<09:28,  1.47it/s]Mini-batch progress (Train) | Epoch: 1:  10%|▉         | 91/928 [01:01<09:04,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  10%|▉         | 92/928 [01:01<08:49,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  10%|█         | 93/928 [01:02<09:12,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  10%|█         | 94/928 [01:03<08:57,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  10%|█         | 95/928 [01:03<08:43,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  10%|█         | 96/928 [01:04<08:46,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  10%|█         | 97/928 [01:04<08:32,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█         | 98/928 [01:05<08:45,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█         | 99/928 [01:06<08:44,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█         | 100/928 [01:06<08:47,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█         | 101/92------------------Mini Batch - 102------------------
+------------------Mini Batch - 103------------------
+------------------Mini Batch - 104------------------
+------------------Mini Batch - 105------------------
+------------------Mini Batch - 106------------------
+------------------Mini Batch - 107------------------
+------------------Mini Batch - 108------------------
+------------------Mini Batch - 109------------------
+------------------Mini Batch - 110------------------
+------------------Mini Batch - 111------------------
+------------------Mini Batch - 112------------------
+8 [01:07<08:47,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█         | 102/928 [01:08<08:47,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█         | 103/928 [01:08<08:48,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█         | 104/928 [01:09<09:00,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█▏        | 105/928 [01:10<08:44,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  11%|█▏        | 106/928 [01:10<08:34,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 107/928 [01:11<08:26,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 108/928 [01:11<08:30,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 109/928 [01:12<08:17,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 110/928 [01:13<08:48,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 111/928 [01:13<08:45,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 11------------------Mini Batch - 113------------------
+------------------Mini Batch - 114------------------
+------------------Mini Batch - 115------------------
+------------------Mini Batch - 116------------------
+------------------Mini Batch - 117------------------
+------------------Mini Batch - 118------------------
+------------------Mini Batch - 119------------------
+------------------Mini Batch - 120------------------
+------------------Mini Batch - 121------------------
+------------------Mini Batch - 122------------------
+------------------Mini Batch - 123------------------
+2/928 [01:14<08:47,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 113/928 [01:15<09:18,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 114/928 [01:15<08:56,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▏        | 115/928 [01:16<08:38,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  12%|█▎        | 116/928 [01:17<08:41,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎        | 117/928 [01:17<08:27,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎        | 118/928 [01:18<08:52,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎        | 119/928 [01:19<08:42,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎        | 120/928 [01:19<08:35,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎        | 121/928 [01:20<08:38,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎        | 122/928 [01:20<08:28,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎  ------------------Mini Batch - 124------------------
+------------------Mini Batch - 125------------------
+------------------Mini Batch - 126------------------
+------------------Mini Batch - 127------------------
+------------------Mini Batch - 128------------------
+------------------Mini Batch - 129------------------
+------------------Mini Batch - 130------------------
+------------------Mini Batch - 131------------------
+------------------Mini Batch - 132------------------
+------------------Mini Batch - 133------------------
+------------------Mini Batch - 134------------------
+      | 123/928 [01:21<08:25,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎        | 124/928 [01:22<08:18,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  13%|█▎        | 125/928 [01:22<08:24,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  14%|█▎        | 126/928 [01:23<08:21,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  14%|█▎        | 127/928 [01:24<08:23,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  14%|█▍        | 128/928 [01:24<08:18,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  14%|█▍        | 129/928 [01:25<08:24,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  14%|█▍        | 130/928 [01:25<08:24,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  14%|█▍        | 131/928 [01:26<09:20,  1.42it/s]Mini-batch progress (Train) | Epoch: 1:  14%|█▍        | 132/928 [01:27<08:48,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  14%|█▍        | 133/928 [01:28<08:32,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  14------------------Mini Batch - 135------------------
+------------------Mini Batch - 136------------------
+------------------Mini Batch - 137------------------
+------------------Mini Batch - 138------------------
+------------------Mini Batch - 139------------------
+------------------Mini Batch - 140------------------
+------------------Mini Batch - 141------------------
+------------------Mini Batch - 142------------------
+------------------Mini Batch - 143------------------
+------------------Mini Batch - 144------------------
+------------------Mini Batch - 145------------------
+%|█▍        | 134/928 [01:28<08:52,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▍        | 135/928 [01:29<08:54,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▍        | 136/928 [01:30<08:42,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▍        | 137/928 [01:30<08:27,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▍        | 138/928 [01:31<08:37,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▍        | 139/928 [01:31<08:24,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▌        | 140/928 [01:32<08:15,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▌        | 141/928 [01:33<08:28,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▌        | 142/928 [01:33<08:21,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  15%|█▌        | 143/928 [01:34<08:30,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▌        | 144/928 [01:35<08:22,  1.56it/s]Mini-batch progress (Train) | Epo------------------Mini Batch - 146------------------
+------------------Mini Batch - 147------------------
+------------------Mini Batch - 148------------------
+------------------Mini Batch - 149------------------
+------------------Mini Batch - 150------------------
+------------------Mini Batch - 151------------------
+------------------Mini Batch - 152------------------
+------------------Mini Batch - 153------------------
+------------------Mini Batch - 154------------------
+------------------Mini Batch - 155------------------
+------------------Mini Batch - 156------------------
+ch: 1:  16%|█▌        | 145/928 [01:35<08:37,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▌        | 146/928 [01:36<08:33,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▌        | 147/928 [01:37<08:29,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▌        | 148/928 [01:37<08:13,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▌        | 149/928 [01:38<08:04,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▌        | 150/928 [01:38<08:05,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▋        | 151/928 [01:39<08:05,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▋        | 152/928 [01:40<08:09,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  16%|█▋        | 153/928 [01:40<08:06,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  17%|█▋        | 154/928 [01:41<08:04,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  17%|█▋        | 155/928 [01:42<07:57,  1.62it/s]Mini-batch progress (Tr------------------Mini Batch - 157------------------
+------------------Mini Batch - 158------------------
+------------------Mini Batch - 159------------------
+------------------Mini Batch - 160------------------
+------------------Mini Batch - 161------------------
+------------------Mini Batch - 162------------------
+------------------Mini Batch - 163------------------
+------------------Mini Batch - 164------------------
+------------------Mini Batch - 165------------------
+------------------Mini Batch - 166------------------
+------------------Mini Batch - 167------------------
+ain) | Epoch: 1:  17%|█▋        | 156/928 [01:42<08:06,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  17%|█▋        | 157/928 [01:43<08:03,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  17%|█▋        | 158/928 [01:43<07:52,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  17%|█▋        | 159/928 [01:44<08:07,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  17%|█▋        | 160/928 [01:45<07:54,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  17%|█▋        | 161/928 [01:45<07:59,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  17%|█▋        | 162/928 [01:46<07:48,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  18%|█▊        | 163/928 [01:47<07:55,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  18%|█▊        | 164/928 [01:47<07:50,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  18%|█▊        | 165/928 [01:48<07:55,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  18%|█▊        | 166/928 [01:48<08:06,  1.57it/s]Mini-batch pr------------------Mini Batch - 168------------------
+------------------Mini Batch - 169------------------
+------------------Mini Batch - 170------------------
+------------------Mini Batch - 171------------------
+------------------Mini Batch - 172------------------
+------------------Mini Batch - 173------------------
+------------------Mini Batch - 174------------------
+------------------Mini Batch - 175------------------
+------------------Mini Batch - 176------------------
+------------------Mini Batch - 177------------------
+------------------Mini Batch - 178------------------
+ogress (Train) | Epoch: 1:  18%|█▊        | 167/928 [01:49<07:51,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  18%|█▊        | 168/928 [01:50<07:57,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  18%|█▊        | 169/928 [01:50<07:59,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  18%|█▊        | 170/928 [01:51<07:49,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  18%|█▊        | 171/928 [01:52<07:44,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  19%|█▊        | 172/928 [01:52<07:46,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  19%|█▊        | 173/928 [01:53<08:01,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  19%|█▉        | 174/928 [01:53<07:56,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  19%|█▉        | 175/928 [01:54<07:55,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  19%|█▉        | 176/928 [01:55<07:56,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  19%|█▉        | 177/928 [01:55<08:10,  1.53it/s]Min------------------Mini Batch - 179------------------
+------------------Mini Batch - 180------------------
+------------------Mini Batch - 181------------------
+------------------Mini Batch - 182------------------
+------------------Mini Batch - 183------------------
+------------------Mini Batch - 184------------------
+------------------Mini Batch - 185------------------
+------------------Mini Batch - 186------------------
+------------------Mini Batch - 187------------------
+------------------Mini Batch - 188------------------
+i-batch progress (Train) | Epoch: 1:  19%|█▉        | 178/928 [01:56<07:57,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  19%|█▉        | 179/928 [01:57<08:21,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  19%|█▉        | 180/928 [01:57<08:24,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  20%|█▉        | 181/928 [01:58<08:07,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  20%|█▉        | 182/928 [01:59<07:55,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  20%|█▉        | 183/928 [01:59<07:37,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  20%|█▉        | 184/928 [02:00<09:23,  1.32it/s]Mini-batch progress (Train) | Epoch: 1:  20%|█▉        | 185/928 [02:01<08:42,  1.42it/s]Mini-batch progress (Train) | Epoch: 1:  20%|██        | 186/928 [02:02<08:20,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  20%|██        | 187/928 [02:02<08:12,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  20%|██        | 188/928 [02:03<07:53,  1.5------------------Mini Batch - 189------------------
+------------------Mini Batch - 190------------------
+------------------Mini Batch - 191------------------
+------------------Mini Batch - 192------------------
+------------------Mini Batch - 193------------------
+------------------Mini Batch - 194------------------
+------------------Mini Batch - 195------------------
+------------------Mini Batch - 196------------------
+------------------Mini Batch - 197------------------
+------------------Mini Batch - 198------------------
+------------------Mini Batch - 199------------------
+6it/s]Mini-batch progress (Train) | Epoch: 1:  20%|██        | 189/928 [02:03<07:42,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  20%|██        | 190/928 [02:04<07:54,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██        | 191/928 [02:05<07:42,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██        | 192/928 [02:05<07:37,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██        | 193/928 [02:06<07:34,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██        | 194/928 [02:07<08:17,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██        | 195/928 [02:07<08:06,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██        | 196/928 [02:08<07:53,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██        | 197/928 [02:09<07:53,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██▏       | 198/928 [02:09<08:09,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  21%|██▏       | 199/928 [02:------------------Mini Batch - 200------------------
+------------------Mini Batch - 201------------------
+------------------Mini Batch - 202------------------
+------------------Mini Batch - 203------------------
+------------------Mini Batch - 204------------------
+------------------Mini Batch - 205------------------
+------------------Mini Batch - 206------------------
+------------------Mini Batch - 207------------------
+------------------Mini Batch - 208------------------
+------------------Mini Batch - 209------------------
+------------------Mini Batch - 210------------------
+10<08:03,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 200/928 [02:11<08:22,  1.45it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 201/928 [02:11<08:06,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 202/928 [02:12<08:40,  1.39it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 203/928 [02:13<08:11,  1.47it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 204/928 [02:13<08:02,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 205/928 [02:14<07:45,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 206/928 [02:15<07:30,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 207/928 [02:15<07:42,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  22%|██▏       | 208/928 [02:16<07:34,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 209/928 [02:16<07:24,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  23------------------Mini Batch - 211------------------
+------------------Mini Batch - 212------------------
+------------------Mini Batch - 213------------------
+------------------Mini Batch - 214------------------
+------------------Mini Batch - 215------------------
+------------------Mini Batch - 216------------------
+------------------Mini Batch - 217------------------
+------------------Mini Batch - 218------------------
+------------------Mini Batch - 219------------------
+------------------Mini Batch - 220------------------
+------------------Mini Batch - 221------------------
+%|██▎       | 210/928 [02:17<07:27,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 211/928 [02:18<07:27,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 212/928 [02:18<07:38,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 213/928 [02:19<07:25,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 214/928 [02:20<07:22,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 215/928 [02:20<07:13,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 216/928 [02:21<07:15,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 217/928 [02:21<07:12,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  23%|██▎       | 218/928 [02:22<07:07,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  24%|██▎       | 219/928 [02:23<07:14,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  24%|██▎       | 220/928 [02:23<07:16,  1.62it/s]Mini-batch ------------------Mini Batch - 222------------------
+------------------Mini Batch - 223------------------
+------------------Mini Batch - 224------------------
+------------------Mini Batch - 225------------------
+------------------Mini Batch - 226------------------
+------------------Mini Batch - 227------------------
+------------------Mini Batch - 228------------------
+------------------Mini Batch - 229------------------
+------------------Mini Batch - 230------------------
+------------------Mini Batch - 231------------------
+progress (Train) | Epoch: 1:  24%|██▍       | 221/928 [02:24<07:17,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  24%|██▍       | 222/928 [02:24<07:09,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  24%|██▍       | 223/928 [02:25<07:09,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  24%|██▍       | 224/928 [02:26<07:05,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  24%|██▍       | 225/928 [02:26<07:33,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  24%|██▍       | 226/928 [02:27<07:30,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  24%|██▍       | 227/928 [02:28<07:20,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▍       | 228/928 [02:28<07:17,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▍       | 229/928 [02:29<07:20,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▍       | 230/928 [02:29<07:09,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▍       | 231/928 [02:------------------Mini Batch - 232------------------
+------------------Mini Batch - 233------------------
+------------------Mini Batch - 234------------------
+------------------Mini Batch - 235------------------
+------------------Mini Batch - 236------------------
+------------------Mini Batch - 237------------------
+------------------Mini Batch - 238------------------
+------------------Mini Batch - 239------------------
+------------------Mini Batch - 240------------------
+------------------Mini Batch - 241------------------
+------------------Mini Batch - 242------------------
+30<07:05,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▌       | 232/928 [02:31<06:55,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▌       | 233/928 [02:31<07:03,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▌       | 234/928 [02:32<07:34,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▌       | 235/928 [02:33<07:27,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  25%|██▌       | 236/928 [02:33<07:19,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  26%|██▌       | 237/928 [02:34<07:10,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  26%|██▌       | 238/928 [02:34<07:06,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  26%|██▌       | 239/928 [02:35<07:06,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  26%|██▌       | 240/928 [02:36<07:30,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  26%|██▌       | 241/928 [02:36<07:24,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  26------------------Mini Batch - 243------------------
+------------------Mini Batch - 244------------------
+------------------Mini Batch - 245------------------
+------------------Mini Batch - 246------------------
+------------------Mini Batch - 247------------------
+------------------Mini Batch - 248------------------
+------------------Mini Batch - 249------------------
+------------------Mini Batch - 250------------------
+------------------Mini Batch - 251------------------
+------------------Mini Batch - 252------------------
+------------------Mini Batch - 253------------------
+%|██▌       | 242/928 [02:37<07:12,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  26%|██▌       | 243/928 [02:38<07:30,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  26%|██▋       | 244/928 [02:38<07:21,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  26%|██▋       | 245/928 [02:39<07:39,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 246/928 [02:40<07:26,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 247/928 [02:40<07:30,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 248/928 [02:41<07:21,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 249/928 [02:42<07:19,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 250/928 [02:42<07:15,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 251/928 [02:43<07:08,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 252/928 [02:43<07:00,  1.61it/s]Mini-batch ------------------Mini Batch - 254------------------
+------------------Mini Batch - 255------------------
+------------------Mini Batch - 256------------------
+------------------Mini Batch - 257------------------
+------------------Mini Batch - 258------------------
+------------------Mini Batch - 259------------------
+------------------Mini Batch - 260------------------
+------------------Mini Batch - 261------------------
+------------------Mini Batch - 262------------------
+------------------Mini Batch - 263------------------
+progress (Train) | Epoch: 1:  27%|██▋       | 253/928 [02:44<06:54,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 254/928 [02:45<07:34,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  27%|██▋       | 255/928 [02:45<07:19,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 256/928 [02:46<07:11,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 257/928 [02:47<07:20,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 258/928 [02:47<07:07,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 259/928 [02:48<07:00,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 260/928 [02:49<07:12,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 261/928 [02:49<07:09,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 262/928 [02:50<07:04,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 263/928 [02:------------------Mini Batch - 264------------------
+------------------Mini Batch - 265------------------
+------------------Mini Batch - 266------------------
+------------------Mini Batch - 267------------------
+------------------Mini Batch - 268------------------
+------------------Mini Batch - 269------------------
+------------------Mini Batch - 270------------------
+------------------Mini Batch - 271------------------
+------------------Mini Batch - 272------------------
+------------------Mini Batch - 273------------------
+------------------Mini Batch - 274------------------
+51<06:58,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  28%|██▊       | 264/928 [02:51<06:57,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▊       | 265/928 [02:52<06:52,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▊       | 266/928 [02:52<06:49,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▉       | 267/928 [02:53<06:39,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▉       | 268/928 [02:54<06:47,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▉       | 269/928 [02:54<06:42,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▉       | 270/928 [02:55<06:44,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▉       | 271/928 [02:55<06:35,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▉       | 272/928 [02:56<06:36,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  29%|██▉       | 273/928 [02:57<06:27,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  30------------------Mini Batch - 275------------------
+------------------Mini Batch - 276------------------
+------------------Mini Batch - 277------------------
+------------------Mini Batch - 278------------------
+------------------Mini Batch - 279------------------
+------------------Mini Batch - 280------------------
+------------------Mini Batch - 281------------------
+------------------Mini Batch - 282------------------
+------------------Mini Batch - 283------------------
+------------------Mini Batch - 284------------------
+------------------Mini Batch - 285------------------
+%|██▉       | 274/928 [02:57<06:39,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  30%|██▉       | 275/928 [02:58<06:36,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  30%|██▉       | 276/928 [02:58<06:42,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  30%|██▉       | 277/928 [02:59<06:43,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  30%|██▉       | 278/928 [03:00<06:35,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  30%|███       | 279/928 [03:00<06:45,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  30%|███       | 280/928 [03:01<06:44,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  30%|███       | 281/928 [03:02<06:35,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  30%|███       | 282/928 [03:02<06:43,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  30%|███       | 283/928 [03:03<06:45,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  31%|███       | 284/928 [03:03<06:43,  1.60it/s]Mini-batch ------------------Mini Batch - 286------------------
+------------------Mini Batch - 287------------------
+------------------Mini Batch - 288------------------
+------------------Mini Batch - 289------------------
+------------------Mini Batch - 290------------------
+------------------Mini Batch - 291------------------
+------------------Mini Batch - 292------------------
+------------------Mini Batch - 293------------------
+------------------Mini Batch - 294------------------
+------------------Mini Batch - 295------------------
+progress (Train) | Epoch: 1:  31%|███       | 285/928 [03:04<06:53,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  31%|███       | 286/928 [03:05<06:48,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  31%|███       | 287/928 [03:05<06:43,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  31%|███       | 288/928 [03:06<06:50,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  31%|███       | 289/928 [03:07<06:57,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  31%|███▏      | 290/928 [03:07<06:45,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  31%|███▏      | 291/928 [03:08<06:37,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  31%|███▏      | 292/928 [03:08<06:26,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | 293/928 [03:09<06:27,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | 294/928 [03:10<06:30,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | ------------------Mini Batch - 296------------------
+------------------Mini Batch - 297------------------
+------------------Mini Batch - 298------------------
+------------------Mini Batch - 299------------------
+------------------Mini Batch - 300------------------
+------------------Mini Batch - 301------------------
+------------------Mini Batch - 302------------------
+------------------Mini Batch - 303------------------
+------------------Mini Batch - 304------------------
+------------------Mini Batch - 305------------------
+------------------Mini Batch - 306------------------
+295/928 [03:10<06:45,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | 296/928 [03:11<06:37,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | 297/928 [03:12<06:29,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | 298/928 [03:12<06:23,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | 299/928 [03:13<06:17,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | 300/928 [03:13<06:11,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  32%|███▏      | 301/928 [03:14<06:08,  1.70it/s]Mini-batch progress (Train) | Epoch: 1:  33%|███▎      | 302/928 [03:14<06:07,  1.70it/s]Mini-batch progress (Train) | Epoch: 1:  33%|███▎      | 303/928 [03:15<06:13,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  33%|███▎      | 304/928 [03:16<06:18,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  33%|███▎      | 305/928 [03:16<06:14,  1.66it/s]Mini-batch ------------------Mini Batch - 307------------------
+------------------Mini Batch - 308------------------
+------------------Mini Batch - 309------------------
+------------------Mini Batch - 310------------------
+------------------Mini Batch - 311------------------
+------------------Mini Batch - 312------------------
+------------------Mini Batch - 313------------------
+------------------Mini Batch - 314------------------
+------------------Mini Batch - 315------------------
+------------------Mini Batch - 316------------------
+progress (Train) | Epoch: 1:  33%|███▎      | 306/928 [03:17<06:17,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  33%|███▎      | 307/928 [03:18<06:25,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  33%|███▎      | 308/928 [03:18<06:26,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  33%|███▎      | 309/928 [03:19<06:25,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  33%|███▎      | 310/928 [03:20<06:34,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▎      | 311/928 [03:20<06:21,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▎      | 312/928 [03:21<06:33,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▎      | 313/928 [03:21<06:33,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▍      | 314/928 [03:22<06:23,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▍      | 315/928 [03:23<06:26,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███�------------------Mini Batch - 317------------------
+------------------Mini Batch - 318------------------
+------------------Mini Batch - 319------------------
+------------------Mini Batch - 320------------------
+------------------Mini Batch - 321------------------
+------------------Mini Batch - 322------------------
+------------------Mini Batch - 323------------------
+------------------Mini Batch - 324------------------
+------------------Mini Batch - 325------------------
+------------------Mini Batch - 326------------------
+------------------Mini Batch - 327------------------
+��      | 316/928 [03:23<06:18,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▍      | 317/928 [03:24<06:21,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▍      | 318/928 [03:25<06:21,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▍      | 319/928 [03:25<06:13,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  34%|███▍      | 320/928 [03:26<06:09,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  35%|███▍      | 321/928 [03:26<06:20,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  35%|███▍      | 322/928 [03:27<06:38,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  35%|███▍      | 323/928 [03:28<06:28,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  35%|███▍      | 324/928 [03:28<06:28,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  35%|███▌      | 325/928 [03:29<07:01,  1.43it/s]Mini-batch progress (Train) | Epoch: 1:  35%|███▌      | 326/928 [03:30<06:52,  1.46it/s]M------------------Mini Batch - 328------------------
+------------------Mini Batch - 329------------------
+------------------Mini Batch - 330------------------
+------------------Mini Batch - 331------------------
+------------------Mini Batch - 332------------------
+------------------Mini Batch - 333------------------
+------------------Mini Batch - 334------------------
+------------------Mini Batch - 335------------------
+------------------Mini Batch - 336------------------
+------------------Mini Batch - 337------------------
+ini-batch progress (Train) | Epoch: 1:  35%|███▌      | 327/928 [03:30<06:33,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  35%|███▌      | 328/928 [03:31<06:33,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  35%|███▌      | 329/928 [03:32<06:35,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  36%|███▌      | 330/928 [03:32<06:21,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  36%|███▌      | 331/928 [03:33<06:14,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  36%|███▌      | 332/928 [03:34<06:06,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  36%|███▌      | 333/928 [03:34<06:10,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  36%|███▌      | 334/928 [03:35<06:08,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  36%|███▌      | 335/928 [03:36<06:52,  1.44it/s]Mini-batch progress (Train) | Epoch: 1:  36%|███▌      | 336/928 [03:36<06:50,  1.44it/s]Mini-batch progress (Train) | Epoch: 1:  36%|------------------Mini Batch - 338------------------
+------------------Mini Batch - 339------------------
+------------------Mini Batch - 340------------------
+------------------Mini Batch - 341------------------
+------------------Mini Batch - 342------------------
+------------------Mini Batch - 343------------------
+------------------Mini Batch - 344------------------
+------------------Mini Batch - 345------------------
+------------------Mini Batch - 346------------------
+------------------Mini Batch - 347------------------
+███▋      | 337/928 [03:37<06:33,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  36%|███▋      | 338/928 [03:38<06:24,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 339/928 [03:38<07:03,  1.39it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 340/928 [03:39<06:48,  1.44it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 341/928 [03:40<06:37,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 342/928 [03:40<06:26,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 343/928 [03:41<06:40,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 344/928 [03:42<06:27,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 345/928 [03:42<06:16,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 346/928 [03:43<06:02,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  37%|███▋      | 347/928 [03:43<06:01,  1------------------Mini Batch - 348------------------
+------------------Mini Batch - 349------------------
+------------------Mini Batch - 350------------------
+------------------Mini Batch - 351------------------
+------------------Mini Batch - 352------------------
+------------------Mini Batch - 353------------------
+------------------Mini Batch - 354------------------
+------------------Mini Batch - 355------------------
+------------------Mini Batch - 356------------------
+------------------Mini Batch - 357------------------
+------------------Mini Batch - 358------------------
+.61it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 348/928 [03:44<06:04,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 349/928 [03:45<06:12,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 350/928 [03:45<06:18,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 351/928 [03:46<06:12,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 352/928 [03:47<06:04,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 353/928 [03:47<06:22,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 354/928 [03:48<06:11,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 355/928 [03:49<06:04,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 356/928 [03:49<05:55,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  38%|███▊      | 357/928 [03:50<05:59,  1.59it/s]Mini-batch progress (Train) | Epoch------------------Mini Batch - 359------------------
+------------------Mini Batch - 360------------------
+------------------Mini Batch - 361------------------
+------------------Mini Batch - 362------------------
+------------------Mini Batch - 363------------------
+------------------Mini Batch - 364------------------
+------------------Mini Batch - 365------------------
+------------------Mini Batch - 366------------------
+------------------Mini Batch - 367------------------
+------------------Mini Batch - 368------------------
+: 1:  39%|███▊      | 358/928 [03:51<06:03,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  39%|███▊      | 359/928 [03:51<05:51,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  39%|███▉      | 360/928 [03:52<05:46,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  39%|███▉      | 361/928 [03:52<05:46,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  39%|███▉      | 362/928 [03:53<05:59,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  39%|███▉      | 363/928 [03:54<05:53,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  39%|███▉      | 364/928 [03:54<05:55,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  39%|███▉      | 365/928 [03:55<05:50,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  39%|███▉      | 366/928 [03:55<05:49,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  40%|███▉      | 367/928 [03:56<05:44,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  40%|███▉      | 368/928 [03:57------------------Mini Batch - 369------------------
+------------------Mini Batch - 370------------------
+------------------Mini Batch - 371------------------
+------------------Mini Batch - 372------------------
+------------------Mini Batch - 373------------------
+------------------Mini Batch - 374------------------
+------------------Mini Batch - 375------------------
+------------------Mini Batch - 376------------------
+------------------Mini Batch - 377------------------
+------------------Mini Batch - 378------------------
+------------------Mini Batch - 379------------------
+<05:48,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  40%|███▉      | 369/928 [03:57<05:42,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  40%|███▉      | 370/928 [03:58<05:47,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  40%|███▉      | 371/928 [03:59<05:46,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  40%|████      | 372/928 [03:59<06:01,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  40%|████      | 373/928 [04:00<05:54,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  40%|████      | 374/928 [04:01<05:48,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  40%|████      | 375/928 [04:01<05:46,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████      | 376/928 [04:02<05:40,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████      | 377/928 [04:02<05:39,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████      | 378/928 [04:03<05:41,  1.61it/s]Mini-batch progress (Trai------------------Mini Batch - 380------------------
+------------------Mini Batch - 381------------------
+------------------Mini Batch - 382------------------
+------------------Mini Batch - 383------------------
+------------------Mini Batch - 384------------------
+------------------Mini Batch - 385------------------
+------------------Mini Batch - 386------------------
+------------------Mini Batch - 387------------------
+------------------Mini Batch - 388------------------
+------------------Mini Batch - 389------------------
+n) | Epoch: 1:  41%|████      | 379/928 [04:04<05:41,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████      | 380/928 [04:04<05:37,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████      | 381/928 [04:05<05:33,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████      | 382/928 [04:05<05:33,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████▏     | 383/928 [04:06<05:35,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████▏     | 384/928 [04:07<05:48,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  41%|████▏     | 385/928 [04:07<05:44,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████▏     | 386/928 [04:08<05:37,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████▏     | 387/928 [04:09<05:34,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████▏     | 388/928 [04:09<05:30,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████------------------Mini Batch - 390------------------
+------------------Mini Batch - 391------------------
+------------------Mini Batch - 392------------------
+------------------Mini Batch - 393------------------
+------------------Mini Batch - 394------------------
+------------------Mini Batch - 395------------------
+------------------Mini Batch - 396------------------
+------------------Mini Batch - 397------------------
+------------------Mini Batch - 398------------------
+------------------Mini Batch - 399------------------
+▏     | 389/928 [04:10<05:32,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████▏     | 390/928 [04:10<05:32,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████▏     | 391/928 [04:11<05:29,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████▏     | 392/928 [04:12<05:28,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████▏     | 393/928 [04:12<05:22,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  42%|████▏     | 394/928 [04:13<05:20,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 395/928 [04:13<05:22,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 396/928 [04:14<05:16,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 397/928 [04:15<05:17,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 398/928 [04:15<05:15,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 399/928 [04:16------------------Mini Batch - 400------------------
+------------------Mini Batch - 401------------------
+------------------Mini Batch - 402------------------
+------------------Mini Batch - 403------------------
+------------------Mini Batch - 404------------------
+------------------Mini Batch - 405------------------
+------------------Mini Batch - 406------------------
+------------------Mini Batch - 407------------------
+------------------Mini Batch - 408------------------
+------------------Mini Batch - 409------------------
+------------------Mini Batch - 410------------------
+<05:12,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 400/928 [04:16<05:15,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 401/928 [04:17<05:33,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 402/928 [04:18<06:28,  1.35it/s]Mini-batch progress (Train) | Epoch: 1:  43%|████▎     | 403/928 [04:19<06:43,  1.30it/s]Mini-batch progress (Train) | Epoch: 1:  44%|████▎     | 404/928 [04:19<06:13,  1.40it/s]Mini-batch progress (Train) | Epoch: 1:  44%|████▎     | 405/928 [04:20<05:53,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  44%|████▍     | 406/928 [04:21<05:42,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  44%|████▍     | 407/928 [04:21<05:57,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  44%|████▍     | 408/928 [04:22<05:43,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  44%|████▍     | 409/928 [04:23<05:34,  1.55it/s]Mini-------------------Mini Batch - 411------------------
+------------------Mini Batch - 412------------------
+------------------Mini Batch - 413------------------
+------------------Mini Batch - 414------------------
+------------------Mini Batch - 415------------------
+------------------Mini Batch - 416------------------
+------------------Mini Batch - 417------------------
+------------------Mini Batch - 418------------------
+------------------Mini Batch - 419------------------
+------------------Mini Batch - 420------------------
+batch progress (Train) | Epoch: 1:  44%|████▍     | 410/928 [04:23<05:25,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  44%|████▍     | 411/928 [04:24<05:46,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  44%|████▍     | 412/928 [04:25<05:30,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▍     | 413/928 [04:25<05:28,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▍     | 414/928 [04:26<05:34,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▍     | 415/928 [04:27<05:26,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▍     | 416/928 [04:27<05:24,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▍     | 417/928 [04:28<05:14,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▌     | 418/928 [04:28<05:18,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▌     | 419/928 [04:29<05:20,  1.59it/s]Mini-batch progress (Train) |------------------Mini Batch - 421------------------
+------------------Mini Batch - 422------------------
+------------------Mini Batch - 423------------------
+------------------Mini Batch - 424------------------
+------------------Mini Batch - 425------------------
+------------------Mini Batch - 426------------------
+------------------Mini Batch - 427------------------
+------------------Mini Batch - 428------------------
+------------------Mini Batch - 429------------------
+------------------Mini Batch - 430------------------
+ Epoch: 1:  45%|████▌     | 420/928 [04:30<05:15,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▌     | 421/928 [04:30<05:11,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  45%|████▌     | 422/928 [04:31<05:15,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  46%|████▌     | 423/928 [04:31<05:09,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  46%|████▌     | 424/928 [04:32<05:10,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  46%|████▌     | 425/928 [04:33<05:12,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  46%|████▌     | 426/928 [04:33<05:26,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  46%|████▌     | 427/928 [04:34<05:17,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  46%|████▌     | 428/928 [04:35<05:10,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  46%|████▌     | 429/928 [04:35<05:14,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  46%|██�------------------Mini Batch - 431------------------
+------------------Mini Batch - 432------------------
+------------------Mini Batch - 433------------------
+------------------Mini Batch - 434------------------
+------------------Mini Batch - 435------------------
+------------------Mini Batch - 436------------------
+------------------Mini Batch - 437------------------
+------------------Mini Batch - 438------------------
+------------------Mini Batch - 439------------------
+------------------Mini Batch - 440------------------
+�█▋     | 430/928 [04:36<05:27,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  46%|████▋     | 431/928 [04:37<05:22,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 432/928 [04:37<05:13,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 433/928 [04:38<05:08,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 434/928 [04:38<05:08,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 435/928 [04:39<05:03,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 436/928 [04:40<05:02,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 437/928 [04:40<04:58,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 438/928 [04:41<04:59,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 439/928 [04:41<05:06,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  47%|████▋     | 440/928 [0------------------Mini Batch - 441------------------
+------------------Mini Batch - 442------------------
+------------------Mini Batch - 443------------------
+------------------Mini Batch - 444------------------
+------------------Mini Batch - 445------------------
+------------------Mini Batch - 446------------------
+------------------Mini Batch - 447------------------
+------------------Mini Batch - 448------------------
+------------------Mini Batch - 449------------------
+------------------Mini Batch - 450------------------
+------------------Mini Batch - 451------------------
+4:42<05:04,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 441/928 [04:43<05:00,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 442/928 [04:43<04:55,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 443/928 [04:44<04:56,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 444/928 [04:45<04:54,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 445/928 [04:45<04:56,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 446/928 [04:46<04:54,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 447/928 [04:46<04:52,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 448/928 [04:47<04:52,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 449/928 [04:48<04:47,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  48%|████▊     | 450/928 [04:48<04:46,  1.67it/s]M------------------Mini Batch - 452------------------
+------------------Mini Batch - 453------------------
+------------------Mini Batch - 454------------------
+------------------Mini Batch - 455------------------
+------------------Mini Batch - 456------------------
+------------------Mini Batch - 457------------------
+------------------Mini Batch - 458------------------
+------------------Mini Batch - 459------------------
+------------------Mini Batch - 460------------------
+------------------Mini Batch - 461------------------
+ini-batch progress (Train) | Epoch: 1:  49%|████▊     | 451/928 [04:49<04:52,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  49%|████▊     | 452/928 [04:50<05:09,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  49%|████▉     | 453/928 [04:50<05:06,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  49%|████▉     | 454/928 [04:51<05:16,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  49%|████▉     | 455/928 [04:52<05:13,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  49%|████▉     | 456/928 [04:52<05:23,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  49%|████▉     | 457/928 [04:53<05:08,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  49%|████▉     | 458/928 [04:53<04:55,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  49%|████▉     | 459/928 [04:54<04:57,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  50%|████▉     | 460/928 [04:55<05:08,  1.52it/s]Mini-batch progress (Trai------------------Mini Batch - 462------------------
+------------------Mini Batch - 463------------------
+------------------Mini Batch - 464------------------
+------------------Mini Batch - 465------------------
+------------------Mini Batch - 466------------------
+------------------Mini Batch - 467------------------
+------------------Mini Batch - 468------------------
+------------------Mini Batch - 469------------------
+------------------Mini Batch - 470------------------
+------------------Mini Batch - 471------------------
+n) | Epoch: 1:  50%|████▉     | 461/928 [04:55<05:09,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  50%|████▉     | 462/928 [04:56<04:58,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  50%|████▉     | 463/928 [04:57<04:50,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  50%|█████     | 464/928 [04:57<04:45,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  50%|█████     | 465/928 [04:58<04:54,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  50%|█████     | 466/928 [04:59<04:52,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  50%|█████     | 467/928 [04:59<04:47,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  50%|█████     | 468/928 [05:00<04:45,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█████     | 469/928 [05:00<04:46,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█████     | 470/928 [05:01<04:39,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█�------------------Mini Batch - 472------------------
+------------------Mini Batch - 473------------------
+------------------Mini Batch - 474------------------
+------------------Mini Batch - 475------------------
+------------------Mini Batch - 476------------------
+------------------Mini Batch - 477------------------
+------------------Mini Batch - 478------------------
+------------------Mini Batch - 479------------------
+------------------Mini Batch - 480------------------
+------------------Mini Batch - 481------------------
+��███     | 471/928 [05:02<04:43,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█████     | 472/928 [05:02<04:40,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█████     | 473/928 [05:03<04:35,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█████     | 474/928 [05:03<04:32,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█████     | 475/928 [05:04<04:34,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█████▏    | 476/928 [05:05<04:35,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  51%|█████▏    | 477/928 [05:05<04:40,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 478/928 [05:06<04:44,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 479/928 [05:07<05:48,  1.29it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 480/928 [05:08<05:25,  1.38it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏------------------Mini Batch - 482------------------
+------------------Mini Batch - 483------------------
+------------------Mini Batch - 484------------------
+------------------Mini Batch - 485------------------
+------------------Mini Batch - 486------------------
+------------------Mini Batch - 487------------------
+------------------Mini Batch - 488------------------
+------------------Mini Batch - 489------------------
+------------------Mini Batch - 490------------------
+------------------Mini Batch - 491------------------
+    | 481/928 [05:08<05:08,  1.45it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 482/928 [05:09<04:57,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 483/928 [05:10<05:12,  1.43it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 484/928 [05:10<04:56,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 485/928 [05:11<04:47,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 486/928 [05:12<04:53,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  52%|█████▏    | 487/928 [05:12<04:48,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    | 488/928 [05:13<04:37,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    | 489/928 [05:13<04:30,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    | 490/928 [05:14<04:27,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    ------------------Mini Batch - 492------------------
+------------------Mini Batch - 493------------------
+------------------Mini Batch - 494------------------
+------------------Mini Batch - 495------------------
+------------------Mini Batch - 496------------------
+------------------Mini Batch - 497------------------
+------------------Mini Batch - 498------------------
+------------------Mini Batch - 499------------------
+------------------Mini Batch - 500------------------
+------------------Mini Batch - 501------------------
+| 491/928 [05:15<04:33,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    | 492/928 [05:15<04:29,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    | 493/928 [05:16<04:24,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    | 494/928 [05:16<04:27,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    | 495/928 [05:17<04:33,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  53%|█████▎    | 496/928 [05:18<04:33,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▎    | 497/928 [05:18<04:30,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▎    | 498/928 [05:19<04:34,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▍    | 499/928 [05:20<04:56,  1.45it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▍    | 500/928 [05:20<04:46,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▍    | 50------------------Mini Batch - 502------------------
+------------------Mini Batch - 503------------------
+------------------Mini Batch - 504------------------
+------------------Mini Batch - 505------------------
+------------------Mini Batch - 506------------------
+------------------Mini Batch - 507------------------
+------------------Mini Batch - 508------------------
+------------------Mini Batch - 509------------------
+------------------Mini Batch - 510------------------
+------------------Mini Batch - 511------------------
+1/928 [05:21<04:38,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▍    | 502/928 [05:22<04:36,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▍    | 503/928 [05:22<04:32,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▍    | 504/928 [05:23<04:45,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  54%|█████▍    | 505/928 [05:24<04:44,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▍    | 506/928 [05:24<04:33,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▍    | 507/928 [05:25<04:26,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▍    | 508/928 [05:26<04:22,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▍    | 509/928 [05:26<04:18,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▍    | 510/928 [05:27<04:14,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▌    | 511/92------------------Mini Batch - 512------------------
+------------------Mini Batch - 513------------------
+------------------Mini Batch - 514------------------
+------------------Mini Batch - 515------------------
+------------------Mini Batch - 516------------------
+------------------Mini Batch - 517------------------
+------------------Mini Batch - 518------------------
+------------------Mini Batch - 519------------------
+------------------Mini Batch - 520------------------
+------------------Mini Batch - 521------------------
+8 [05:27<04:09,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▌    | 512/928 [05:28<04:07,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▌    | 513/928 [05:28<04:05,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▌    | 514/928 [05:29<04:07,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  55%|█████▌    | 515/928 [05:30<04:06,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▌    | 516/928 [05:30<04:11,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▌    | 517/928 [05:31<04:19,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▌    | 518/928 [05:32<04:22,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▌    | 519/928 [05:32<04:28,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▌    | 520/928 [05:33<04:21,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▌    | 521/928 [0------------------Mini Batch - 522------------------
+------------------Mini Batch - 523------------------
+------------------Mini Batch - 524------------------
+------------------Mini Batch - 525------------------
+------------------Mini Batch - 526------------------
+------------------Mini Batch - 527------------------
+------------------Mini Batch - 528------------------
+------------------Mini Batch - 529------------------
+------------------Mini Batch - 530------------------
+------------------Mini Batch - 531------------------
+5:34<04:20,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▋    | 522/928 [05:34<04:13,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▋    | 523/928 [05:35<04:08,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  56%|█████▋    | 524/928 [05:35<04:12,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 525/928 [05:36<04:09,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 526/928 [05:37<04:13,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 527/928 [05:37<04:09,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 528/928 [05:38<04:04,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 529/928 [05:39<04:16,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 530/928 [05:39<04:20,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 531/928 [05:40------------------Mini Batch - 532------------------
+------------------Mini Batch - 533------------------
+------------------Mini Batch - 534------------------
+------------------Mini Batch - 535------------------
+------------------Mini Batch - 536------------------
+------------------Mini Batch - 537------------------
+------------------Mini Batch - 538------------------
+------------------Mini Batch - 539------------------
+------------------Mini Batch - 540------------------
+------------------Mini Batch - 541------------------
+<04:14,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 532/928 [05:40<04:08,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  57%|█████▋    | 533/928 [05:41<04:11,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 534/928 [05:42<04:08,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 535/928 [05:42<04:03,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 536/928 [05:43<04:03,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 537/928 [05:44<03:59,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 538/928 [05:44<04:00,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 539/928 [05:45<03:55,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 540/928 [05:45<03:56,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 541/928 [05:46<03:------------------Mini Batch - 542------------------
+------------------Mini Batch - 543------------------
+------------------Mini Batch - 544------------------
+------------------Mini Batch - 545------------------
+------------------Mini Batch - 546------------------
+------------------Mini Batch - 547------------------
+------------------Mini Batch - 548------------------
+------------------Mini Batch - 549------------------
+------------------Mini Batch - 550------------------
+------------------Mini Batch - 551------------------
+54,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  58%|█████▊    | 542/928 [05:47<03:57,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▊    | 543/928 [05:47<03:54,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▊    | 544/928 [05:48<03:54,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▊    | 545/928 [05:48<03:56,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▉    | 546/928 [05:49<04:08,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▉    | 547/928 [05:50<04:04,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▉    | 548/928 [05:50<04:00,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▉    | 549/928 [05:51<04:02,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▉    | 550/928 [05:52<03:54,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▉    | 551/928 [05:52<03:50, ------------------Mini Batch - 552------------------
+------------------Mini Batch - 553------------------
+------------------Mini Batch - 554------------------
+------------------Mini Batch - 555------------------
+------------------Mini Batch - 556------------------
+------------------Mini Batch - 557------------------
+------------------Mini Batch - 558------------------
+------------------Mini Batch - 559------------------
+------------------Mini Batch - 560------------------
+------------------Mini Batch - 561------------------
+ 1.63it/s]Mini-batch progress (Train) | Epoch: 1:  59%|█████▉    | 552/928 [05:53<03:51,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  60%|█████▉    | 553/928 [05:53<03:53,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  60%|█████▉    | 554/928 [05:54<03:47,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  60%|█████▉    | 555/928 [05:55<03:58,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  60%|█████▉    | 556/928 [05:55<03:53,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  60%|██████    | 557/928 [05:56<03:50,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  60%|██████    | 558/928 [05:57<04:03,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  60%|██████    | 559/928 [05:57<04:08,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  60%|██████    | 560/928 [05:58<03:58,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  60%|██████    | 561/928 [05:59<03:50,  1.5------------------Mini Batch - 562------------------
+------------------Mini Batch - 563------------------
+------------------Mini Batch - 564------------------
+------------------Mini Batch - 565------------------
+------------------Mini Batch - 566------------------
+------------------Mini Batch - 567------------------
+------------------Mini Batch - 568------------------
+------------------Mini Batch - 569------------------
+------------------Mini Batch - 570------------------
+------------------Mini Batch - 571------------------
+9it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████    | 562/928 [05:59<03:51,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████    | 563/928 [06:00<03:51,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████    | 564/928 [06:01<03:50,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████    | 565/928 [06:01<03:50,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████    | 566/928 [06:02<03:50,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████    | 567/928 [06:02<03:51,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████    | 568/928 [06:03<03:51,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████▏   | 569/928 [06:04<03:50,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  61%|██████▏   | 570/928 [06:04<03:51,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 571/928 [06:05<03:45,  1------------------Mini Batch - 572------------------
+------------------Mini Batch - 573------------------
+------------------Mini Batch - 574------------------
+------------------Mini Batch - 575------------------
+------------------Mini Batch - 576------------------
+------------------Mini Batch - 577------------------
+------------------Mini Batch - 578------------------
+------------------Mini Batch - 579------------------
+------------------Mini Batch - 580------------------
+------------------Mini Batch - 581------------------
+.58it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 572/928 [06:06<03:42,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 573/928 [06:06<03:44,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 574/928 [06:07<03:37,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 575/928 [06:07<03:35,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 576/928 [06:08<03:33,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 577/928 [06:09<03:29,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 578/928 [06:09<03:36,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▏   | 579/928 [06:10<03:33,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  62%|██████▎   | 580/928 [06:11<03:37,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 581/928 ------------------Mini Batch - 582------------------
+------------------Mini Batch - 583------------------
+------------------Mini Batch - 584------------------
+------------------Mini Batch - 585------------------
+------------------Mini Batch - 586------------------
+------------------Mini Batch - 587------------------
+------------------Mini Batch - 588------------------
+------------------Mini Batch - 589------------------
+------------------Mini Batch - 590------------------
+------------------Mini Batch - 591------------------
+[06:11<03:42,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 582/928 [06:12<03:41,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 583/928 [06:12<03:38,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 584/928 [06:13<03:34,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 585/928 [06:14<03:30,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 586/928 [06:14<03:28,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 587/928 [06:15<03:25,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 588/928 [06:15<03:22,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  63%|██████▎   | 589/928 [06:16<03:25,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████▎   | 590/928 [06:17<03:26,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████------------------Mini Batch - 592------------------
+------------------Mini Batch - 593------------------
+------------------Mini Batch - 594------------------
+------------------Mini Batch - 595------------------
+------------------Mini Batch - 596------------------
+------------------Mini Batch - 597------------------
+------------------Mini Batch - 598------------------
+------------------Mini Batch - 599------------------
+------------------Mini Batch - 600------------------
+------------------Mini Batch - 601------------------
+▎   | 591/928 [06:17<03:25,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████▍   | 592/928 [06:18<03:23,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████▍   | 593/928 [06:18<03:23,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████▍   | 594/928 [06:19<03:20,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████▍   | 595/928 [06:20<03:19,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████▍   | 596/928 [06:20<03:18,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████▍   | 597/928 [06:21<03:18,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  64%|██████▍   | 598/928 [06:21<03:13,  1.70it/s]Mini-batch progress (Train) | Epoch: 1:  65%|██████▍   | 599/928 [06:22<03:12,  1.70it/s]Mini-batch progress (Train) | Epoch: 1:  65%|██████▍   | 600/928 [06:23<03:13,  1.70it/s]Mini-batch progress (Train) | Epoch: 1:  65%|�------------------Mini Batch - 602------------------
+------------------Mini Batch - 603------------------
+------------------Mini Batch - 604------------------
+------------------Mini Batch - 605------------------
+------------------Mini Batch - 606------------------
+------------------Mini Batch - 607------------------
+------------------Mini Batch - 608------------------
+------------------Mini Batch - 609------------------
+------------------Mini Batch - 610------------------
+------------------Mini Batch - 611------------------
+�█████▍   | 601/928 [06:23<03:13,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  65%|██████▍   | 602/928 [06:24<03:13,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  65%|██████▍   | 603/928 [06:24<03:13,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  65%|██████▌   | 604/928 [06:25<03:15,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  65%|██████▌   | 605/928 [06:26<03:41,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  65%|██████▌   | 606/928 [06:27<03:34,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  65%|██████▌   | 607/928 [06:27<03:32,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▌   | 608/928 [06:28<03:23,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▌   | 609/928 [06:28<03:20,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▌   | 610/928 [06:29<03:15,  1.62it/s]Mini-batch progress (Train) | E------------------Mini Batch - 612------------------
+------------------Mini Batch - 613------------------
+------------------Mini Batch - 614------------------
+------------------Mini Batch - 615------------------
+------------------Mini Batch - 616------------------
+------------------Mini Batch - 617------------------
+------------------Mini Batch - 618------------------
+------------------Mini Batch - 619------------------
+------------------Mini Batch - 620------------------
+------------------Mini Batch - 621------------------
+poch: 1:  66%|██████▌   | 611/928 [06:30<03:20,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▌   | 612/928 [06:30<03:20,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▌   | 613/928 [06:31<03:13,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▌   | 614/928 [06:32<03:22,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▋   | 615/928 [06:32<03:14,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▋   | 616/928 [06:33<03:12,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  66%|██████▋   | 617/928 [06:33<03:11,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  67%|██████▋   | 618/928 [06:34<03:09,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  67%|██████▋   | 619/928 [06:35<03:06,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  67%|██████▋   | 620/928 [06:35<03:13,  1.59it/s]Mini-batch prog------------------Mini Batch - 622------------------
+------------------Mini Batch - 623------------------
+------------------Mini Batch - 624------------------
+------------------Mini Batch - 625------------------
+------------------Mini Batch - 626------------------
+------------------Mini Batch - 627------------------
+------------------Mini Batch - 628------------------
+------------------Mini Batch - 629------------------
+------------------Mini Batch - 630------------------
+ress (Train) | Epoch: 1:  67%|██████▋   | 621/928 [06:36<03:14,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  67%|██████▋   | 622/928 [06:36<03:12,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  67%|██████▋   | 623/928 [06:37<03:12,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  67%|██████▋   | 624/928 [06:38<03:10,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  67%|██████▋   | 625/928 [06:38<03:06,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  67%|██████▋   | 626/928 [06:39<03:04,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 627/928 [06:40<03:03,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 628/928 [06:40<03:06,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 629/928 [06:41<03:03,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 630/928 [06:41<03:06,  1.60it/s]------------------Mini Batch - 631------------------
+------------------Mini Batch - 632------------------
+------------------Mini Batch - 633------------------
+------------------Mini Batch - 634------------------
+------------------Mini Batch - 635------------------
+------------------Mini Batch - 636------------------
+------------------Mini Batch - 637------------------
+------------------Mini Batch - 638------------------
+------------------Mini Batch - 639------------------
+------------------Mini Batch - 640------------------
+Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 631/928 [06:42<03:03,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 632/928 [06:43<03:00,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 633/928 [06:43<03:02,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 634/928 [06:44<03:03,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  68%|██████▊   | 635/928 [06:44<03:01,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▊   | 636/928 [06:45<03:00,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▊   | 637/928 [06:46<02:59,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▉   | 638/928 [06:46<03:08,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▉   | 639/928 [06:47<03:04,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▉   | 640/928 [06:48<0------------------Mini Batch - 641------------------
+------------------Mini Batch - 642------------------
+------------------Mini Batch - 643------------------
+------------------Mini Batch - 644------------------
+------------------Mini Batch - 645------------------
+------------------Mini Batch - 646------------------
+------------------Mini Batch - 647------------------
+------------------Mini Batch - 648------------------
+------------------Mini Batch - 649------------------
+------------------Mini Batch - 650------------------
+2:59,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▉   | 641/928 [06:48<02:59,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▉   | 642/928 [06:49<03:00,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▉   | 643/928 [06:50<02:58,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  69%|██████▉   | 644/928 [06:50<03:14,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  70%|██████▉   | 645/928 [06:51<03:19,  1.42it/s]Mini-batch progress (Train) | Epoch: 1:  70%|██████▉   | 646/928 [06:52<03:19,  1.41it/s]Mini-batch progress (Train) | Epoch: 1:  70%|██████▉   | 647/928 [06:52<03:08,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  70%|██████▉   | 648/928 [06:53<03:03,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  70%|██████▉   | 649/928 [06:54<02:56,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  70%|███████   | ------------------Mini Batch - 651------------------
+------------------Mini Batch - 652------------------
+------------------Mini Batch - 653------------------
+------------------Mini Batch - 654------------------
+------------------Mini Batch - 655------------------
+------------------Mini Batch - 656------------------
+------------------Mini Batch - 657------------------
+------------------Mini Batch - 658------------------
+------------------Mini Batch - 659------------------
+------------------Mini Batch - 660------------------
+650/928 [06:54<02:51,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  70%|███████   | 651/928 [06:55<02:48,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  70%|███████   | 652/928 [06:55<02:49,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  70%|███████   | 653/928 [06:56<02:47,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  70%|███████   | 654/928 [06:57<02:45,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███████   | 655/928 [06:57<02:47,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███████   | 656/928 [06:58<02:53,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███████   | 657/928 [06:59<03:02,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███████   | 658/928 [06:59<02:56,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███████   | 659/928 [07:00<02:52,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███�------------------Mini Batch - 661------------------
+------------------Mini Batch - 662------------------
+------------------Mini Batch - 663------------------
+------------------Mini Batch - 664------------------
+------------------Mini Batch - 665------------------
+------------------Mini Batch - 666------------------
+------------------Mini Batch - 667------------------
+------------------Mini Batch - 668------------------
+------------------Mini Batch - 669------------------
+------------------Mini Batch - 670------------------
+��███   | 660/928 [07:01<02:51,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███████   | 661/928 [07:01<02:46,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███████▏  | 662/928 [07:02<02:41,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  71%|███████▏  | 663/928 [07:02<02:37,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  72%|███████▏  | 664/928 [07:03<02:36,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  72%|███████▏  | 665/928 [07:03<02:39,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  72%|███████▏  | 666/928 [07:04<02:37,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  72%|███████▏  | 667/928 [07:05<02:38,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  72%|███████▏  | 668/928 [07:05<02:43,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  72%|███████▏  | 669/928 [07:06<02:41,  1.61it/s]Mini-batch progress (Tr------------------Mini Batch - 671------------------
+------------------Mini Batch - 672------------------
+------------------Mini Batch - 673------------------
+------------------Mini Batch - 674------------------
+------------------Mini Batch - 675------------------
+------------------Mini Batch - 676------------------
+------------------Mini Batch - 677------------------
+------------------Mini Batch - 678------------------
+------------------Mini Batch - 679------------------
+ain) | Epoch: 1:  72%|███████▏  | 670/928 [07:07<02:42,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  72%|███████▏  | 671/928 [07:07<02:43,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  72%|███████▏  | 672/928 [07:08<02:39,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 673/928 [07:09<02:48,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 674/928 [07:09<02:47,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 675/928 [07:10<02:52,  1.47it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 676/928 [07:11<02:44,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 677/928 [07:11<02:39,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 678/928 [07:12<02:40,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 679/928 [07:12<02:35------------------Mini Batch - 680------------------
+------------------Mini Batch - 681------------------
+------------------Mini Batch - 682------------------
+------------------Mini Batch - 683------------------
+------------------Mini Batch - 684------------------
+------------------Mini Batch - 685------------------
+------------------Mini Batch - 686------------------
+------------------Mini Batch - 687------------------
+------------------Mini Batch - 688------------------
+------------------Mini Batch - 689------------------
+,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 680/928 [07:13<02:33,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 681/928 [07:14<02:38,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  73%|███████▎  | 682/928 [07:14<02:35,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  74%|███████▎  | 683/928 [07:15<02:32,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  74%|███████▎  | 684/928 [07:16<02:29,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  74%|███████▍  | 685/928 [07:16<02:31,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  74%|███████▍  | 686/928 [07:17<02:30,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  74%|███████▍  | 687/928 [07:17<02:27,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  74%|███████▍  | 688/928 [07:18<02:24,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  74%|████------------------Mini Batch - 690------------------
+------------------Mini Batch - 691------------------
+------------------Mini Batch - 692------------------
+------------------Mini Batch - 693------------------
+------------------Mini Batch - 694------------------
+------------------Mini Batch - 695------------------
+------------------Mini Batch - 696------------------
+------------------Mini Batch - 697------------------
+------------------Mini Batch - 698------------------
+------------------Mini Batch - 699------------------
+███▍  | 689/928 [07:19<02:23,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  74%|███████▍  | 690/928 [07:19<02:26,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  74%|███████▍  | 691/928 [07:20<02:26,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  75%|███████▍  | 692/928 [07:20<02:24,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  75%|███████▍  | 693/928 [07:21<02:22,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  75%|███████▍  | 694/928 [07:22<02:20,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  75%|███████▍  | 695/928 [07:22<02:28,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  75%|███████▌  | 696/928 [07:23<02:25,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  75%|███████▌  | 697/928 [07:24<02:24,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  75%|███████▌  | 698/928 [07:24<02:20,  1.63it/s]Mini-batch progress (------------------Mini Batch - 700------------------
+------------------Mini Batch - 701------------------
+------------------Mini Batch - 702------------------
+------------------Mini Batch - 703------------------
+------------------Mini Batch - 704------------------
+------------------Mini Batch - 705------------------
+------------------Mini Batch - 706------------------
+------------------Mini Batch - 707------------------
+------------------Mini Batch - 708------------------
+Train) | Epoch: 1:  75%|███████▌  | 699/928 [07:25<02:19,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  75%|███████▌  | 700/928 [07:25<02:17,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▌  | 701/928 [07:26<02:31,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▌  | 702/928 [07:27<02:33,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▌  | 703/928 [07:27<02:25,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▌  | 704/928 [07:28<02:18,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▌  | 705/928 [07:29<02:16,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▌  | 706/928 [07:29<02:13,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▌  | 707/928 [07:30<02:10,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▋  | 708/928 [07:30<02:------------------Mini Batch - 709------------------
+------------------Mini Batch - 710------------------
+------------------Mini Batch - 711------------------
+------------------Mini Batch - 712------------------
+------------------Mini Batch - 713------------------
+------------------Mini Batch - 714------------------
+------------------Mini Batch - 715------------------
+------------------Mini Batch - 716------------------
+------------------Mini Batch - 717------------------
+------------------Mini Batch - 718------------------
+09,  1.70it/s]Mini-batch progress (Train) | Epoch: 1:  76%|███████▋  | 709/928 [07:31<02:07,  1.72it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 710/928 [07:31<02:06,  1.72it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 711/928 [07:32<02:07,  1.70it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 712/928 [07:33<02:06,  1.70it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 713/928 [07:33<02:11,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 714/928 [07:34<02:13,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 715/928 [07:35<02:23,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 716/928 [07:35<02:21,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 717/928 [07:36<02:17,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███�------------------Mini Batch - 719------------------
+------------------Mini Batch - 720------------------
+------------------Mini Batch - 721------------------
+------------------Mini Batch - 722------------------
+------------------Mini Batch - 723------------------
+------------------Mini Batch - 724------------------
+------------------Mini Batch - 725------------------
+------------------Mini Batch - 726------------------
+------------------Mini Batch - 727------------------
+------------------Mini Batch - 728------------------
+��███▋  | 718/928 [07:37<02:21,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  77%|███████▋  | 719/928 [07:37<02:18,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  78%|███████▊  | 720/928 [07:38<02:24,  1.44it/s]Mini-batch progress (Train) | Epoch: 1:  78%|███████▊  | 721/928 [07:39<02:20,  1.47it/s]Mini-batch progress (Train) | Epoch: 1:  78%|███████▊  | 722/928 [07:39<02:19,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  78%|███████▊  | 723/928 [07:40<02:13,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  78%|███████▊  | 724/928 [07:41<02:08,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  78%|███████▊  | 725/928 [07:41<02:05,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  78%|███████▊  | 726/928 [07:42<02:05,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  78%|███████▊  | 727/928 [07:42<02:03,  1.62it/s]Mini-batch progress------------------Mini Batch - 729------------------
+------------------Mini Batch - 730------------------
+------------------Mini Batch - 731------------------
+------------------Mini Batch - 732------------------
+------------------Mini Batch - 733------------------
+------------------Mini Batch - 734------------------
+------------------Mini Batch - 735------------------
+------------------Mini Batch - 736------------------
+------------------Mini Batch - 737------------------
+ (Train) | Epoch: 1:  78%|███████▊  | 728/928 [07:43<02:06,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▊  | 729/928 [07:44<02:26,  1.36it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▊  | 730/928 [07:45<02:27,  1.34it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▉  | 731/928 [07:45<02:18,  1.42it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▉  | 732/928 [07:46<02:13,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▉  | 733/928 [07:47<02:08,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▉  | 734/928 [07:47<02:02,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▉  | 735/928 [07:48<02:06,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▉  | 736/928 [07:49<02:07,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  79%|███████▉  | 737/928 [07:49<0------------------Mini Batch - 738------------------
+------------------Mini Batch - 739------------------
+------------------Mini Batch - 740------------------
+------------------Mini Batch - 741------------------
+------------------Mini Batch - 742------------------
+------------------Mini Batch - 743------------------
+------------------Mini Batch - 744------------------
+------------------Mini Batch - 745------------------
+------------------Mini Batch - 746------------------
+------------------Mini Batch - 747------------------
+2:03,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  80%|███████▉  | 738/928 [07:50<01:58,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  80%|███████▉  | 739/928 [07:50<01:55,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  80%|███████▉  | 740/928 [07:51<01:59,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  80%|███████▉  | 741/928 [07:52<01:54,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  80%|███████▉  | 742/928 [07:52<02:00,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  80%|████████  | 743/928 [07:53<01:56,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  80%|████████  | 744/928 [07:54<01:52,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  80%|████████  | 745/928 [07:54<01:53,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  80%|████████  | 746/928 [07:55<01:56,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  80%|██�------------------Mini Batch - 748------------------
+------------------Mini Batch - 749------------------
+------------------Mini Batch - 750------------------
+------------------Mini Batch - 751------------------
+------------------Mini Batch - 752------------------
+------------------Mini Batch - 753------------------
+------------------Mini Batch - 754------------------
+------------------Mini Batch - 755------------------
+------------------Mini Batch - 756------------------
+------------------Mini Batch - 757------------------
+�█████  | 747/928 [07:55<01:54,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████  | 748/928 [07:56<01:58,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████  | 749/928 [07:57<01:55,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████  | 750/928 [07:57<01:53,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████  | 751/928 [07:58<01:54,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████  | 752/928 [07:59<01:51,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████  | 753/928 [07:59<01:52,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████▏ | 754/928 [08:00<01:48,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████▏ | 755/928 [08:01<01:49,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  81%|████████▏ | 756/928 [08:01<01:48,  1.59it/s]Mini-batch ------------------Mini Batch - 758------------------
+------------------Mini Batch - 759------------------
+------------------Mini Batch - 760------------------
+------------------Mini Batch - 761------------------
+------------------Mini Batch - 762------------------
+------------------Mini Batch - 763------------------
+------------------Mini Batch - 764------------------
+------------------Mini Batch - 765------------------
+------------------Mini Batch - 766------------------
+progress (Train) | Epoch: 1:  82%|████████▏ | 757/928 [08:02<01:46,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  82%|████████▏ | 758/928 [08:02<01:44,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  82%|████████▏ | 759/928 [08:03<01:44,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  82%|████████▏ | 760/928 [08:04<01:41,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  82%|████████▏ | 761/928 [08:04<01:45,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  82%|████████▏ | 762/928 [08:05<01:47,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  82%|████████▏ | 763/928 [08:06<01:47,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  82%|████████▏ | 764/928 [08:06<01:44,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  82%|████████▏ | 765/928 [08:07<01:41,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  83%|██████------------------Mini Batch - 767------------------
+------------------Mini Batch - 768------------------
+------------------Mini Batch - 769------------------
+------------------Mini Batch - 770------------------
+------------------Mini Batch - 771------------------
+------------------Mini Batch - 772------------------
+------------------Mini Batch - 773------------------
+------------------Mini Batch - 774------------------
+------------------Mini Batch - 775------------------
+------------------Mini Batch - 776------------------
+██▎ | 766/928 [08:07<01:38,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  83%|████████▎ | 767/928 [08:08<01:41,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  83%|████████▎ | 768/928 [08:09<01:40,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  83%|████████▎ | 769/928 [08:10<01:46,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  83%|████████▎ | 770/928 [08:10<01:42,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  83%|████████▎ | 771/928 [08:11<01:41,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  83%|████████▎ | 772/928 [08:11<01:44,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  83%|████████▎ | 773/928 [08:12<01:41,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  83%|████████▎ | 774/928 [08:13<01:40,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▎ | 775/928 [08:13<01:39,  1.54it/s]Mini-ba------------------Mini Batch - 777------------------
+------------------Mini Batch - 778------------------
+------------------Mini Batch - 779------------------
+------------------Mini Batch - 780------------------
+------------------Mini Batch - 781------------------
+------------------Mini Batch - 782------------------
+------------------Mini Batch - 783------------------
+------------------Mini Batch - 784------------------
+------------------Mini Batch - 785------------------
+tch progress (Train) | Epoch: 1:  84%|████████▎ | 776/928 [08:14<01:36,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▎ | 777/928 [08:15<01:38,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▍ | 778/928 [08:16<01:58,  1.26it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▍ | 779/928 [08:16<01:50,  1.35it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▍ | 780/928 [08:17<01:45,  1.41it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▍ | 781/928 [08:18<01:43,  1.42it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▍ | 782/928 [08:18<01:37,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▍ | 783/928 [08:19<01:34,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  84%|████████▍ | 784/928 [08:20<01:31,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████�------------------Mini Batch - 786------------------
+------------------Mini Batch - 787------------------
+------------------Mini Batch - 788------------------
+------------------Mini Batch - 789------------------
+------------------Mini Batch - 790------------------
+------------------Mini Batch - 791------------------
+------------------Mini Batch - 792------------------
+------------------Mini Batch - 793------------------
+------------------Mini Batch - 794------------------
+------------------Mini Batch - 795------------------
+�███▍ | 785/928 [08:20<01:29,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████████▍ | 786/928 [08:21<01:29,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████████▍ | 787/928 [08:21<01:29,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████████▍ | 788/928 [08:22<01:28,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████████▌ | 789/928 [08:23<01:26,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████████▌ | 790/928 [08:23<01:31,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████████▌ | 791/928 [08:24<01:28,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████████▌ | 792/928 [08:25<01:28,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  85%|████████▌ | 793/928 [08:25<01:27,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  86%|████████▌ | 794/928 [08:26<01:26,  1.55it/s]Min------------------Mini Batch - 796------------------
+------------------Mini Batch - 797------------------
+------------------Mini Batch - 798------------------
+------------------Mini Batch - 799------------------
+------------------Mini Batch - 800------------------
+------------------Mini Batch - 801------------------
+------------------Mini Batch - 802------------------
+------------------Mini Batch - 803------------------
+------------------Mini Batch - 804------------------
+i-batch progress (Train) | Epoch: 1:  86%|████████▌ | 795/928 [08:27<01:23,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  86%|████████▌ | 796/928 [08:27<01:21,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  86%|████████▌ | 797/928 [08:28<01:20,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  86%|████████▌ | 798/928 [08:28<01:19,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  86%|████████▌ | 799/928 [08:29<01:18,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  86%|████████▌ | 800/928 [08:30<01:17,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  86%|████████▋ | 801/928 [08:30<01:15,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  86%|████████▋ | 802/928 [08:31<01:16,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  87%|████████▋ | 803/928 [08:31<01:15,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  87%|███�------------------Mini Batch - 805------------------
+------------------Mini Batch - 806------------------
+------------------Mini Batch - 807------------------
+------------------Mini Batch - 808------------------
+------------------Mini Batch - 809------------------
+------------------Mini Batch - 810------------------
+------------------Mini Batch - 811------------------
+------------------Mini Batch - 812------------------
+------------------Mini Batch - 813------------------
+��████▋ | 804/928 [08:32<01:15,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  87%|████████▋ | 805/928 [08:33<01:14,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  87%|████████▋ | 806/928 [08:33<01:13,  1.65it/s]Mini-batch progress (Train) | Epoch: 1:  87%|████████▋ | 807/928 [08:34<01:16,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  87%|████████▋ | 808/928 [08:35<01:21,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  87%|████████▋ | 809/928 [08:35<01:18,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  87%|████████▋ | 810/928 [08:36<01:16,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  87%|████████▋ | 811/928 [08:36<01:13,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 812/928 [08:37<01:11,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 813/928 [08:38<01:11,  1.61it/s]------------------Mini Batch - 814------------------
+------------------Mini Batch - 815------------------
+------------------Mini Batch - 816------------------
+------------------Mini Batch - 817------------------
+------------------Mini Batch - 818------------------
+------------------Mini Batch - 819------------------
+------------------Mini Batch - 820------------------
+------------------Mini Batch - 821------------------
+------------------Mini Batch - 822------------------
+------------------Mini Batch - 823------------------
+Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 814/928 [08:38<01:12,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 815/928 [08:39<01:09,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 816/928 [08:40<01:10,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 817/928 [08:40<01:11,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 818/928 [08:41<01:12,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 819/928 [08:42<01:13,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 820/928 [08:42<01:13,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  88%|████████▊ | 821/928 [08:43<01:11,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  89%|████████▊ | 822/928 [08:44<01:12,  1.45it/s]Mini-batch progress (Train) | Epoch: 1:  89%|██------------------Mini Batch - 824------------------
+------------------Mini Batch - 825------------------
+------------------Mini Batch - 826------------------
+------------------Mini Batch - 827------------------
+------------------Mini Batch - 828------------------
+------------------Mini Batch - 829------------------
+------------------Mini Batch - 830------------------
+------------------Mini Batch - 831------------------
+------------------Mini Batch - 832------------------
+██████▊ | 823/928 [08:44<01:11,  1.47it/s]Mini-batch progress (Train) | Epoch: 1:  89%|████████▉ | 824/928 [08:45<01:12,  1.43it/s]Mini-batch progress (Train) | Epoch: 1:  89%|████████▉ | 825/928 [08:46<01:10,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  89%|████████▉ | 826/928 [08:46<01:07,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  89%|████████▉ | 827/928 [08:47<01:05,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  89%|████████▉ | 828/928 [08:48<01:03,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  89%|████████▉ | 829/928 [08:48<01:01,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  89%|████████▉ | 830/928 [08:49<01:01,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  90%|████████▉ | 831/928 [08:49<01:01,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  90%|████████▉ | 832/928 [08:50<01:00,  1.58i------------------Mini Batch - 833------------------
+------------------Mini Batch - 834------------------
+------------------Mini Batch - 835------------------
+------------------Mini Batch - 836------------------
+------------------Mini Batch - 837------------------
+------------------Mini Batch - 838------------------
+------------------Mini Batch - 839------------------
+------------------Mini Batch - 840------------------
+------------------Mini Batch - 841------------------
+------------------Mini Batch - 842------------------
+t/s]Mini-batch progress (Train) | Epoch: 1:  90%|████████▉ | 833/928 [08:51<00:59,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  90%|████████▉ | 834/928 [08:51<00:58,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  90%|████████▉ | 835/928 [08:52<00:59,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  90%|█████████ | 836/928 [08:53<00:59,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  90%|█████████ | 837/928 [08:53<00:57,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  90%|█████████ | 838/928 [08:54<00:55,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  90%|█████████ | 839/928 [08:54<00:54,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████ | 840/928 [08:55<00:53,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████ | 841/928 [08:56<00:52,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  91%|�------------------Mini Batch - 843------------------
+------------------Mini Batch - 844------------------
+------------------Mini Batch - 845------------------
+------------------Mini Batch - 846------------------
+------------------Mini Batch - 847------------------
+------------------Mini Batch - 848------------------
+------------------Mini Batch - 849------------------
+------------------Mini Batch - 850------------------
+------------------Mini Batch - 851------------------
+�████████ | 842/928 [08:56<00:53,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████ | 843/928 [08:57<00:52,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████ | 844/928 [08:58<00:51,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████ | 845/928 [08:58<00:50,  1.64it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████ | 846/928 [08:59<00:50,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████▏| 847/928 [08:59<00:51,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████▏| 848/928 [09:00<00:52,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  91%|█████████▏| 849/928 [09:01<00:49,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 850/928 [09:01<00:48,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 851/928 [09:02------------------Mini Batch - 852------------------
+------------------Mini Batch - 853------------------
+------------------Mini Batch - 854------------------
+------------------Mini Batch - 855------------------
+------------------Mini Batch - 856------------------
+------------------Mini Batch - 857------------------
+------------------Mini Batch - 858------------------
+------------------Mini Batch - 859------------------
+------------------Mini Batch - 860------------------
+------------------Mini Batch - 861------------------
+<00:47,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 852/928 [09:03<00:48,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 853/928 [09:03<00:47,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 854/928 [09:04<00:49,  1.51it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 855/928 [09:05<00:47,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 856/928 [09:05<00:45,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 857/928 [09:06<00:44,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  92%|█████████▏| 858/928 [09:06<00:43,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  93%|█████████▎| 859/928 [09:07<00:42,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  93%|█████████▎| 860/928 [09:08<00:41,  1.64it/s]Mini-batch prog------------------Mini Batch - 862------------------
+------------------Mini Batch - 863------------------
+------------------Mini Batch - 864------------------
+------------------Mini Batch - 865------------------
+------------------Mini Batch - 866------------------
+------------------Mini Batch - 867------------------
+------------------Mini Batch - 868------------------
+------------------Mini Batch - 869------------------
+------------------Mini Batch - 870------------------
+ress (Train) | Epoch: 1:  93%|█████████▎| 861/928 [09:08<00:41,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  93%|█████████▎| 862/928 [09:09<00:42,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  93%|█████████▎| 863/928 [09:10<00:41,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  93%|█████████▎| 864/928 [09:10<00:41,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  93%|█████████▎| 865/928 [09:11<00:40,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  93%|█████████▎| 866/928 [09:11<00:38,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  93%|█████████▎| 867/928 [09:12<00:37,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█████████▎| 868/928 [09:13<00:38,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█████████▎| 869/928 [09:13<00:37,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█�------------------Mini Batch - 871------------------
+------------------Mini Batch - 872------------------
+------------------Mini Batch - 873------------------
+------------------Mini Batch - 874------------------
+------------------Mini Batch - 875------------------
+------------------Mini Batch - 876------------------
+------------------Mini Batch - 877------------------
+------------------Mini Batch - 878------------------
+------------------Mini Batch - 879------------------
+��███████▍| 870/928 [09:14<00:36,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█████████▍| 871/928 [09:15<00:37,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█████████▍| 872/928 [09:15<00:35,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█████████▍| 873/928 [09:16<00:35,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█████████▍| 874/928 [09:17<00:33,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█████████▍| 875/928 [09:17<00:33,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  94%|█████████▍| 876/928 [09:18<00:33,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▍| 877/928 [09:18<00:32,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▍| 878/928 [09:19<00:31,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▍| 879/92------------------Mini Batch - 880------------------
+------------------Mini Batch - 881------------------
+------------------Mini Batch - 882------------------
+------------------Mini Batch - 883------------------
+------------------Mini Batch - 884------------------
+------------------Mini Batch - 885------------------
+------------------Mini Batch - 886------------------
+------------------Mini Batch - 887------------------
+------------------Mini Batch - 888------------------
+------------------Mini Batch - 889------------------
+8 [09:20<00:30,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▍| 880/928 [09:20<00:29,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▍| 881/928 [09:21<00:28,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▌| 882/928 [09:21<00:27,  1.69it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▌| 883/928 [09:22<00:26,  1.68it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▌| 884/928 [09:23<00:25,  1.71it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▌| 885/928 [09:23<00:25,  1.67it/s]Mini-batch progress (Train) | Epoch: 1:  95%|█████████▌| 886/928 [09:24<00:25,  1.66it/s]Mini-batch progress (Train) | Epoch: 1:  96%|█████████▌| 887/928 [09:24<00:25,  1.63it/s]Mini-batch progress (Train) | Epoch: 1:  96%|█████████▌| 888/928 [09:25<00:24,  1.64it/s]Mini-ba------------------Mini Batch - 890------------------
+------------------Mini Batch - 891------------------
+------------------Mini Batch - 892------------------
+------------------Mini Batch - 893------------------
+------------------Mini Batch - 894------------------
+------------------Mini Batch - 895------------------
+------------------Mini Batch - 896------------------
+------------------Mini Batch - 897------------------
+------------------Mini Batch - 898------------------
+tch progress (Train) | Epoch: 1:  96%|█████████▌| 889/928 [09:26<00:24,  1.62it/s]Mini-batch progress (Train) | Epoch: 1:  96%|█████████▌| 890/928 [09:26<00:24,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  96%|█████████▌| 891/928 [09:27<00:23,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  96%|█████████▌| 892/928 [09:28<00:22,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  96%|█████████▌| 893/928 [09:28<00:22,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  96%|█████████▋| 894/928 [09:29<00:21,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  96%|█████████▋| 895/928 [09:30<00:22,  1.48it/s]Mini-batch progress (Train) | Epoch: 1:  97%|█████████▋| 896/928 [09:30<00:21,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  97%|█████████▋| 897/928 [09:31<00:21,  1.46it/s]Mini-batch progress (Train) | Epoch: 1:  ------------------Mini Batch - 899------------------
+------------------Mini Batch - 900------------------
+------------------Mini Batch - 901------------------
+------------------Mini Batch - 902------------------
+------------------Mini Batch - 903------------------
+------------------Mini Batch - 904------------------
+------------------Mini Batch - 905------------------
+------------------Mini Batch - 906------------------
+------------------Mini Batch - 907------------------
+97%|█████████▋| 898/928 [09:32<00:19,  1.50it/s]Mini-batch progress (Train) | Epoch: 1:  97%|█████████▋| 899/928 [09:32<00:18,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  97%|█████████▋| 900/928 [09:33<00:18,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  97%|█████████▋| 901/928 [09:34<00:17,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  97%|█████████▋| 902/928 [09:34<00:16,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  97%|█████████▋| 903/928 [09:35<00:15,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  97%|█████████▋| 904/928 [09:35<00:15,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 905/928 [09:36<00:14,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 906/928 [09:37<00:13,  1.58it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊------------------Mini Batch - 908------------------
+------------------Mini Batch - 909------------------
+------------------Mini Batch - 910------------------
+------------------Mini Batch - 911------------------
+------------------Mini Batch - 912------------------
+------------------Mini Batch - 913------------------
+------------------Mini Batch - 914------------------
+------------------Mini Batch - 915------------------
+------------------Mini Batch - 916------------------
+| 907/928 [09:37<00:13,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 908/928 [09:38<00:12,  1.61it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 909/928 [09:39<00:11,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 910/928 [09:39<00:11,  1.53it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 911/928 [09:40<00:10,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 912/928 [09:41<00:10,  1.49it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 913/928 [09:41<00:09,  1.56it/s]Mini-batch progress (Train) | Epoch: 1:  98%|█████████▊| 914/928 [09:42<00:08,  1.59it/s]Mini-batch progress (Train) | Epoch: 1:  99%|█████████▊| 915/928 [09:42<00:08,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  99%|█████████▊| 916/928 [09:43<00:07,  1.59it/s]------------------Mini Batch - 917------------------
+------------------Mini Batch - 918------------------
+------------------Mini Batch - 919------------------
+------------------Mini Batch - 920------------------
+------------------Mini Batch - 921------------------
+------------------Mini Batch - 922------------------
+------------------Mini Batch - 923------------------
+------------------Mini Batch - 924------------------
+------------------Mini Batch - 925------------------
+------------------Mini Batch - 926------------------
+Mini-batch progress (Train) | Epoch: 1:  99%|█████████▉| 917/928 [09:44<00:06,  1.60it/s]Mini-batch progress (Train) | Epoch: 1:  99%|█████████▉| 918/928 [09:44<00:06,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  99%|█████████▉| 919/928 [09:45<00:05,  1.55it/s]Mini-batch progress (Train) | Epoch: 1:  99%|█████████▉| 920/928 [09:46<00:05,  1.54it/s]Mini-batch progress (Train) | Epoch: 1:  99%|█████████▉| 921/928 [09:46<00:04,  1.57it/s]Mini-batch progress (Train) | Epoch: 1:  99%|█████████▉| 922/928 [09:47<00:03,  1.52it/s]Mini-batch progress (Train) | Epoch: 1:  99%|█████████▉| 923/928 [09:48<00:03,  1.55it/s]Mini-batch progress (Train) | Epoch: 1: 100%|█████████▉| 924/928 [09:48<00:02,  1.59it/s]Mini-batch progress (Train) | Epoch: 1: 100%|█████████▉| 925/928 [09:49<00:01,  1.61it/s]Mini-batch progress (Train) | Epo------------------Mini Batch - 927------------------
+------------------Mini Batch - 928------------------
+ch: 1: 100%|█████████▉| 926/928 [09:49<00:01,  1.64it/s]Mini-batch progress (Train) | Epoch: 1: 100%|█████████▉| 927/928 [09:50<00:00,  1.57it/s]Mini-batch progress (Train) | Epoch: 1: 100%|██████████| 928/928 [09:51<00:00,  1.63it/s]Mini-batch progress (Train) | Epoch: 1: 100%|██████████| 928/928 [09:51<00:00,  1.57it/s]
+Mini-batch progress (Val):   0%|          | 0/117 [00:00<?, ?it/s]Mini-batch progress (Val):   1%|          | 1/117 [00:00<00:24,  4.83it/s]Mini-batch progress (Val):   2%|▏         | 2/117 [00:00<00:20,  5.75it/s]Mini-batch progress (Val):   3%|▎         | 3/117 [00:00<00:19,  5.86it/s]Mini-batch progress (Val):   3%|▎         | 4/117 [00:00<00:17,  6.40it/s]Mini-batch progress (Val):   4%|▍         | 5/117 [00:00<00:16,  6.66it/s]Mini-batch progress (Val):   5%|▌         | 6/117 [00:00<00:16,  6.73it/s]Mini-batch progress (Val):   6%|▌         | 7/117 [00:01<00:16,  6.70it/s]Mini-batch progress (Val):   7%|▋         | 8/117 [00:01<00:29,  3.75it/s]Mini-batch progress (Val):   8%|▊         | 9/117 [00:01<00:25,  4.28it/s]Mini-batch progress (Val):   9%|▊         | 10/117 [00:01<00:21,  4.95it/s]Mini-batch progress (Val):   9%|▉         | 11/117 [00:02<00:19,  5.36it/s]Mini-batch progress (Val):  10%|█         | 12/117 [00:02<00:18,  5.74it/s]Mini-batch progress (Val):  11%|█         | 13/117 [00:02<00:17,  5.93it/s]Mini-batch progress (Val):  12%|█▏        | 14/117 [00:02<00:16,  6.19it/s]Mini-batch progress (Val):  13%|█▎        | 15/117 [00:02<00:18,  5.55it/s]Mini-batch progress (Val):  14%|█▎        | 16/117 [00:02<00:16,  5.97it/s]Mini-batch progress (Val):  15%|█▍        | 17/117 [00:03<00:16,  6.15it/s]Mini-batch progress (Val):  15%|█▌        | 18/117 [00:03<00:17,  5.70it/s]Mini-batch progress (Val):  16%|█▌        | 19/117 [00:03<00:17,  5.61it/s]Mini-batch progress (Val):  17%|█▋        | 20/117 [00:03<00:19,  4.89it/s]Mini-batch progress (Val):  18%|█▊        | 21/117 [00:03<00:17,  5.34it/s]Mini-batch progress (Val):  19%|█▉        | 22/117 [00:03<00:17,  5.40it/s]Mini-batch progress (Val):  20%|█▉        | 23/117 [00:04<00:18,  5.01it/s]Mini-batch progress (Val):  21%|██        | 24/117 [00:04<00:17,  5.38it/s]Mini-batch progress (Val):  21%|██▏       | 25/117 [00:04<00:17,  5.23it/s]Mini-batch progress (Val):  22%|██▏       | 26/117 [00:04<00:15,  5.73it/s]Mini-batch progress (Val):  23%|██▎       | 27/117 [00:04<00:15,  5.87it/s]Mini-batch progress (Val):  24%|██▍       | 28/117 [00:05<00:14,  5.97it/s]Mini-batch progress (Val):  25%|██▍       | 29/117 [00:05<00:14,  6.14it/s]Mini-batch progress (Val):  26%|██▌       | 30/117 [00:05<00:14,  5.90it/s]Mini-batch progress (Val):  26%|██▋       | 31/117 [00:05<00:13,  6.27it/s]Mini-batch progress (Val):  27%|██▋       | 32/117 [00:05<00:14,  6.06it/s]Mini-batch progress (Val):  28%|██▊       | 33/117 [00:05<00:13,  6.32it/s]Mini-batch progress (Val):  29%|██▉       | 34/117 [00:06<00:14,  5.76it/s]Mini-batch progress (Val):  30%|██▉       | 35/117 [00:06<00:15,  5.39it/s]Mini-batch progress (Val):  31%|███       | 36/117 [00:06<00:14,  5.49it/s]Mini-batch progress (Val):  32%|███▏      | 37/117 [00:06<00:14,  5.70it/s]Mini-batch progress (Val):  32%|███▏      | 38/117 [00:06<00:12,  6.11it/s]Mini-batch progress (Val):  33%|███▎      | 39/117 [00:06<00:12,  6.39it/s]Mini-batch progress (Val):  34%|███▍      | 40/117 [00:07<00:13,  5.68it/s]Mini-batch progress (Val):  35%|███▌      | 41/117 [00:07<00:13,  5.84it/s]Mini-batch progress (Val):  36%|███▌      | 42/117 [00:07<00:13,  5.63it/s]Mini-batch progress (Val):  37%|███▋      | 43/117 [00:07<00:12,  5.94it/s]Mini-batch progress (Val):  38%|███▊      | 44/117 [00:07<00:12,  5.73it/s]Mini-batch progress (Val):  38%|███▊      | 45/117 [00:07<00:13,  5.40it/s]Mini-batch progress (Val):  39%|███▉      | 46/117 [00:08<00:12,  5.87it/s]Mini-batch progress (Val):  40%|████      | 47/117 [00:08<00:11,  6.25it/s]Mini-batch progress (Val):  41%|████      | 48/117 [00:08<00:11,  6.13it/s]Mini-batch progress (Val):  42%|████▏     | 49/117 [00:08<00:11,  5.90it/s]Mini-batch progress (Val):  43%|████▎     | 50/117 [00:08<00:11,  6.06it/s]Mini-batch progress (Val):  44%|████▎     | 51/117 [00:09<00:12,  5.27it/s]Mini-batch progress (Val):  44%|████▍     | 52/117 [00:09<00:12,  5.15it/s]Mini-batch progress (Val):  45%|████▌     | 53/117 [00:09<00:11,  5.70it/s]Mini-batch progress (Val):  46%|████▌     | 54/117 [00:09<00:10,  6.07it/s]Mini-batch progress (Val):  47%|████▋     | 55/117 [00:09<00:09,  6.39it/s]Mini-batch progress (Val):  48%|████▊     | 56/117 [00:09<00:09,  6.59it/s]Mini-batch progress (Val):  49%|████▊     | 57/117 [00:10<00:10,  5.59it/s]Mini-batch progress (Val):  50%|████▉     | 58/117 [00:10<00:09,  5.98it/s]Mini-batch progress (Val):  50%|█████     | 59/117 [00:10<00:10,  5.52it/s]Mini-batch progress (Val):  51%|█████▏    | 60/117 [00:10<00:10,  5.30it/s]Mini-batch progress (Val):  52%|█████▏    | 61/117 [00:10<00:09,  5.72it/s]Mini-batch progress (Val):  53%|█████▎    | 62/117 [00:10<00:09,  5.67it/s]Mini-batch progress (Val):  54%|█████▍    | 63/117 [00:11<00:09,  5.63it/s]Mini-batch progress (Val):  55%|█████▍    | 64/117 [00:11<00:08,  6.14it/s]Mini-batch progress (Val):  56%|█████▌    | 65/117 [00:11<00:08,  6.25it/s]Mini-batch progress (Val):  56%|█████▋    | 66/117 [00:11<00:07,  6.66it/s]Mini-batch progress (Val):  57%|█████▋    | 67/117 [00:11<00:07,  6.88it/s]Mini-batch progress (Val):  58%|█████▊    | 68/117 [00:11<00:07,  6.64it/s]Mini-batch progress (Val):  59%|█████▉    | 69/117 [00:11<00:07,  6.33it/s]Mini-batch progress (Val):  60%|█████▉    | 70/117 [00:12<00:07,  6.52it/s]Mini-batch progress (Val):  61%|██████    | 71/117 [00:12<00:07,  6.19it/s]Mini-batch progress (Val):  62%|██████▏   | 72/117 [00:12<00:07,  5.96it/s]Mini-batch progress (Val):  62%|██████▏   | 73/117 [00:12<00:07,  6.08it/s]Mini-batch progress (Val):  63%|██████▎   | 74/117 [00:12<00:06,  6.29it/s]Mini-batch progress (Val):  64%|██████▍   | 75/117 [00:12<00:06,  6.07it/s]Mini-batch progress (Val):  65%|██████▍   | 76/117 [00:13<00:06,  6.18it/s]Mini-batch progress (Val):  66%|██████▌   | 77/117 [00:13<00:06,  6.26it/s]Mini-batch progress (Val):  67%|██████▋   | 78/117 [00:13<00:06,  6.27it/s]Mini-batch progress (Val):  68%|██████▊   | 79/117 [00:13<00:06,  5.57it/s]Mini-batch progress (Val):  68%|██████▊   | 80/117 [00:13<00:06,  5.84it/s]Mini-batch progress (Val):  69%|██████▉   | 81/117 [00:13<00:05,  6.24it/s]Mini-batch progress (Val):  70%|███████   | 82/117 [00:14<00:06,  5.75it/s]Mini-batch progress (Val):  71%|███████   | 83/117 [00:14<00:05,  5.70it/s]Mini-batch progress (Val):  72%|███████▏  | 84/117 [00:14<00:05,  6.15it/s]Mini-batch progress (Val):  73%|███████▎  | 85/117 [00:14<00:05,  6.11it/s]Mini-batch progress (Val):  74%|███████▎  | 86/117 [00:14<00:04,  6.43it/s]Mini-batch progress (Val):  74%|███████▍  | 87/117 [00:14<00:04,  6.66it/s]Mini-batch progress (Val):  75%|███████▌  | 88/117 [00:15<00:04,  6.50it/s]Mini-batch progress (Val):  76%|███████▌  | 89/117 [00:15<00:04,  6.73it/s]Mini-batch progress (Val):  77%|███████▋  | 90/117 [00:15<00:03,  6.96it/s]Mini-batch progress (Val):  78%|███████▊  | 91/117 [00:15<00:03,  7.17it/s]Mini-batch progress (Val):  79%|███████▊  | 92/117 [00:15<00:03,  7.02it/s]Mini-batch progress (Val):  79%|███████▉  | 93/117 [00:15<00:04,  5.87it/s]Mini-batch progress (Val):  80%|████████  | 94/117 [00:15<00:03,  6.00it/s]Mini-batch progress (Val):  81%|████████  | 95/117 [00:16<00:03,  6.05it/s]Mini-batch progress (Val):  82%|████████▏ | 96/117 [00:16<00:03,  6.19it/s]Mini-batch progress (Val):  83%|████████▎ | 97/117 [00:16<00:03,  6.19it/s]Mini-batch progress (Val):  84%|████████▍ | 98/117 [00:16<00:02,  6.40it/s]Mini-batch progress (Val):  85%|████████▍ | 99/117 [00:16<00:02,  6.61it/s]Mini-batch progress (Val):  85%|████████▌ | 100/117 [00:16<00:02,  6.72it/s]Mini-batch progress (Val):  86%|████████▋ | 101/117 [00:17<00:02,  6.34it/s]Mini-batch progress (Val):  87%|████████▋ | 102/117 [00:17<00:02,  6.17it/s]Mini-batch progress (Val):  88%|████████▊ | 103/117 [00:17<00:02,  5.95it/s]Mini-batch progress (Val):  89%|████████▉ | 104/117 [00:17<00:02,  6.07it/s]Mini-batch progress (Val):  90%|████████▉ | 105/117 [00:17<00:01,  6.32it/s]Mini-batch progress (Val):  91%|█████████ | 106/117 [00:17<00:01,  5.99it/s]Mini-batch progress (Val):  91%|█████████▏| 107/117 [00:18<00:01,  5.51it/s]Mini-batch progress (Val):  92%|█████████▏| 108/117 [00:18<00:01,  5.80it/s]Mini-batch progress (Val):  93%|█████████▎| 109/117 [00:18<00:01,  5.95it/s]Mini-batch progress (Val):  94%|█████████▍| 110/117 [00:18<00:01,  5.62it/s]Mini-batch progress (Val):  95%|█████████▍| 111/117 [00:18<00:01,  5.37it/s]Mini-batch progress (Val):  96%|█████████▌| 112/117 [00:19<00:01,  4.97it/s]Mini-batch progress (Val):  97%|█████████▋| 113/117 [00:19<00:00,  5.60it/s]Mini-batch progress (Val):  97%|█████████▋| 114/117 [00:19<00:00,  5.49it/s]Mini-batch progress (Val):  98%|█████████▊| 115/117 [00:19<00:00,  5.86it/s]Mini-batch progress (Val):  99%|█████████▉| 116/117 [00:19<00:00,  5.79it/s]Mini-batch progress (Val): 100%|██████████| 117/117 [00:19<00:00,  5.99it/s]MinSaving model...
+i-batch progress (Val): 100%|██████████| 117/117 [00:19<00:00,  5.89it/s]
+Validation loss decreased (inf --> 0.186348).  Saving model ...
+Epoch 1: train_acc: 92.8591 | val_acc: 100.0000 | train_loss: 0.2236 | val_loss: 0.1863 | train_T5encdec_loss: 0.3637 | val_T5encdec_loss: 0.3197 | train_main_loss: 0.0483 | val_main_loss: 0.0002 | train_deBERTa_loss: 0.1366 | val_deBERTa_loss: 0.1322
+Mini-batch progress (Test):   0%|          | 0/126 [00:00<?, ?it/s]Mini-batch progress (Test):   0%|          | 0/126 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: "siddhant's explanations"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "MM.py", line 714, in <module>
+    test_acc, test_loss, test_vencdec_loss, test_main_loss, test_deBERTa_loss, generated_result, true_label_list, predicted_label_list, img_list = test_model(model)
+  File "MM.py", line 586, in test_model
+    for data in tqdm(dataloader_test, total = len(dataloader_test), desc = "Mini-batch progress (Test)"):  
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tqdm/std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "MM.py", line 190, in __getitem__
+    T5_target = self.samples_frame.loc[idx, "siddhant's explanations"]
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/indexing.py", line 889, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/indexing.py", line 1060, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/indexing.py", line 831, in _getitem_lowerdim
+    return getattr(section, self.name)[new_key]
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/indexing.py", line 895, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/indexing.py", line 1124, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/indexing.py", line 1073, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/generic.py", line 3739, in xs
+    loc = index.get_loc(key)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+KeyError: "siddhant's explanations"
+srun: error: gcn30: task 0: Exited with exit code 1
+srun: Terminating StepId=4879867.0
+
+JOB STATISTICS
+==============
+Job ID: 4879867
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:18:54
+CPU Efficiency: 9.01% of 03:29:42 core-walltime
+Job Wall-clock time: 00:11:39
+Memory Utilized: 8.48 GB
+Memory Efficiency: 7.07% of 120.00 GB

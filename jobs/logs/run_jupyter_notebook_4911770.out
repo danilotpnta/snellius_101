@@ -1,0 +1,47 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int5-pub.snellius.surf.nl scur1045@gcn29.local.snellius.surf.nl -L 5791:localhost:5791
+
+After connection is established in your local browser go to the address:
+http://localhost:5791
+[I 18:48:24.204 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 18:48:24.205 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 18:48:24.205 NotebookApp] http://localhost:5791/?token=a7b880552279ab40af3aa32f676b6e5b0ba1cdd0dd46104d
+[I 18:48:24.205 NotebookApp]  or http://127.0.0.1:5791/?token=a7b880552279ab40af3aa32f676b6e5b0ba1cdd0dd46104d
+[I 18:48:24.205 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:48:24.210 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-250683-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5791/?token=a7b880552279ab40af3aa32f676b6e5b0ba1cdd0dd46104d
+     or http://127.0.0.1:5791/?token=a7b880552279ab40af3aa32f676b6e5b0ba1cdd0dd46104d
+slurmstepd: error: *** JOB 4911770 ON gcn29 CANCELLED AT 2024-01-19T23:18:39 DUE TO TIME LIMIT ***
+
+JOB STATISTICS
+==============
+Job ID: 4911770
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 3-09:07:48 core-walltime
+Job Wall-clock time: 04:30:26
+Memory Utilized: 62.24 MB
+Memory Efficiency: 0.05% of 120.00 GB

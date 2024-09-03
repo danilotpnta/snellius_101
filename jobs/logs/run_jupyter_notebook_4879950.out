@@ -1,0 +1,62 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn26.local.snellius.surf.nl -L 5005:localhost:5005
+
+After connection is established in your local browser go to the address:
+http://localhost:5005
+Traceback (most recent call last):
+  File "/home/scur1045/.conda/envs/FACT/bin/jupyter-notebook", line 5, in <module>
+    from notebook.notebookapp import main
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/notebook/notebookapp.py", line 78, in <module>
+    from .services.kernels.kernelmanager import MappingKernelManager, AsyncMappingKernelManager
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/notebook/services/kernels/kernelmanager.py", line 18, in <module>
+    from jupyter_client.session import Session
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/jupyter_client/__init__.py", line 6, in <module>
+    from .asynchronous import AsyncKernelClient  # noqa
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/jupyter_client/asynchronous/__init__.py", line 1, in <module>
+    from .client import AsyncKernelClient  # noqa
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/jupyter_client/asynchronous/client.py", line 6, in <module>
+    from jupyter_client.channels import HBChannel
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/jupyter_client/channels.py", line 12, in <module>
+    import zmq.asyncio
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/zmq/__init__.py", line 103, in <module>
+    from zmq import backend
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/zmq/backend/__init__.py", line 31, in <module>
+    raise original_error from None
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/zmq/backend/__init__.py", line 26, in <module>
+    _ns = select_backend(first)
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/zmq/backend/select.py", line 31, in select_backend
+    mod = import_module(name)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/zmq/backend/cython/__init__.py", line 6, in <module>
+    from . import (
+ImportError: cannot import name '_device' from 'zmq.backend.cython' (/sw/arch/RHEL8/EB_production/2022/software/IPython/8.5.0-GCCcore-11.3.0/lib/python3.10/site-packages/zmq/backend/cython/__init__.py)
+
+JOB STATISTICS
+==============
+Job ID: 4879950
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.65% of 00:05:06 core-walltime
+Job Wall-clock time: 00:00:17
+Memory Utilized: 1.14 MB
+Memory Efficiency: 0.00% of 120.00 GB

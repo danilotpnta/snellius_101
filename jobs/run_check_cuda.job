@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_mig
+#SBATCH --gpus=1
+#SBATCH --job-name=check_cuda
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=00:10:00
+#SBATCH --output=check_cuda_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Your job starts in the directory where you call sbatch
+cd $HOME/...
+# Activate your environment
+source activate FACT
+
+# Go to my repo
+cd /home/scur1045/
+
+# Run your code
+srun python -u check_cuda.py 
+nvidia-smi

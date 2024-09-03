@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=train_mm
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=04:00:00
+#SBATCH --output=logs/train_mm_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Your job starts in the directory where you call sbatch
+cd $HOME/...
+# Activate your environment
+source activate FACT
+
+# Go to my repo
+cd /home/scur1045/FACT-project
+
+# Run your code
+srun python -u MM.py

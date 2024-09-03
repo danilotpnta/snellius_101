@@ -1,0 +1,122 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn33.local.snellius.surf.nl -L 5620:localhost:5620
+
+After connection is established in your local browser go to the address:
+http://localhost:5620
+[I 05:35:28.567 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 05:35:28.567 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 05:35:28.567 NotebookApp] http://localhost:5620/?token=75073c97e70e54dbf0216809b1b42563b3aa93881531df4b
+[I 05:35:28.567 NotebookApp]  or http://127.0.0.1:5620/?token=75073c97e70e54dbf0216809b1b42563b3aa93881531df4b
+[I 05:35:28.567 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 05:35:28.573 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-3267830-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5620/?token=75073c97e70e54dbf0216809b1b42563b3aa93881531df4b
+     or http://127.0.0.1:5620/?token=75073c97e70e54dbf0216809b1b42563b3aa93881531df4b
+[I 10:40:35.118 NotebookApp] 302 GET /?token=75073c97e70e54dbf0216809b1b42563b3aa93881531df4b (::1) 1.810000ms
+[I 10:40:42.569 NotebookApp] Kernel started: 72677282-af12-4762-8164-75dc20dcef0b, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a6d55eb2-4183-4994-8336-0a8a0e77493e
+[I 10:41:10.615 NotebookApp] Kernel started: 5279b978-00da-448c-a7cb-8e65023c15e6, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8a1ba2c6-fd1a-45a9-ba15-30176ea7aca9
+[I 10:43:10.624 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:45:11.116 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:47:11.129 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:49:10.641 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:51:10.633 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:53:11.122 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:57:10.646 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:59:11.125 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:00:06.370 NotebookApp] 302 GET /?token=75073c97e70e54dbf0216809b1b42563b3aa93881531df4b (::1) 0.410000ms
+[I 11:01:10.646 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:02:24.655 NotebookApp] Kernel interrupted: 72677282-af12-4762-8164-75dc20dcef0b
+[I 11:03:10.639 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:05:10.667 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:07:11.135 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:09:11.169 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:09:50.858 NotebookApp] Kernel shutdown: 72677282-af12-4762-8164-75dc20dcef0b
+[I 11:09:50.932 NotebookApp] Starting buffering for 72677282-af12-4762-8164-75dc20dcef0b:d10b4086315a4a28885f1038d35c1f73
+[I 11:09:50.936 NotebookApp] Kernel shutdown: 72677282-af12-4762-8164-75dc20dcef0b
+[E 11:09:50.937 NotebookApp] Uncaught exception DELETE /api/sessions/8580ac9c-2e81-4855-88f1-be02adc39d29 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:5620', method='DELETE', uri='/api/sessions/8580ac9c-2e81-4855-88f1-be02adc39d29', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/gen.py", line 776, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/sessions/handlers.py", line 164, in delete
+        yield maybe_future(sm.delete_session(session_id))
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/gen.py", line 769, in run
+        value = future.result()
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/gen.py", line 782, in run
+        yielded = self.gen.send(value)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/sessions/sessionmanager.py", line 287, in delete_session
+        yield maybe_future(self.kernel_manager.shutdown_kernel(session['kernel']['id']))
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 304, in shutdown_kernel
+        self.pinned_superclass.shutdown_kernel(self, kernel_id, now=now, restart=restart)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/jupyter_client/utils.py", line 30, in wrapped
+        raise e
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/jupyter_client/utils.py", line 27, in wrapped
+        return loop.run_until_complete(future)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nest_asyncio.py", line 99, in run_until_complete
+        return f.result()
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/asyncio/futures.py", line 181, in result
+        raise self._exception
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/asyncio/tasks.py", line 249, in __step
+        result = coro.send(None)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/jupyter_client/multikernelmanager.py", line 264, in _async_shutdown_kernel
+        if not km.ready.cancelled() and km.ready.exception():
+    asyncio.base_futures.InvalidStateError: Exception is not set.
+[W 11:09:50.950 NotebookApp] Unhandled error
+[E 11:09:50.950 NotebookApp] {
+      "Host": "localhost:5620",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5620/notebooks/LUMEN-Ablation.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 11:09:50.951 NotebookApp] 500 DELETE /api/sessions/8580ac9c-2e81-4855-88f1-be02adc39d29 (::1) 15.190000ms referer=http://localhost:5620/notebooks/LUMEN-Ablation.ipynb
+[I 11:11:11.135 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:13:11.132 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:19:10.651 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:21:11.184 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:23:11.139 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:25:11.181 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:27:11.194 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:29:10.753 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:31:11.168 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:33:10.672 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:35:11.236 NotebookApp] Saving file at /LUMEN.ipynb
+slurmstepd: error: *** JOB 5031782 ON gcn33 CANCELLED AT 2024-01-31T11:35:20 DUE TO TIME LIMIT ***
+[I 11:35:20.767 NotebookApp] Starting buffering for 5279b978-00da-448c-a7cb-8e65023c15e6:dba8746e6c8340298e9c3628577cfbf7
+
+JOB STATISTICS
+==============
+Job ID: 5031782
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 4-12:02:24 core-walltime
+Job Wall-clock time: 06:00:08
+Memory Utilized: 19.04 GB
+Memory Efficiency: 15.87% of 120.00 GB

@@ -1,0 +1,327 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn28.local.snellius.surf.nl -L 5427:localhost:5427
+
+After connection is established in your local browser go to the address:
+http://localhost:5427
+[I 22:12:47.780 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045
+[I 22:12:47.781 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 22:12:47.781 NotebookApp] http://localhost:5427/?token=02656cf3c54fc9d57bb0e7a75b1069d7a80e7c3c88b391af
+[I 22:12:47.781 NotebookApp]  or http://127.0.0.1:5427/?token=02656cf3c54fc9d57bb0e7a75b1069d7a80e7c3c88b391af
+[I 22:12:47.781 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:12:47.787 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-1112746-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5427/?token=02656cf3c54fc9d57bb0e7a75b1069d7a80e7c3c88b391af
+     or http://127.0.0.1:5427/?token=02656cf3c54fc9d57bb0e7a75b1069d7a80e7c3c88b391af
+[I 22:47:18.155 NotebookApp] 302 GET /?token=02656cf3c54fc9d57bb0e7a75b1069d7a80e7c3c88b391af (::1) 0.480000ms
+[I 22:47:26.081 NotebookApp] Kernel started: 29edbdcb-d1a8-48e4-b307-0122c2c78ed7, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 4c3ed51e-03fc-423f-a645-77a33efe4b2f
+[I 22:49:26.076 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 22:51:26.070 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 22:53:27.007 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 22:55:26.047 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 22:57:19.654 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 22:57:26.046 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 22:59:26.045 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:00:57.767 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:01:26.048 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:03:26.029 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:05:26.979 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:07:26.972 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:09:26.037 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:09:27.129 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:09:33.681 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:11:26.955 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:13:26.952 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:15:30.945 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:15:31.036 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:15:31.040 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:15:31.040 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:15:31.040 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:15:31.040 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 96.210000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:17:34.951 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:17:35.054 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:17:35.054 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:17:35.054 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:17:35.055 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:17:35.055 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 107.720000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:19:36.940 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:19:37.021 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:19:37.022 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:19:37.022 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:19:37.022 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:19:37.022 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 83.630000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:21:38.938 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:21:39.031 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:21:39.031 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:21:39.031 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:21:39.032 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:21:39.032 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 95.080000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:23:40.936 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:23:41.029 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:23:41.029 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:23:41.029 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:23:41.030 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:23:41.030 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 98.730000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:25:42.932 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:25:43.030 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:25:43.030 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:25:43.030 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:25:43.031 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:25:43.031 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 105.940000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:27:44.932 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:27:45.019 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:27:45.019 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:27:45.019 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:27:45.020 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:27:45.020 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 89.390000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:29:46.939 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:29:47.637 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:29:47.637 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:29:47.637 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:29:47.637 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:29:47.637 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 700.070000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:31:26.917 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 23:31:27.040 NotebookApp] Error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 23:31:27.041 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 23:31:27.041 NotebookApp] Unexpected error while saving file: FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 23:31:27.041 NotebookApp] {
+      "Host": "localhost:5427",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 23:31:27.041 NotebookApp] 500 PUT /api/contents/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 125.560000ms referer=http://localhost:5427/notebooks/FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:33:26.913 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:33:34.015 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:35:05.072 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 29edbdcb-d1a8-48e4-b307-0122c2c78ed7 restarted
+[I 23:35:25.957 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:35:28.892 NotebookApp] Starting buffering for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:6e59093a86ce41fc8c90a72bbdda96ad
+[I 23:35:29.023 NotebookApp] Kernel restarted: 29edbdcb-d1a8-48e4-b307-0122c2c78ed7
+[I 23:35:29.053 NotebookApp] Restoring connection for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:6e59093a86ce41fc8c90a72bbdda96ad
+[I 23:35:29.649 NotebookApp] Replaying 3 buffered messages
+[I 23:37:26.905 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:39:26.896 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:41:26.905 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:43:26.887 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:45:26.881 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:48:02.879 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:50:02.892 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:51:26.863 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:53:26.863 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:55:26.856 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 23:58:02.867 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:00:02.874 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:02:02.862 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:09:25.876 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:11:26.828 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:13:26.823 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:15:48.827 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:17:50.808 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:19:52.801 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:21:26.803 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:23:26.795 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 00:23:31.461 NotebookApp] Starting buffering for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:6e59093a86ce41fc8c90a72bbdda96ad
+[I 00:23:32.792 NotebookApp] Restoring connection for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:6e59093a86ce41fc8c90a72bbdda96ad
+[I 00:23:32.792 NotebookApp] Replaying 4 buffered messages
+[W 00:25:02.793 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 00:25:02.922 NotebookApp] zmq message arrived on closed channel
+[W 00:25:03.318 NotebookApp] zmq message arrived on closed channel
+[W 00:25:03.664 NotebookApp] zmq message arrived on closed channel
+[W 00:25:04.010 NotebookApp] zmq message arrived on closed channel
+[W 00:25:04.370 NotebookApp] zmq message arrived on closed channel
+[W 00:25:04.721 NotebookApp] zmq message arrived on closed channel
+[W 00:25:05.102 NotebookApp] zmq message arrived on closed channel
+[W 00:25:05.511 NotebookApp] zmq message arrived on closed channel
+[W 00:25:05.867 NotebookApp] zmq message arrived on closed channel
+[W 00:25:06.225 NotebookApp] zmq message arrived on closed channel
+[W 00:25:06.576 NotebookApp] zmq message arrived on closed channel
+[W 00:25:06.923 NotebookApp] zmq message arrived on closed channel
+[W 00:25:07.350 NotebookApp] zmq message arrived on closed channel
+[W 00:25:07.687 NotebookApp] zmq message arrived on closed channel
+[I 00:25:07.794 NotebookApp] Starting buffering for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:6e59093a86ce41fc8c90a72bbdda96ad
+[I 08:49:33.305 NotebookApp] 302 GET /?token=02656cf3c54fc9d57bb0e7a75b1069d7a80e7c3c88b391af (::1) 0.670000ms
+[I 08:49:44.642 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 08:49:45.517 NotebookApp] Discarding 2814 buffered messages for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:6e59093a86ce41fc8c90a72bbdda96ad
+[I 08:51:35.866 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 08:52:30.765 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 08:53:45.567 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 08:55:45.402 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 08:57:45.398 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 08:59:45.403 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 09:01:45.417 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 09:03:45.388 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 09:05:44.128 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 09:05:45.376 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 09:07:45.536 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 09:08:13.283 NotebookApp] Saving file at /FACT-project/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 09:29:50.298 NotebookApp] Starting buffering for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:23fe247aad4d4aa187a4b20370db9392
+[I 09:29:51.473 NotebookApp] Restoring connection for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:23fe247aad4d4aa187a4b20370db9392
+[W 09:31:21.476 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 09:31:26.477 NotebookApp] Starting buffering for 29edbdcb-d1a8-48e4-b307-0122c2c78ed7:23fe247aad4d4aa187a4b20370db9392
+slurmstepd: error: *** JOB 5078665 ON gcn28 CANCELLED AT 2024-02-02T10:12:44 DUE TO TIME LIMIT ***
+slurmstepd: error: container_p_join: setns failed for /slurm/5078665/.ns: Invalid argument
+slurmstepd: error: container_g_join(5078665): Invalid argument
+
+JOB STATISTICS
+==============
+Job ID: 5078665
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 9-00:02:06 core-walltime
+Job Wall-clock time: 12:00:07
+Memory Utilized: 25.02 GB
+Memory Efficiency: 20.85% of 120.00 GB

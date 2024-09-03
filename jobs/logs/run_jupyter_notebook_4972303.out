@@ -1,0 +1,147 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn20.local.snellius.surf.nl -L 5001:localhost:5001
+
+After connection is established in your local browser go to the address:
+http://localhost:5001
+[I 15:20:00.876 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045
+[I 15:20:00.876 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 15:20:00.876 NotebookApp] http://localhost:5001/?token=ea147fec52e3514c1669fb1b39cd481dd648675edc44cd8d
+[I 15:20:00.876 NotebookApp]  or http://127.0.0.1:5001/?token=ea147fec52e3514c1669fb1b39cd481dd648675edc44cd8d
+[I 15:20:00.876 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:20:00.881 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-3789758-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5001/?token=ea147fec52e3514c1669fb1b39cd481dd648675edc44cd8d
+     or http://127.0.0.1:5001/?token=ea147fec52e3514c1669fb1b39cd481dd648675edc44cd8d
+[I 17:07:55.333 NotebookApp] 302 GET /?token=ea147fec52e3514c1669fb1b39cd481dd648675edc44cd8d (::1) 2.430000ms
+[W 17:08:24.355 NotebookApp] Notebook FACT-project/LUMEN.ipynb is not trusted
+[I 17:08:24.815 NotebookApp] Kernel started: f5c555ec-67cf-4627-bf29-521065384b71, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f7d6fab0-824c-4446-bb4e-6b0375c3170e
+[I 17:10:24.792 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:10:57.656 NotebookApp] Kernel interrupted: f5c555ec-67cf-4627-bf29-521065384b71
+[I 17:12:24.786 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:14:24.787 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:16:24.794 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:17:02.854 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:18:24.783 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:20:25.217 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[W 17:21:45.341 NotebookApp] Notebook FACT-project/LUMEN-Ablation.ipynb is not trusted
+[I 17:21:45.850 NotebookApp] Kernel started: f9f4df17-5820-4855-922e-051991ba274a, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 69f737b9-3a2f-473a-a569-73069f2b3ddd
+[I 17:22:27.999 NotebookApp] Starting buffering for f9f4df17-5820-4855-922e-051991ba274a:265ef23eb1d742b4896019eff4fa62d0
+[I 17:22:29.232 NotebookApp] Kernel restarted: f9f4df17-5820-4855-922e-051991ba274a
+[I 17:22:29.361 NotebookApp] Restoring connection for f9f4df17-5820-4855-922e-051991ba274a:265ef23eb1d742b4896019eff4fa62d0
+[I 17:22:29.827 NotebookApp] Replaying 3 buffered messages
+[I 17:23:34.586 NotebookApp] Starting buffering for f9f4df17-5820-4855-922e-051991ba274a:265ef23eb1d742b4896019eff4fa62d0
+[I 17:23:35.620 NotebookApp] Kernel restarted: f9f4df17-5820-4855-922e-051991ba274a
+[I 17:23:35.641 NotebookApp] Restoring connection for f9f4df17-5820-4855-922e-051991ba274a:265ef23eb1d742b4896019eff4fa62d0
+[I 17:23:36.259 NotebookApp] Replaying 3 buffered messages
+[I 17:23:42.764 NotebookApp] Starting buffering for f5c555ec-67cf-4627-bf29-521065384b71:b8d15a909fd946d385123691ed8e6c64
+[I 17:23:44.098 NotebookApp] Kernel restarted: f5c555ec-67cf-4627-bf29-521065384b71
+[I 17:23:44.120 NotebookApp] Restoring connection for f5c555ec-67cf-4627-bf29-521065384b71:b8d15a909fd946d385123691ed8e6c64
+[I 17:23:44.625 NotebookApp] Replaying 3 buffered messages
+[I 17:23:45.882 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:25:46.203 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:26:24.756 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:27:46.198 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:28:24.772 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:29:46.196 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:30:25.209 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:31:46.180 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:32:24.744 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:33:46.186 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:34:25.226 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:35:46.185 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:36:24.712 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:37:46.169 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:37:53.188 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:38:24.729 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:38:32.709 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:39:46.170 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:40:25.177 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:41:46.159 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:41:52.663 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:42:23.442 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:42:24.363 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:43:45.811 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:44:25.215 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:45:46.154 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:47:46.149 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:48:24.722 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:49:46.144 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:50:24.709 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:51:46.143 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:52:24.706 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:52:47.275 NotebookApp] Saving file at /FACT-project/LUMEN.ipynb
+[I 17:53:46.142 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:54:15.985 NotebookApp] Starting buffering for f5c555ec-67cf-4627-bf29-521065384b71:b8d15a909fd946d385123691ed8e6c64
+[I 17:55:46.133 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:57:46.138 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 17:59:46.135 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:01:45.766 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:03:45.782 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:05:45.786 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:07:46.107 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:09:46.105 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:11:46.123 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:13:46.157 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:15:46.144 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:17:46.084 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:19:46.082 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:21:46.077 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:23:46.069 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:25:46.071 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:27:46.071 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:33:54.781 NotebookApp] 302 GET /?token=ea147fec52e3514c1669fb1b39cd481dd648675edc44cd8d (::1) 0.400000ms
+[I 18:36:03.615 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:36:06.300 NotebookApp] Kernel restarted: f9f4df17-5820-4855-922e-051991ba274a
+[I 18:38:03.621 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:40:04.054 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:42:03.622 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:44:04.045 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:45:05.301 NotebookApp] Kernel restarted: f9f4df17-5820-4855-922e-051991ba274a
+[I 18:46:04.040 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:48:04.046 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:49:27.627 NotebookApp] Kernel restarted: f9f4df17-5820-4855-922e-051991ba274a
+[I 18:50:03.638 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:52:04.063 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[I 18:54:04.055 NotebookApp] Saving file at /FACT-project/LUMEN-Ablation.ipynb
+[W 19:05:36.980 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 20:08:00.120 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 20:18:56.689 NotebookApp] Starting buffering for f9f4df17-5820-4855-922e-051991ba274a:265ef23eb1d742b4896019eff4fa62d0
+[I 20:18:58.698 NotebookApp] Restoring connection for f9f4df17-5820-4855-922e-051991ba274a:265ef23eb1d742b4896019eff4fa62d0
+slurmstepd: error: *** JOB 4972303 ON gcn20 CANCELLED AT 2024-01-24T20:20:11 DUE TO TIME LIMIT ***
+[I 20:20:11.252 NotebookApp] Starting buffering for f9f4df17-5820-4855-922e-051991ba274a:265ef23eb1d742b4896019eff4fa62d0
+
+JOB STATISTICS
+==============
+Job ID: 4972303
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 3-18:06:18 core-walltime
+Job Wall-clock time: 05:00:21
+Memory Utilized: 23.98 GB
+Memory Efficiency: 19.98% of 120.00 GB

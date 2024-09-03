@@ -1,0 +1,107 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int5-pub.snellius.surf.nl scur1045@gcn33.local.snellius.surf.nl -L 5497:localhost:5497
+
+After connection is established in your local browser go to the address:
+http://localhost:5497
+[I 11:02:29.032 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 11:02:29.032 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 11:02:29.032 NotebookApp] http://localhost:5497/?token=a02f2fe92ea1ad5359ed68bd250c31b024b53b1771d3f4ae
+[I 11:02:29.032 NotebookApp]  or http://127.0.0.1:5497/?token=a02f2fe92ea1ad5359ed68bd250c31b024b53b1771d3f4ae
+[I 11:02:29.032 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:02:29.039 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-3381622-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5497/?token=a02f2fe92ea1ad5359ed68bd250c31b024b53b1771d3f4ae
+     or http://127.0.0.1:5497/?token=a02f2fe92ea1ad5359ed68bd250c31b024b53b1771d3f4ae
+[I 11:24:41.804 NotebookApp] 302 GET /?token=a02f2fe92ea1ad5359ed68bd250c31b024b53b1771d3f4ae (::1) 0.500000ms
+[I 11:24:55.229 NotebookApp] Kernel started: ccbdd1e5-fbf4-4c32-9809-46b99e7a1e06, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 314aeffc-e230-412d-91c5-437a7e82e5a4
+[I 11:26:55.221 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:28:55.624 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:30:55.619 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:32:55.631 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:34:55.614 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:36:55.626 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:38:35.643 NotebookApp] Starting buffering for ccbdd1e5-fbf4-4c32-9809-46b99e7a1e06:f9bf577ce398489e842a3bb8521c9c98
+[I 11:38:37.620 NotebookApp] Restoring connection for ccbdd1e5-fbf4-4c32-9809-46b99e7a1e06:f9bf577ce398489e842a3bb8521c9c98
+[I 11:38:37.620 NotebookApp] Replaying 3 buffered messages
+[I 11:38:55.626 NotebookApp] Saving file at /LUMEN.ipynb
+[W 11:40:07.621 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 11:40:07.892 NotebookApp] zmq message arrived on closed channel
+[W 11:40:08.473 NotebookApp] zmq message arrived on closed channel
+[W 11:40:09.048 NotebookApp] zmq message arrived on closed channel
+[W 11:40:09.618 NotebookApp] zmq message arrived on closed channel
+[W 11:40:10.200 NotebookApp] zmq message arrived on closed channel
+[W 11:40:10.834 NotebookApp] zmq message arrived on closed channel
+[W 11:40:11.463 NotebookApp] zmq message arrived on closed channel
+[W 11:40:12.049 NotebookApp] zmq message arrived on closed channel
+[I 11:40:12.624 NotebookApp] Starting buffering for ccbdd1e5-fbf4-4c32-9809-46b99e7a1e06:f9bf577ce398489e842a3bb8521c9c98
+[I 13:03:49.699 NotebookApp] Discarding 9151 buffered messages for ccbdd1e5-fbf4-4c32-9809-46b99e7a1e06:f9bf577ce398489e842a3bb8521c9c98
+[I 13:04:14.794 NotebookApp] Starting buffering for ccbdd1e5-fbf4-4c32-9809-46b99e7a1e06:b6a8e437d94946be815315c767e02d39
+[I 13:04:15.922 NotebookApp] Discarding 2 buffered messages for ccbdd1e5-fbf4-4c32-9809-46b99e7a1e06:b6a8e437d94946be815315c767e02d39
+[I 13:07:15.804 NotebookApp] 302 GET / (::1) 0.540000ms
+[I 13:07:15.812 NotebookApp] 302 GET /tree? (::1) 0.610000ms
+[I 13:07:24.924 NotebookApp] 302 GET /?token=a02f2fe92ea1ad5359ed68bd250c31b024b53b1771d3f4ae (::1) 0.390000ms
+[I 13:15:48.321 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:17:27.467 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:18:07.974 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:18:28.671 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:23:28.751 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:25:28.717 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:28:10.295 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:28:47.979 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:33:28.711 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:41:31.901 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:45:31.484 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:51:31.907 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:53:31.497 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:55:31.494 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:57:31.504 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:59:31.901 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:01:31.912 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:03:31.926 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:05:31.931 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:09:31.542 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:13:31.927 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:15:17.421 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:17:31.917 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:19:32.368 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:21:31.967 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:23:31.948 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:25:31.547 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:27:31.534 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:31:31.951 NotebookApp] Saving file at /LUMEN.ipynb
+slurmstepd: error: *** JOB 4936509 ON gcn33 CANCELLED AT 2024-01-22T14:32:19 DUE TO TIME LIMIT ***
+[I 14:32:19.345 NotebookApp] Starting buffering for ccbdd1e5-fbf4-4c32-9809-46b99e7a1e06:e6588771406443209f25050013ed4a83
+
+JOB STATISTICS
+==============
+Job ID: 4936509
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 2-15:00:54 core-walltime
+Job Wall-clock time: 03:30:03
+Memory Utilized: 17.91 GB
+Memory Efficiency: 14.92% of 120.00 GB

@@ -1,0 +1,45 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+/var/spool/slurm/slurmd/job4832403/slurm_script: line 16: cd: /home/scur1045/...: No such file or directory
+/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+NVIDIA A100-SXM4-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70.
+If you want to use the NVIDIA A100-SXM4-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+Traceback (most recent call last):
+  File "MM.py", line 52, in <module>
+    torch.cuda.set_device(1)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/cuda/__init__.py", line 261, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+srun: error: gcn11: task 0: Exited with exit code 1
+srun: Terminating StepId=4832403.0
+
+JOB STATISTICS
+==============
+Job ID: 4832403
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:06:54 core-walltime
+Job Wall-clock time: 00:00:23
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

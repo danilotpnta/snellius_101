@@ -1,0 +1,65 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn4.local.snellius.surf.nl -L 5221:localhost:5221
+
+After connection is established in your local browser go to the address:
+http://localhost:5221
+[I 16:22:18.608 NotebookApp] Writing notebook server cookie secret to /gpfs/home5/scur1045/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 16:22:19.265 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/jobs
+[I 16:22:19.265 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 16:22:19.265 NotebookApp] http://localhost:5221/?token=70e713b2a56d9f786fd7a5f657854d34cf914fac319f5920
+[I 16:22:19.265 NotebookApp]  or http://127.0.0.1:5221/?token=70e713b2a56d9f786fd7a5f657854d34cf914fac319f5920
+[I 16:22:19.265 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:22:19.270 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-1658870-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5221/?token=70e713b2a56d9f786fd7a5f657854d34cf914fac319f5920
+     or http://127.0.0.1:5221/?token=70e713b2a56d9f786fd7a5f657854d34cf914fac319f5920
+[I 16:23:48.564 NotebookApp] 302 GET / (::1) 1.780000ms
+[I 16:23:48.567 NotebookApp] 302 GET /tree? (::1) 0.680000ms
+[I 16:23:49.405 NotebookApp] 302 GET / (::1) 0.360000ms
+[I 16:23:49.413 NotebookApp] 302 GET /tree? (::1) 0.480000ms
+[W 16:24:17.270 NotebookApp] Not allowing login redirect to '/tree?'
+[I 16:24:17.272 NotebookApp] 302 POST /login?next=%2Ftree%3F (::1) 5.550000ms
+[I 16:24:17.280 NotebookApp] 302 GET / (::1) 0.300000ms
+[I 16:25:16.031 NotebookApp] Creating new notebook in 
+[I 16:25:16.093 NotebookApp] Writing notebook-signing key to /gpfs/home5/scur1045/.local/share/jupyter/notebook_secret
+[I 16:25:17.743 NotebookApp] Kernel started: f7e4a764-51a5-409b-9452-f58531271643, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 434ccd1c-300f-4732-af29-ce89cc3aa5ee
+[I 16:26:48.426 NotebookApp] Starting buffering for f7e4a764-51a5-409b-9452-f58531271643:67185a7f878a4b1b84db707887973ca1
+[W 16:26:53.057 NotebookApp] Forbidden
+[W 16:26:53.057 NotebookApp] 403 GET /api/terminals?_=1705418657559 (::1) 0.870000ms referer=http://localhost:5221/tree
+[W 16:26:53.058 NotebookApp] Forbidden
+[W 16:26:53.058 NotebookApp] 403 GET /api/sessions?_=1705418657558 (::1) 0.640000ms referer=http://localhost:5221/tree
+slurmstepd: error: *** JOB 4880856 ON gcn4 CANCELLED AT 2024-01-16T16:27:13 ***
+
+JOB STATISTICS
+==============
+Job ID: 4880856
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.04% of 00:45:54 core-walltime
+Job Wall-clock time: 00:05:06
+Memory Utilized: 416.38 MB
+Memory Efficiency: 0.68% of 60.00 GB

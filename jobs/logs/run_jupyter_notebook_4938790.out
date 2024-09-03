@@ -1,0 +1,146 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn26.local.snellius.surf.nl -L 5917:localhost:5917
+
+After connection is established in your local browser go to the address:
+http://localhost:5917
+[I 13:28:03.125 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 13:28:03.125 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 13:28:03.125 NotebookApp] http://localhost:5917/?token=cfdb5d0139cdc2105a26fd4d292c079035ea8a6df229f7ff
+[I 13:28:03.125 NotebookApp]  or http://127.0.0.1:5917/?token=cfdb5d0139cdc2105a26fd4d292c079035ea8a6df229f7ff
+[I 13:28:03.125 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:28:03.130 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-3884105-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5917/?token=cfdb5d0139cdc2105a26fd4d292c079035ea8a6df229f7ff
+     or http://127.0.0.1:5917/?token=cfdb5d0139cdc2105a26fd4d292c079035ea8a6df229f7ff
+[I 14:33:32.179 NotebookApp] 302 GET /?token=cfdb5d0139cdc2105a26fd4d292c079035ea8a6df229f7ff (::1) 0.510000ms
+[I 14:33:40.203 NotebookApp] Kernel started: a63fd252-ce79-4c68-9e07-532e23d0cbf9, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2ccea5c7-ceda-4fb6-a5a5-da0b5b758536
+[I 14:35:40.204 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:37:40.197 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:40:10.633 NotebookApp] Starting buffering for a63fd252-ce79-4c68-9e07-532e23d0cbf9:fbe2a35296ce421a83f9524535bbb71d
+[W 14:40:11.278 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:42:12.949 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:42:12.952 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:44:12.941 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:44:12.942 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:46:12.947 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:46:12.948 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:48:12.950 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:48:12.953 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:50:12.967 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:50:12.969 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:52:12.953 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:52:12.955 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:54:12.955 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:54:12.956 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:56:12.962 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:56:12.963 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:58:12.948 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:58:12.949 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:00:12.944 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:00:12.944 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:02:12.974 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:02:12.974 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:04:12.961 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:04:12.962 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:06:12.949 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:06:12.950 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:08:12.959 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:08:12.960 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:10:12.972 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:10:12.973 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:12:12.952 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:12:12.952 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:14:12.967 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:14:12.968 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:16:12.966 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:16:12.966 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:18:12.964 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:18:12.964 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:20:12.975 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:20:12.975 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:22:12.977 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:22:12.977 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:24:12.983 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:24:12.984 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:26:12.974 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:26:12.974 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:28:12.962 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:28:12.962 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:30:12.995 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:30:12.996 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:32:12.165 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:32:12.165 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:34:12.990 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:34:12.991 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:36:13.124 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:36:13.124 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:38:12.983 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:38:12.984 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:40:35.996 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:40:35.996 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:42:13.074 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:42:13.075 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:44:35.983 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:44:35.983 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:46:35.993 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:46:35.994 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:48:36.006 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:48:36.007 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:50:13.353 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:50:13.354 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:52:12.983 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:52:12.983 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:54:12.991 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:54:12.992 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:56:12.177 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:56:12.178 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 15:58:12.231 NotebookApp] Saving file at /LUMEN.ipynb
+[W 15:58:12.231 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 16:00:12.984 NotebookApp] Saving file at /LUMEN.ipynb
+[W 16:00:12.985 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 16:01:03.101 NotebookApp] Kernel interrupted: a63fd252-ce79-4c68-9e07-532e23d0cbf9
+[I 16:02:12.183 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:04:13.013 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:06:12.195 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:08:14.025 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:12:13.004 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:13:22.470 NotebookApp] Starting buffering for a63fd252-ce79-4c68-9e07-532e23d0cbf9:52dcc63ea0c6479e86040f8ee540d8fb
+[I 16:13:25.607 NotebookApp] Kernel restarted: a63fd252-ce79-4c68-9e07-532e23d0cbf9
+[I 16:13:25.624 NotebookApp] Restoring connection for a63fd252-ce79-4c68-9e07-532e23d0cbf9:52dcc63ea0c6479e86040f8ee540d8fb
+[I 16:13:25.624 NotebookApp] Replaying 1 buffered messages
+[I 16:14:12.251 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:16:13.041 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:18:13.005 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:20:12.194 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:22:12.996 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:24:12.997 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:26:12.998 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:28:13.057 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:30:13.017 NotebookApp] Saving file at /LUMEN.ipynb
+[I 16:45:54.867 NotebookApp] Starting buffering for a63fd252-ce79-4c68-9e07-532e23d0cbf9:52dcc63ea0c6479e86040f8ee540d8fb
+[I 16:45:56.003 NotebookApp] Restoring connection for a63fd252-ce79-4c68-9e07-532e23d0cbf9:52dcc63ea0c6479e86040f8ee540d8fb
+[W 16:47:26.004 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 16:47:31.007 NotebookApp] Starting buffering for a63fd252-ce79-4c68-9e07-532e23d0cbf9:52dcc63ea0c6479e86040f8ee540d8fb
+slurmstepd: error: *** JOB 4938790 ON gcn26 CANCELLED AT 2024-01-22T19:28:16 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/4938790/.ns: Invalid argument
+slurmstepd: error: container_g_join(4938790): Invalid argument

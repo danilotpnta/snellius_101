@@ -1,0 +1,106 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn27.local.snellius.surf.nl -L 5737:localhost:5737
+
+After connection is established in your local browser go to the address:
+http://localhost:5737
+[I 17:27:38.934 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 17:27:38.934 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 17:27:38.934 NotebookApp] http://localhost:5737/?token=8b9e6469c4bd099f630e926998ddbdeeb04aa3295882eff5
+[I 17:27:38.934 NotebookApp]  or http://127.0.0.1:5737/?token=8b9e6469c4bd099f630e926998ddbdeeb04aa3295882eff5
+[I 17:27:38.934 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:27:38.940 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-3249118-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5737/?token=8b9e6469c4bd099f630e926998ddbdeeb04aa3295882eff5
+     or http://127.0.0.1:5737/?token=8b9e6469c4bd099f630e926998ddbdeeb04aa3295882eff5
+[I 19:40:51.925 NotebookApp] 302 GET / (::1) 1.770000ms
+[I 19:40:51.948 NotebookApp] 302 GET /tree? (::1) 0.670000ms
+[W 19:42:11.165 NotebookApp] Not allowing login redirect to '/tree?'
+[I 19:42:11.167 NotebookApp] 302 POST /login?next=%2Ftree%3F (::1) 2.570000ms
+[I 19:42:31.193 NotebookApp] 302 GET / (::1) 0.380000ms
+[W 19:42:40.212 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 19:42:42.519 NotebookApp] Kernel started: 973f5d20-2dbd-4191-84de-8ab768e6edb3, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 933fc672-32be-429d-b3ea-9eee5388e3ad
+[I 19:44:42.753 NotebookApp] Saving file at /LUMEN.ipynb
+[I 19:46:42.587 NotebookApp] Saving file at /LUMEN.ipynb
+[I 19:48:42.538 NotebookApp] Saving file at /LUMEN.ipynb
+[I 19:50:42.653 NotebookApp] Saving file at /LUMEN.ipynb
+[I 19:52:43.420 NotebookApp] Saving file at /LUMEN.ipynb
+[I 19:58:50.246 NotebookApp] 302 GET / (::1) 0.400000ms
+[I 20:02:43.469 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:12:42.651 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:14:42.603 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:16:42.615 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:18:42.568 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:20:42.555 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:22:42.971 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:24:42.533 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:26:42.528 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:28:43.412 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:30:42.545 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:32:42.588 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:33:20.307 NotebookApp] Kernel interrupted: 973f5d20-2dbd-4191-84de-8ab768e6edb3
+[I 20:34:42.532 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:34:50.490 NotebookApp] Kernel interrupted: 973f5d20-2dbd-4191-84de-8ab768e6edb3
+[I 20:36:42.551 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:38:42.548 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:42:42.600 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:44:42.667 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:46:42.553 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:48:42.644 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:50:42.580 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:52:42.681 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:54:42.562 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:56:43.392 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:58:42.545 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:00:42.515 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:02:42.523 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:04:42.505 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:06:42.536 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:08:42.506 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:10:42.566 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:12:43.373 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:14:42.536 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:16:42.544 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:18:43.379 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:20:43.371 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:22:43.376 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:24:43.381 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:26:43.347 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:28:43.359 NotebookApp] Saving file at /LUMEN.ipynb
+[I 21:43:41.676 NotebookApp] Starting buffering for 973f5d20-2dbd-4191-84de-8ab768e6edb3:08c7d8f082fa42e6880e58566f2a6788
+slurmstepd: error: *** JOB 4944840 ON gcn27 CANCELLED AT 2024-01-23T01:27:35 DUE TO TIME LIMIT ***
+slurmstepd: error: container_p_join: setns failed for /slurm/4944840/.ns: Invalid argument
+slurmstepd: error: container_g_join(4944840): Invalid argument
+
+JOB STATISTICS
+==============
+Job ID: 4944840
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 6-00:03:00 core-walltime
+Job Wall-clock time: 08:00:10
+Memory Utilized: 16.45 GB
+Memory Efficiency: 13.70% of 120.00 GB

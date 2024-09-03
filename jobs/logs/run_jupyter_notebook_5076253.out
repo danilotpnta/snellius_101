@@ -1,0 +1,787 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int5-pub.snellius.surf.nl scur1045@gcn47.local.snellius.surf.nl -L 5954:localhost:5954
+
+After connection is established in your local browser go to the address:
+http://localhost:5954
+[I 08:20:05.075 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 08:20:05.076 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 08:20:05.076 NotebookApp] http://localhost:5954/?token=270e1ef0f1aac01445de30fe2bf62d5c59d13e58c8a9ff36
+[I 08:20:05.076 NotebookApp]  or http://127.0.0.1:5954/?token=270e1ef0f1aac01445de30fe2bf62d5c59d13e58c8a9ff36
+[I 08:20:05.076 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:20:05.081 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-3619006-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5954/?token=270e1ef0f1aac01445de30fe2bf62d5c59d13e58c8a9ff36
+     or http://127.0.0.1:5954/?token=270e1ef0f1aac01445de30fe2bf62d5c59d13e58c8a9ff36
+[I 08:29:17.913 NotebookApp] 302 GET /?token=270e1ef0f1aac01445de30fe2bf62d5c59d13e58c8a9ff36 (::1) 1.900000ms
+[I 08:29:28.012 NotebookApp] Kernel started: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8a166393-b95d-4593-811f-3529463f1f5d
+[I 08:33:27.770 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:35:28.014 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:37:27.997 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:39:27.997 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:39:43.257 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 08:39:45.103 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 08:39:45.225 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 08:39:45.730 NotebookApp] Replaying 11 buffered messages
+[I 08:41:27.997 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:43:28.004 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:45:28.011 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:47:28.003 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:49:28.012 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:51:28.011 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:53:28.016 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:57:27.784 NotebookApp] Saving file at /LUMEN.ipynb
+[I 08:58:10.727 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 08:58:12.067 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 08:58:12.106 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 08:58:13.112 NotebookApp] Replaying 3 buffered messages
+[I 08:59:28.024 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:00:04.887 NotebookApp] Kernel interrupted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 09:01:11.187 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 09:01:12.436 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 09:01:12.458 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 09:01:12.945 NotebookApp] Replaying 3 buffered messages
+[I 09:01:28.010 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:02:52.197 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:03:27.800 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:03:30.789 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 09:03:32.129 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 09:03:32.223 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 09:03:32.613 NotebookApp] Replaying 3 buffered messages
+[I 09:05:28.028 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:07:28.021 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:09:27.798 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:11:28.033 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:13:28.027 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:15:28.024 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:17:28.026 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:19:28.029 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:21:28.034 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:23:28.031 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:25:28.036 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:27:28.044 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:29:28.040 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:31:28.046 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:33:28.044 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:36:11.047 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:37:28.051 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:39:28.049 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:41:28.046 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:45:28.049 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:47:28.057 NotebookApp] Saving file at /LUMEN.ipynb
+[I 09:56:32.940 NotebookApp] Kernel started: ea8e9f8e-048c-47ac-92c9-a6781165413b, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a8aac900-0a64-44d5-9ae9-4beb4d49b1cb
+[I 09:59:28.096 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:01:28.073 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:03:28.067 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:05:27.847 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:07:27.851 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:09:28.068 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:11:28.069 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:12:23.616 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 10:12:25.168 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 10:12:25.246 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 10:12:25.982 NotebookApp] Replaying 3 buffered messages
+[I 10:13:27.852 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:15:28.075 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:17:28.081 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:19:28.075 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:20:50.462 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 10:20:51.812 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 10:20:51.939 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 10:20:52.639 NotebookApp] Replaying 3 buffered messages
+[I 10:21:27.858 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:22:04.856 NotebookApp] Kernel interrupted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[W 10:22:16.822 NotebookApp] Notebook LUMEN_serghei_reproducibility.ipynb is not trusted
+[I 10:22:17.745 NotebookApp] Kernel started: 7aa5664c-5151-45a1-b969-1b038f0a6f55, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 59302677-595a-457f-87cc-6925ce7f32a1
+[I 10:23:19.584 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 10:23:20.828 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 10:23:20.934 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 10:23:21.343 NotebookApp] Replaying 3 buffered messages
+[I 10:23:27.963 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:25:27.855 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:27:28.084 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:29:27.869 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:31:27.862 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:33:28.094 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:35:28.097 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:37:28.102 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:39:28.092 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:41:28.101 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:43:28.098 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:45:28.108 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:47:28.110 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:49:28.105 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:51:28.129 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:53:28.112 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:55:28.110 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:57:28.117 NotebookApp] Saving file at /LUMEN.ipynb
+[I 10:59:28.119 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:01:28.129 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:03:28.117 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:05:28.180 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:07:28.118 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:09:28.130 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:11:28.135 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:13:28.128 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:15:28.200 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:17:28.131 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:19:28.135 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:21:27.911 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:22:35.738 NotebookApp] Kernel interrupted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 11:23:27.917 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:24:34.568 NotebookApp] Kernel interrupted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 11:25:27.779 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 11:25:27.917 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:25:29.217 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 11:25:29.252 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 11:25:30.142 NotebookApp] Replaying 3 buffered messages
+[I 11:27:28.192 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:29:27.924 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:31:28.141 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:33:28.149 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:35:28.142 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:37:28.150 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:39:28.148 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:41:28.162 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:43:28.164 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:45:28.153 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:47:28.157 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:49:28.156 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:51:28.166 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:53:28.160 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:55:28.160 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:57:28.172 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:59:28.176 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:01:28.169 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:03:28.184 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:05:28.287 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:07:28.179 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:09:28.176 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:11:28.176 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:13:28.176 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:15:28.181 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:17:28.187 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:19:28.198 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:21:28.189 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:23:28.197 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:25:28.194 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:27:28.193 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:29:28.205 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:31:28.206 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:35:28.209 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:45:27.987 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:47:28.211 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:49:28.209 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:51:28.209 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:53:28.213 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:55:28.217 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:57:28.220 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:59:28.218 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:01:28.219 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:03:28.227 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:05:28.228 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:07:28.221 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:09:28.234 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:11:28.218 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:13:28.229 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:15:28.236 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:17:28.230 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:19:28.228 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:21:28.233 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:23:28.249 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:25:28.239 NotebookApp] Saving file at /LUMEN.ipynb
+[I 13:26:22.188 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 13:26:22.188 NotebookApp] Starting buffering for 7aa5664c-5151-45a1-b969-1b038f0a6f55:028712c3837d4d1487e0756466758a06
+[I 13:26:22.188 NotebookApp] Starting buffering for ea8e9f8e-048c-47ac-92c9-a6781165413b:a6517f1a234c41ff8593920b9e2ff019
+[I 13:26:24.225 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 13:26:24.225 NotebookApp] Replaying 4 buffered messages
+[I 13:26:24.249 NotebookApp] Restoring connection for 7aa5664c-5151-45a1-b969-1b038f0a6f55:028712c3837d4d1487e0756466758a06
+[I 13:26:24.278 NotebookApp] Restoring connection for ea8e9f8e-048c-47ac-92c9-a6781165413b:a6517f1a234c41ff8593920b9e2ff019
+[I 13:27:15.805 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 13:27:15.805 NotebookApp] Starting buffering for 7aa5664c-5151-45a1-b969-1b038f0a6f55:028712c3837d4d1487e0756466758a06
+[I 13:27:15.805 NotebookApp] Starting buffering for ea8e9f8e-048c-47ac-92c9-a6781165413b:a6517f1a234c41ff8593920b9e2ff019
+[I 13:27:17.368 NotebookApp] Restoring connection for ea8e9f8e-048c-47ac-92c9-a6781165413b:a6517f1a234c41ff8593920b9e2ff019
+[I 13:27:17.393 NotebookApp] Restoring connection for 7aa5664c-5151-45a1-b969-1b038f0a6f55:028712c3837d4d1487e0756466758a06
+[I 13:27:17.417 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 13:27:17.417 NotebookApp] Replaying 3 buffered messages
+[I 13:27:35.393 NotebookApp] Saving file at /LUMEN.ipynb
+[W 13:28:47.370 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 13:28:47.393 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 13:28:47.418 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 13:28:47.769 NotebookApp] zmq message arrived on closed channel
+[W 13:28:48.312 NotebookApp] zmq message arrived on closed channel
+[I 13:28:48.557 NotebookApp] Starting buffering for ea8e9f8e-048c-47ac-92c9-a6781165413b:a6517f1a234c41ff8593920b9e2ff019
+[I 13:28:48.557 NotebookApp] Starting buffering for 7aa5664c-5151-45a1-b969-1b038f0a6f55:028712c3837d4d1487e0756466758a06
+[I 13:28:48.558 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 13:28:49.887 NotebookApp] Restoring connection for ea8e9f8e-048c-47ac-92c9-a6781165413b:a6517f1a234c41ff8593920b9e2ff019
+[I 13:28:49.914 NotebookApp] Restoring connection for 7aa5664c-5151-45a1-b969-1b038f0a6f55:028712c3837d4d1487e0756466758a06
+[I 13:28:49.946 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 13:28:49.946 NotebookApp] Replaying 3 buffered messages
+[W 13:30:19.887 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 13:30:19.914 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 13:30:19.947 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 13:30:20.407 NotebookApp] zmq message arrived on closed channel
+[W 13:30:20.937 NotebookApp] zmq message arrived on closed channel
+[W 13:30:21.724 NotebookApp] zmq message arrived on closed channel
+[W 13:30:22.263 NotebookApp] zmq message arrived on closed channel
+[W 13:30:22.837 NotebookApp] zmq message arrived on closed channel
+[W 13:30:23.417 NotebookApp] zmq message arrived on closed channel
+[W 13:30:23.959 NotebookApp] zmq message arrived on closed channel
+[W 13:30:24.609 NotebookApp] zmq message arrived on closed channel
+[I 13:30:24.888 NotebookApp] Starting buffering for ea8e9f8e-048c-47ac-92c9-a6781165413b:a6517f1a234c41ff8593920b9e2ff019
+[I 13:30:24.916 NotebookApp] Starting buffering for 7aa5664c-5151-45a1-b969-1b038f0a6f55:028712c3837d4d1487e0756466758a06
+[I 13:30:24.947 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 14:08:29.714 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:10:05.205 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 14:10:05.270 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 14:10:06.651 NotebookApp] Replaying 540 buffered messages
+[I 14:10:29.657 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:12:29.612 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:14:29.844 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:16:29.835 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:20:29.619 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:22:29.846 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:24:29.844 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:26:29.856 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:28:29.845 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:30:29.843 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:32:29.949 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:34:29.849 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:34:29.942 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:34:29.948 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:34:29.948 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:34:29.948 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:34:29.949 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 111.020000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:36:29.845 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:36:29.936 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:36:29.936 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:36:29.936 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:36:29.936 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:36:29.936 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 102.450000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:38:30.259 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:38:30.351 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:38:30.352 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:38:30.352 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:38:30.352 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:38:30.352 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 108.740000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:40:29.851 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:40:29.946 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:40:29.947 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:40:29.947 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:40:29.947 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:40:29.947 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 105.910000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:42:29.872 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:42:30.021 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:42:30.021 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:42:30.021 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:42:30.021 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:42:30.021 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 170.750000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:44:29.859 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:44:29.953 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:44:29.954 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:44:29.954 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:44:29.954 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:44:29.954 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 106.750000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:46:29.863 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:46:29.951 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:46:29.951 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:46:29.951 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:46:29.952 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:46:29.952 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 102.000000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:48:29.856 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:48:29.951 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:48:29.951 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:48:29.951 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:48:29.952 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:48:29.952 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 105.930000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:50:29.863 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:50:29.952 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:50:29.953 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:50:29.953 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:50:29.953 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:50:29.953 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 100.660000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:52:29.864 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:52:29.951 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:52:29.951 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:52:29.952 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:52:29.952 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:52:29.952 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 96.170000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:54:29.865 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:54:29.956 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:54:29.957 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:54:29.957 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:54:29.957 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:54:29.957 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 101.840000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:56:29.867 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:56:29.954 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:56:29.955 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:56:29.955 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:56:29.955 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:56:29.955 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 96.870000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:58:29.672 NotebookApp] Saving file at /LUMEN.ipynb
+[E 14:58:29.842 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:58:29.842 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 14:58:29.843 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 14:58:29.843 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 14:58:29.843 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 185.140000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 14:58:46.835 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 14:58:47.772 NotebookApp] Kernel restarted: bdb211d6-0a6d-4acf-9547-1ecd8ac3b372
+[I 14:58:47.851 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[IPKernelApp] ERROR | Failed to create history session in /gpfs/home5/scur1045/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/IPython/core/history.py", line 543, in __init__
+    self.new_session()
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/IPython/core/history.py", line 58, in needs_sqlite
+    return f(self, *a, **kw)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/IPython/core/history.py", line 569, in new_session
+    NULL, "") """, (datetime.datetime.now(),))
+sqlite3.OperationalError: disk I/O error
+[I 14:58:48.856 NotebookApp] Replaying 3 buffered messages
+[I 15:00:29.870 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:00:29.961 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:00:29.961 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:00:29.961 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:00:29.962 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:00:29.962 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 97.170000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:02:29.871 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:02:29.958 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:02:29.958 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:02:29.959 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:02:29.959 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:02:29.959 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 94.710000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:04:29.870 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:04:29.965 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:04:29.966 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:04:29.966 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:04:29.967 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:04:29.967 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 101.700000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:06:29.872 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:06:29.979 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:06:29.979 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:06:29.979 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:06:29.979 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:06:29.980 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 115.770000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:08:29.879 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:08:44.887 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:08:44.888 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:08:44.888 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:08:44.888 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:08:44.888 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 15015.310000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:10:29.880 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:10:29.977 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:10:29.977 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:10:29.978 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:10:29.978 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:10:29.978 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 104.050000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:12:29.889 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:12:29.982 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:12:29.982 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:12:29.982 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:12:29.982 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:12:29.983 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 102.530000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:14:29.894 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:14:29.979 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:14:29.979 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:14:29.979 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:14:29.980 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:14:29.980 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 92.920000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:16:29.887 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:16:29.976 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:16:29.976 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:16:29.977 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:16:29.977 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:16:29.977 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 96.900000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:18:29.884 NotebookApp] Saving file at /LUMEN.ipynb
+[E 15:18:29.976 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 15:18:29.977 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 15:18:29.977 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 15:18:29.977 NotebookApp] {
+      "Host": "localhost:5954",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5954/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 15:18:29.977 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 97.860000ms referer=http://localhost:5954/notebooks/LUMEN.ipynb
+[I 15:19:37.399 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+[I 15:19:38.870 NotebookApp] Restoring connection for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+slurmstepd: error: *** JOB 5076253 ON gcn47 CANCELLED AT 2024-02-01T15:20:21 DUE TO TIME LIMIT ***
+[I 15:20:21.170 NotebookApp] Starting buffering for bdb211d6-0a6d-4acf-9547-1ecd8ac3b372:b1717df9fbf7400d8862e960f3528eb6
+
+JOB STATISTICS
+==============
+Job ID: 5076253
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 5-06:07:48 core-walltime
+Job Wall-clock time: 07:00:26
+Memory Utilized: 16.79 GB
+Memory Efficiency: 13.99% of 120.00 GB

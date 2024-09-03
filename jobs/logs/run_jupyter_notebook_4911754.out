@@ -1,0 +1,76 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int5-pub.snellius.surf.nl scur1045@gcn3.local.snellius.surf.nl -L 5368:localhost:5368
+
+After connection is established in your local browser go to the address:
+http://localhost:5368
+[I 13:50:58.391 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 13:50:58.392 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 13:50:58.392 NotebookApp] http://localhost:5368/?token=75995e8f950c3c8e133d10e9bbc39b00bb5b20ca642ce6dc
+[I 13:50:58.392 NotebookApp]  or http://127.0.0.1:5368/?token=75995e8f950c3c8e133d10e9bbc39b00bb5b20ca642ce6dc
+[I 13:50:58.392 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:50:58.397 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-858115-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5368/?token=75995e8f950c3c8e133d10e9bbc39b00bb5b20ca642ce6dc
+     or http://127.0.0.1:5368/?token=75995e8f950c3c8e133d10e9bbc39b00bb5b20ca642ce6dc
+[I 13:54:21.042 NotebookApp] 302 GET /?token=75995e8f950c3c8e133d10e9bbc39b00bb5b20ca642ce6dc (::1) 1.870000ms
+[I 13:54:23.112 NotebookApp] 302 GET /?token=75995e8f950c3c8e133d10e9bbc39b00bb5b20ca642ce6dc (::1) 0.370000ms
+[W 13:54:28.484 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 13:54:29.327 NotebookApp] Kernel started: f42d94b1-60ad-4e94-b7c3-d8f697dcb9a4, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8f0fa184-70d3-4d29-8845-5738440ff68c
+[I 13:56:29.327 NotebookApp] Saving file at /LUMEN.ipynb
+[W 13:56:29.328 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 13:58:30.077 NotebookApp] Saving file at /LUMEN.ipynb
+[W 13:58:30.079 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:00:29.338 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:00:29.340 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:02:29.346 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:02:29.348 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:04:29.312 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:04:29.312 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:06:30.155 NotebookApp] Saving file at /LUMEN.ipynb
+[W 14:06:30.156 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:06:44.437 NotebookApp] Starting buffering for f42d94b1-60ad-4e94-b7c3-d8f697dcb9a4:d8f5e6e8d6d84aa1ac9538f617213269
+[I 14:06:45.769 NotebookApp] Kernel restarted: f42d94b1-60ad-4e94-b7c3-d8f697dcb9a4
+[I 14:06:45.785 NotebookApp] Restoring connection for f42d94b1-60ad-4e94-b7c3-d8f697dcb9a4:d8f5e6e8d6d84aa1ac9538f617213269
+[I 14:06:46.294 NotebookApp] Replaying 3 buffered messages
+[I 14:08:28.649 NotebookApp] Kernel interrupted: f42d94b1-60ad-4e94-b7c3-d8f697dcb9a4
+[I 14:08:29.346 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:10:30.099 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:12:29.334 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:14:30.093 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:16:30.091 NotebookApp] Saving file at /LUMEN.ipynb
+slurmstepd: error: *** JOB 4911754 ON gcn3 CANCELLED AT 2024-01-19T14:24:18 ***
+[I 14:24:18.742 NotebookApp] Starting buffering for f42d94b1-60ad-4e94-b7c3-d8f697dcb9a4:d8f5e6e8d6d84aa1ac9538f617213269
+
+JOB STATISTICS
+==============
+Job ID: 4911754
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.01% of 05:01:57 core-walltime
+Job Wall-clock time: 00:33:33
+Memory Utilized: 9.52 GB
+Memory Efficiency: 15.87% of 60.00 GB

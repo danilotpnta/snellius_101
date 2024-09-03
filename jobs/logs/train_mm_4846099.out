@@ -1,0 +1,72 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+/var/spool/slurm/slurmd/job4846099/slurm_script: line 16: cd: /home/scur1045/...: No such file or directory
+/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+NVIDIA A100-SXM4-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70.
+If you want to use the NVIDIA A100-SXM4-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/transformers/models/vit/feature_extraction_vit.py:31: FutureWarning: The class ViTFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use ViTImageProcessor instead.
+  FutureWarning,
+/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/transformers/models/t5/tokenization_t5.py:173: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-large automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  FutureWarning,
+There is no Caption. Setting to None
+There is no Caption. Setting to None
+There is no Caption. Setting to None
+There is no Caption. Setting to None
+Mini-batch progress (Train) | Epoch: 1:   0%|          | 0/928 [00:00<?, ?it/s]Mini-batch progress (Train) | Epoch: 1:   0%|          | 0/928 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "MM.py", line 555, in <module>
+    model, train_acc_list, val_acc_list, train_loss_list, val_loss_list, train_T5encdec_loss_list, val_T5encdec_loss_list, train_main_loss_list, val_main_loss_list, train_deBERTa_loss, val_deBERTa_loss, i = train_model(model, patience, n_epochs)
+  File "MM.py", line 360, in train_model
+    for data in tqdm(dataloader_train, total = len(dataloader_train), desc = f"Mini-batch progress (Train) | Epoch: {i+1}"):
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tqdm/std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 517, in __next__
+    data = self._next_data()
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 557, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 47, in fetch
+    return self.collate_fn(data)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 73, in default_collate
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 73, in <dictcomp>
+    return {key: default_collate([d[key] for d in batch]) for key in elem}
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 55, in default_collate
+    return torch.stack(batch, 0, out=out)
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+srun: error: gcn65: task 0: Exited with exit code 1
+srun: Terminating StepId=4846099.0
+
+JOB STATISTICS
+==============
+Job ID: 4846099
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:11:24 core-walltime
+Job Wall-clock time: 00:00:38
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

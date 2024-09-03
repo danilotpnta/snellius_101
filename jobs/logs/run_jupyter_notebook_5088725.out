@@ -1,0 +1,49 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn14.local.snellius.surf.nl -L 5729:localhost:5729
+
+After connection is established in your local browser go to the address:
+http://localhost:5729
+[I 08:58:02.900 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045
+[I 08:58:02.900 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 08:58:02.900 NotebookApp] http://localhost:5729/?token=7c7f8eba804213908e97af8f920fddbe5d1827edd31cfb72
+[I 08:58:02.900 NotebookApp]  or http://127.0.0.1:5729/?token=7c7f8eba804213908e97af8f920fddbe5d1827edd31cfb72
+[I 08:58:02.900 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:58:02.906 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-4009553-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5729/?token=7c7f8eba804213908e97af8f920fddbe5d1827edd31cfb72
+     or http://127.0.0.1:5729/?token=7c7f8eba804213908e97af8f920fddbe5d1827edd31cfb72
+slurmstepd: error: *** JOB 5088725 ON gcn14 CANCELLED AT 2024-02-02T13:48:52 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/5088725/.ns: Invalid argument
+slurmstepd: error: container_g_join(5088725): Invalid argument
+
+JOB STATISTICS
+==============
+Job ID: 5088725
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 3-15:18:18 core-walltime
+Job Wall-clock time: 04:51:01
+Memory Utilized: 60.13 MB
+Memory Efficiency: 0.05% of 120.00 GB

@@ -1,0 +1,105 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int5-pub.snellius.surf.nl scur1045@gcn72.local.snellius.surf.nl -L 5228:localhost:5228
+
+After connection is established in your local browser go to the address:
+http://localhost:5228
+[I 11:02:42.328 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 11:02:42.328 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 11:02:42.328 NotebookApp] http://localhost:5228/?token=e2ec435afc48230fb1762ce5a4121319676c18871c386031
+[I 11:02:42.328 NotebookApp]  or http://127.0.0.1:5228/?token=e2ec435afc48230fb1762ce5a4121319676c18871c386031
+[I 11:02:42.328 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:02:42.334 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-4029375-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5228/?token=e2ec435afc48230fb1762ce5a4121319676c18871c386031
+     or http://127.0.0.1:5228/?token=e2ec435afc48230fb1762ce5a4121319676c18871c386031
+[I 11:06:39.616 NotebookApp] 302 GET /?token=e2ec435afc48230fb1762ce5a4121319676c18871c386031 (::1) 0.480000ms
+[W 11:06:58.470 NotebookApp] Notebook ViT_embeddings/get_ViT_embeddings.ipynb is not trusted
+[I 11:06:58.743 NotebookApp] Kernel started: 7028e9cf-ec7f-4d77-a3fd-1dfa98a61b38, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: bbafac50-6e3c-455e-b9b4-9c3b8c03f815
+[I 11:08:59.196 NotebookApp] Saving file at /ViT_embeddings/get_ViT_embeddings.ipynb
+[I 11:10:59.184 NotebookApp] Saving file at /ViT_embeddings/get_ViT_embeddings.ipynb
+[I 11:15:08.558 NotebookApp] Starting buffering for 7028e9cf-ec7f-4d77-a3fd-1dfa98a61b38:8f87b041a895460e80b4efbd48134085
+[W 11:15:50.509 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 11:15:51.180 NotebookApp] Kernel started: 06792e55-f662-459b-86fb-7f281702afec, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 49745f07-bade-4d9a-84ed-0653f8625745
+[I 11:17:52.178 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:19:51.192 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:21:51.207 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:23:51.207 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:25:51.217 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:27:51.280 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:29:51.207 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:31:51.198 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:33:51.197 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:35:52.183 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:37:51.196 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:39:51.206 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:41:51.198 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:43:51.204 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:45:52.008 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:47:51.200 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:49:51.229 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:51:52.197 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:53:51.209 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:55:51.220 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:57:52.200 NotebookApp] Saving file at /LUMEN.ipynb
+[I 11:59:52.221 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:01:12.503 NotebookApp] Creating new directory in 
+[I 12:01:51.214 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:03:52.223 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:05:51.234 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:07:52.202 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:09:51.285 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:11:52.194 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:13:52.205 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:15:29.767 NotebookApp] Kernel interrupted: 06792e55-f662-459b-86fb-7f281702afec
+[I 12:15:52.210 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:17:51.237 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:19:52.209 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:21:52.316 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:23:52.216 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:25:51.225 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:27:52.215 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:29:52.207 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:31:51.232 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:33:52.226 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:35:52.212 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:37:52.212 NotebookApp] Saving file at /LUMEN.ipynb
+[I 12:39:20.155 NotebookApp] Kernel interrupted: 06792e55-f662-459b-86fb-7f281702afec
+[I 12:39:52.217 NotebookApp] Saving file at /LUMEN.ipynb
+slurmstepd: error: *** JOB 4896580 ON gcn72 CANCELLED AT 2024-01-18T12:44:13 ***
+[I 12:44:13.290 NotebookApp] Starting buffering for 06792e55-f662-459b-86fb-7f281702afec:8f74f90b3ebb45948ec131fd27c22366
+
+JOB STATISTICS
+==============
+Job ID: 4896580
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 1-06:30:36 core-walltime
+Job Wall-clock time: 01:41:42
+Memory Utilized: 17.37 GB
+Memory Efficiency: 14.47% of 120.00 GB

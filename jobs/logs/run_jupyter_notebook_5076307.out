@@ -1,0 +1,672 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int5-pub.snellius.surf.nl scur1045@gcn48.local.snellius.surf.nl -L 5897:localhost:5897
+
+After connection is established in your local browser go to the address:
+http://localhost:5897
+[I 08:30:06.027 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 08:30:06.027 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 08:30:06.027 NotebookApp] http://localhost:5897/?token=3a7e7bc7711a3635481fd4610efa4d14d3867be5a6610ecb
+[I 08:30:06.027 NotebookApp]  or http://127.0.0.1:5897/?token=3a7e7bc7711a3635481fd4610efa4d14d3867be5a6610ecb
+[I 08:30:06.027 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:30:06.033 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-1066997-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5897/?token=3a7e7bc7711a3635481fd4610efa4d14d3867be5a6610ecb
+     or http://127.0.0.1:5897/?token=3a7e7bc7711a3635481fd4610efa4d14d3867be5a6610ecb
+[I 08:53:49.349 NotebookApp] 302 GET /?token=3a7e7bc7711a3635481fd4610efa4d14d3867be5a6610ecb (::1) 0.480000ms
+[I 09:06:08.697 NotebookApp] Kernel started: d21a16dc-f30c-4372-9b0f-4449019364d9, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a5d29fbf-01c3-45f9-86ac-ec61b779add1
+[I 09:12:08.761 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:13:13.222 NotebookApp] Kernel interrupted: d21a16dc-f30c-4372-9b0f-4449019364d9
+[I 09:13:18.579 NotebookApp] Starting buffering for d21a16dc-f30c-4372-9b0f-4449019364d9:2dd8e42834dd437f8d7b5239bc2a8acc
+[I 09:13:19.111 NotebookApp] Kernel restarted: d21a16dc-f30c-4372-9b0f-4449019364d9
+[I 09:13:19.136 NotebookApp] Restoring connection for d21a16dc-f30c-4372-9b0f-4449019364d9:2dd8e42834dd437f8d7b5239bc2a8acc
+[I 09:13:19.758 NotebookApp] Replaying 3 buffered messages
+[I 09:14:08.752 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:16:08.740 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:18:08.747 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:20:08.725 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:22:08.746 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:24:08.730 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:26:08.719 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:28:08.717 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:30:08.712 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:32:08.703 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:34:08.704 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:36:08.693 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:38:08.691 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:40:08.701 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:42:08.682 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:44:08.685 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:46:08.679 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:48:08.582 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:50:08.663 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[E 09:50:08.770 NotebookApp] Error while saving file: LUMEN_serghei_full_evaluation.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 09:50:08.776 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_full_evaluation.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_full_evaluation.ipynb disk I/O error
+[W 09:50:08.777 NotebookApp] Unexpected error while saving file: LUMEN_serghei_full_evaluation.ipynb disk I/O error
+[E 09:50:08.777 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_full_evaluation.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 09:50:08.777 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_full_evaluation.ipynb (::1) 115.120000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_full_evaluation.ipynb
+[I 09:52:08.656 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 09:54:08.657 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:41:33.753 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:42:02.742 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:42:07.950 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:43:25.034 NotebookApp] Starting buffering for d21a16dc-f30c-4372-9b0f-4449019364d9:2dd8e42834dd437f8d7b5239bc2a8acc
+[I 10:43:26.574 NotebookApp] Kernel restarted: d21a16dc-f30c-4372-9b0f-4449019364d9
+[I 10:43:26.600 NotebookApp] Restoring connection for d21a16dc-f30c-4372-9b0f-4449019364d9:2dd8e42834dd437f8d7b5239bc2a8acc
+[I 10:43:27.609 NotebookApp] Replaying 3 buffered messages
+[I 10:44:08.541 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:46:08.530 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:48:08.560 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:50:08.534 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:52:10.526 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:54:12.529 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:56:14.519 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 10:58:16.528 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:00:18.519 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:02:20.531 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:04:22.512 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:06:24.516 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:08:26.512 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:10:29.110 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:12:30.506 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:14:32.549 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:16:34.510 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:18:36.497 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:19:48.207 NotebookApp] Kernel interrupted: d21a16dc-f30c-4372-9b0f-4449019364d9
+[I 11:19:50.878 NotebookApp] Saving file at /LUMEN_serghei_full_evaluation.ipynb
+[I 11:19:51.890 NotebookApp] Starting buffering for d21a16dc-f30c-4372-9b0f-4449019364d9:2dd8e42834dd437f8d7b5239bc2a8acc
+[I 11:44:47.760 NotebookApp] Kernel started: 1dfee856-7746-446f-95d4-d5c59fe32071, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8909e6e9-a62e-43b5-b70d-b5b58eceb5a1
+[I 11:45:00.403 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 11:46:48.487 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:16:47.731 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:17:32.739 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:17:33.789 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:17:33.874 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:17:34.555 NotebookApp] Replaying 3 buffered messages
+[I 12:18:48.424 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:20:48.436 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:22:47.717 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:24:48.423 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:39:09.924 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:39:10.981 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:39:11.007 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:39:11.575 NotebookApp] Replaying 3 buffered messages
+[I 12:40:48.383 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:44:06.508 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:44:07.643 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:44:07.665 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:44:08.154 NotebookApp] Replaying 3 buffered messages
+[I 12:44:47.673 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:47:36.869 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:47:59.101 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:48:00.235 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:48:00.261 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:48:00.716 NotebookApp] Replaying 3 buffered messages
+[I 12:49:43.987 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:49:44.320 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:49:44.351 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:49:44.830 NotebookApp] Replaying 3 buffered messages
+[I 12:50:48.364 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:51:14.131 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:51:21.245 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:51:24.936 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:51:26.078 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:51:26.101 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:51:26.781 NotebookApp] Replaying 3 buffered messages
+[I 12:52:02.165 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:52:06.154 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:52:07.193 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:52:07.219 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:52:08.322 NotebookApp] Replaying 3 buffered messages
+[I 12:52:47.658 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:53:25.463 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:53:26.604 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:53:26.628 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:53:27.394 NotebookApp] Replaying 3 buffered messages
+[I 12:54:48.353 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:54:55.327 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:5501b8755d8b4b03b916ef9727110d5f
+[I 12:55:06.853 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 12:55:07.990 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 12:55:08.015 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 12:55:08.993 NotebookApp] Replaying 3 buffered messages
+[I 12:56:56.023 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 12:58:56.344 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:01:38.239 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:01:51.979 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:02:02.059 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:02:28.512 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:02:29.449 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 13:02:29.476 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:02:30.038 NotebookApp] Replaying 3 buffered messages
+[I 13:02:56.018 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:03:32.291 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:03:33.328 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 13:03:33.366 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:03:33.998 NotebookApp] Replaying 3 buffered messages
+[I 13:04:49.789 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:04:50.827 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 13:04:50.882 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:04:51.387 NotebookApp] Replaying 3 buffered messages
+[I 13:04:56.009 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:06:47.459 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:06:47.792 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 13:06:47.815 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:06:48.823 NotebookApp] Replaying 3 buffered messages
+[I 13:06:56.011 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:07:11.565 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[I 13:08:35.745 NotebookApp] Kernel interrupted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 13:08:56.320 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:10:56.004 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:12:56.001 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:14:55.993 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:16:55.987 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:18:55.987 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:20:55.994 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:22:55.990 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:24:55.986 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:26:55.974 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:28:55.965 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:30:56.284 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 13:31:00.617 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:31:02.262 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:31:02.262 NotebookApp] Replaying 3 buffered messages
+[W 13:32:32.262 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 13:32:32.827 NotebookApp] zmq message arrived on closed channel
+[W 13:32:33.395 NotebookApp] zmq message arrived on closed channel
+[W 13:32:34.033 NotebookApp] zmq message arrived on closed channel
+[W 13:32:34.728 NotebookApp] zmq message arrived on closed channel
+[W 13:32:35.437 NotebookApp] zmq message arrived on closed channel
+[W 13:32:35.991 NotebookApp] zmq message arrived on closed channel
+[W 13:32:36.615 NotebookApp] zmq message arrived on closed channel
+[W 13:32:37.203 NotebookApp] zmq message arrived on closed channel
+[I 13:32:37.263 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:37:08.259 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:37:08.260 NotebookApp] Replaying 448 buffered messages
+[I 13:37:27.623 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:37:29.255 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 13:37:29.255 NotebookApp] Replaying 2 buffered messages
+[W 13:38:59.256 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 13:38:59.300 NotebookApp] zmq message arrived on closed channel
+[W 13:38:59.958 NotebookApp] zmq message arrived on closed channel
+[W 13:39:00.604 NotebookApp] zmq message arrived on closed channel
+[W 13:39:01.310 NotebookApp] zmq message arrived on closed channel
+[W 13:39:01.928 NotebookApp] zmq message arrived on closed channel
+[W 13:39:02.502 NotebookApp] zmq message arrived on closed channel
+[W 13:39:03.085 NotebookApp] zmq message arrived on closed channel
+[W 13:39:03.658 NotebookApp] zmq message arrived on closed channel
+[W 13:39:04.235 NotebookApp] zmq message arrived on closed channel
+[I 13:39:04.257 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 14:00:44.278 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 14:00:44.284 NotebookApp] Replaying 1190 buffered messages
+[I 14:02:08.277 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 14:02:08.420 NotebookApp] Error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:02:08.420 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 14:02:08.421 NotebookApp] Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 14:02:08.421 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 14:02:08.421 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 150.090000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 14:04:08.265 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 14:04:08.358 NotebookApp] Error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:04:08.359 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 14:04:08.359 NotebookApp] Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 14:04:08.359 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 14:04:08.359 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 95.620000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 14:06:08.266 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 14:06:08.361 NotebookApp] Error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 14:06:08.361 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 14:06:08.362 NotebookApp] Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 14:06:08.362 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 14:06:08.362 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 97.640000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 14:08:08.252 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 14:25:23.019 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 14:25:24.209 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[W 14:26:54.210 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 14:26:59.215 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 14:31:41.450 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 14:55:30.955 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 14:55:32.404 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[W 14:57:02.406 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 14:57:07.409 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:9d86af33a8d14728b28295632719c986
+[I 15:52:41.858 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 15:52:41.970 NotebookApp] Error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 201, in store_signature
+        if not self.check_signature(digest, algorithm):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 242, in check_signature
+        (datetime.now(tz=timezone.utc), algorithm, digest),
+    sqlite3.OperationalError: disk I/O error
+[W 15:52:41.973 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 15:52:41.973 NotebookApp] Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 15:52:41.973 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 15:52:41.973 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 116.250000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 15:54:41.841 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 15:56:41.843 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 15:58:41.362 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:00:41.856 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:18:41.317 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:20:41.294 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:21:30.890 NotebookApp] Kernel interrupted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 16:22:41.770 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:24:41.772 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:26:41.782 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:28:41.774 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:30:41.766 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:32:41.774 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:34:41.766 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:36:41.762 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:38:41.777 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:40:41.773 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:44:41.748 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:46:41.237 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:48:41.227 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:50:41.224 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:52:41.701 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 16:53:48.367 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:6423c583ccec4d39ba98dfc094895fde
+[I 16:53:49.688 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:6423c583ccec4d39ba98dfc094895fde
+[W 16:55:19.691 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 16:55:24.693 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:6423c583ccec4d39ba98dfc094895fde
+[I 18:47:33.408 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 18:51:15.304 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 18:51:29.985 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 18:51:32.184 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 18:51:32.768 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 18:53:33.412 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 18:55:33.393 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:01:33.396 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:03:33.265 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:05:33.389 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:07:33.379 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:25:33.388 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:27:32.762 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 19:27:32.848 NotebookApp] Error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 19:27:32.850 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 19:27:32.850 NotebookApp] Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 19:27:32.851 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 19:27:32.851 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 117.310000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:27:34.988 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 19:27:35.073 NotebookApp] Error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 19:27:35.074 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 19:27:35.074 NotebookApp] Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 19:27:35.074 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 19:27:35.074 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 102.790000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:27:41.825 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 19:27:41.923 NotebookApp] Error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 19:27:41.923 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 19:27:41.924 NotebookApp] Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 19:27:41.924 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 19:27:41.924 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 114.350000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:27:56.018 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:28:47.866 NotebookApp] Kernel interrupted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 19:29:32.770 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:29:50.958 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:29:51.729 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:30:00.789 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:30:23.782 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 1dfee856-7746-446f-95d4-d5c59fe32071 restarted
+[I 19:30:27.744 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:30:28.840 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:31:19.060 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:04dcd833cd574bbe8cff4237945f05fd
+[I 19:31:19.190 NotebookApp] Kernel restarted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 19:31:19.222 NotebookApp] Restoring connection for 1dfee856-7746-446f-95d4-d5c59fe32071:04dcd833cd574bbe8cff4237945f05fd
+[I 19:31:19.728 NotebookApp] Replaying 3 buffered messages
+[I 19:31:32.830 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:32:17.448 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:33:20.540 NotebookApp] Kernel interrupted: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 19:33:32.766 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:34:37.778 NotebookApp] 302 GET /?token=3a7e7bc7711a3635481fd4610efa4d14d3867be5a6610ecb (::1) 0.410000ms
+[I 19:34:47.959 NotebookApp] Kernel started: 486a81fb-b450-4a20-8f1f-819dfac944e0, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: dee3ddf1-73a6-4d0d-9385-7ed14bae9130
+[I 19:35:32.744 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:36:47.892 NotebookApp] Saving file at /LUMEN.ipynb
+[I 19:37:32.739 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:38:47.889 NotebookApp] Saving file at /LUMEN.ipynb
+[I 19:39:32.736 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:40:47.877 NotebookApp] Saving file at /LUMEN.ipynb
+[I 19:41:13.180 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 1dfee856-7746-446f-95d4-d5c59fe32071 restarted
+[I 19:41:26.949 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 486a81fb-b450-4a20-8f1f-819dfac944e0 restarted
+[I 19:41:32.719 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:43:32.731 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:43:59.140 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:45:32.733 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:47:01.956 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:47:02.913 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:47:03.616 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:47:32.708 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:49:10.202 NotebookApp] 302 GET /?token=3a7e7bc7711a3635481fd4610efa4d14d3867be5a6610ecb (::1) 0.470000ms
+[I 19:49:33.310 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:51:33.306 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:53:33.307 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:55:33.296 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 19:57:28.127 NotebookApp] Starting buffering for 486a81fb-b450-4a20-8f1f-819dfac944e0:beb7c760e0434a2eb3418176c1513464
+[I 19:57:28.277 NotebookApp] Kernel restarted: 486a81fb-b450-4a20-8f1f-819dfac944e0
+[I 19:57:28.300 NotebookApp] Restoring connection for 486a81fb-b450-4a20-8f1f-819dfac944e0:beb7c760e0434a2eb3418176c1513464
+[I 19:57:29.001 NotebookApp] Replaying 3 buffered messages
+[I 19:58:47.898 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:00:47.907 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:02:47.896 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:05:25.410 NotebookApp] Starting buffering for 486a81fb-b450-4a20-8f1f-819dfac944e0:beb7c760e0434a2eb3418176c1513464
+[I 20:05:26.447 NotebookApp] Kernel restarted: 486a81fb-b450-4a20-8f1f-819dfac944e0
+[I 20:05:26.512 NotebookApp] Restoring connection for 486a81fb-b450-4a20-8f1f-819dfac944e0:beb7c760e0434a2eb3418176c1513464
+[I 20:05:27.518 NotebookApp] Replaying 3 buffered messages
+[I 20:05:32.691 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 20:05:36.979 NotebookApp] Starting buffering for 486a81fb-b450-4a20-8f1f-819dfac944e0:beb7c760e0434a2eb3418176c1513464
+[I 20:05:36.985 NotebookApp] Restoring connection for 486a81fb-b450-4a20-8f1f-819dfac944e0:beb7c760e0434a2eb3418176c1513464
+[I 20:05:45.226 NotebookApp] Starting buffering for 486a81fb-b450-4a20-8f1f-819dfac944e0:beb7c760e0434a2eb3418176c1513464
+[I 20:05:45.228 NotebookApp] Kernel shutdown: 486a81fb-b450-4a20-8f1f-819dfac944e0
+[E 20:05:50.383 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 89, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/gen.py", line 769, in run
+        value = future.result()
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/asyncio/futures.py", line 181, in result
+        raise self._exception
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/asyncio/tasks.py", line 249, in __step
+        result = coro.send(None)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, f'Kernel does not exist: {kernel_id}')
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 486a81fb-b450-4a20-8f1f-819dfac944e0)
+[E 20:05:50.389 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 20:05:50.389 NotebookApp] 500 POST /api/kernels/486a81fb-b450-4a20-8f1f-819dfac944e0/restart (::1) 6.670000ms referer=http://localhost:5897/notebooks/LUMEN.ipynb
+[W 20:05:50.402 NotebookApp] 404 DELETE /api/sessions/7f6363a7-37cb-485d-8671-1047bd3772b5 (::1): Session not found: session_id='7f6363a7-37cb-485d-8671-1047bd3772b5'
+[W 20:05:50.402 NotebookApp] Session not found: session_id='7f6363a7-37cb-485d-8671-1047bd3772b5'
+[W 20:05:50.403 NotebookApp] 404 DELETE /api/sessions/7f6363a7-37cb-485d-8671-1047bd3772b5 (::1) 1.030000ms referer=http://localhost:5897/notebooks/LUMEN.ipynb
+[I 20:05:50.437 NotebookApp] Kernel started: 7d815a21-c4b1-424a-b7e0-7035ad90a283, name: python3
+[I 20:06:47.728 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:07:33.288 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 20:08:47.901 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:12:00.512 NotebookApp] Kernel shutdown: d21a16dc-f30c-4372-9b0f-4449019364d9
+[I 20:12:09.492 NotebookApp] Kernel shutdown: 1dfee856-7746-446f-95d4-d5c59fe32071
+[I 20:12:09.561 NotebookApp] Starting buffering for 1dfee856-7746-446f-95d4-d5c59fe32071:04dcd833cd574bbe8cff4237945f05fd
+[I 20:12:09.584 NotebookApp] Kernel shutdown: 1dfee856-7746-446f-95d4-d5c59fe32071
+[E 20:12:09.584 NotebookApp] Uncaught exception DELETE /api/sessions/65b9788d-916b-4401-ac83-27eea5860e33 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:5897', method='DELETE', uri='/api/sessions/65b9788d-916b-4401-ac83-27eea5860e33', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/gen.py", line 776, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/sessions/handlers.py", line 164, in delete
+        yield maybe_future(sm.delete_session(session_id))
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/gen.py", line 769, in run
+        value = future.result()
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/tornado/gen.py", line 782, in run
+        yielded = self.gen.send(value)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/sessions/sessionmanager.py", line 287, in delete_session
+        yield maybe_future(self.kernel_manager.shutdown_kernel(session['kernel']['id']))
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 304, in shutdown_kernel
+        self.pinned_superclass.shutdown_kernel(self, kernel_id, now=now, restart=restart)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/jupyter_client/utils.py", line 30, in wrapped
+        raise e
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/jupyter_client/utils.py", line 27, in wrapped
+        return loop.run_until_complete(future)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nest_asyncio.py", line 99, in run_until_complete
+        return f.result()
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/asyncio/futures.py", line 181, in result
+        raise self._exception
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/asyncio/tasks.py", line 249, in __step
+        result = coro.send(None)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/jupyter_client/multikernelmanager.py", line 264, in _async_shutdown_kernel
+        if not km.ready.cancelled() and km.ready.exception():
+    asyncio.base_futures.InvalidStateError: Exception is not set.
+[W 20:12:09.592 NotebookApp] Unhandled error
+[E 20:12:09.593 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 20:12:09.593 NotebookApp] 500 DELETE /api/sessions/65b9788d-916b-4401-ac83-27eea5860e33 (::1) 10.310000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[I 20:12:19.416 NotebookApp] Starting buffering for 7d815a21-c4b1-424a-b7e0-7035ad90a283:beb7c760e0434a2eb3418176c1513464
+[I 20:12:19.423 NotebookApp] Restoring connection for 7d815a21-c4b1-424a-b7e0-7035ad90a283:beb7c760e0434a2eb3418176c1513464
+[I 20:12:24.356 NotebookApp] Starting buffering for 7d815a21-c4b1-424a-b7e0-7035ad90a283:beb7c760e0434a2eb3418176c1513464
+[I 20:12:25.492 NotebookApp] Kernel restarted: 7d815a21-c4b1-424a-b7e0-7035ad90a283
+[I 20:12:25.517 NotebookApp] Restoring connection for 7d815a21-c4b1-424a-b7e0-7035ad90a283:beb7c760e0434a2eb3418176c1513464
+[I 20:12:26.523 NotebookApp] Replaying 3 buffered messages
+[I 20:12:47.903 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:14:47.915 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:16:47.915 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:18:47.913 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:20:47.915 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:22:47.914 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:24:47.917 NotebookApp] Saving file at /LUMEN.ipynb
+[I 20:26:47.925 NotebookApp] Saving file at /LUMEN.ipynb
+[E 20:26:48.021 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 20:26:48.021 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 20:26:48.022 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 20:26:48.022 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 20:26:48.022 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 99.540000ms referer=http://localhost:5897/notebooks/LUMEN.ipynb
+[I 20:28:47.935 NotebookApp] Saving file at /LUMEN.ipynb
+[E 20:28:48.031 NotebookApp] Error while saving file: LUMEN.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 20:28:48.032 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1): Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[W 20:28:48.032 NotebookApp] Unexpected error while saving file: LUMEN.ipynb disk I/O error
+[E 20:28:48.032 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+[E 20:28:48.032 NotebookApp] 500 PUT /api/contents/LUMEN.ipynb (::1) 108.290000ms referer=http://localhost:5897/notebooks/LUMEN.ipynb
+[I 20:29:23.345 NotebookApp] Starting buffering for 7d815a21-c4b1-424a-b7e0-7035ad90a283:beb7c760e0434a2eb3418176c1513464
+[I 20:29:24.178 NotebookApp] Kernel restarted: 7d815a21-c4b1-424a-b7e0-7035ad90a283
+[I 20:29:24.197 NotebookApp] Restoring connection for 7d815a21-c4b1-424a-b7e0-7035ad90a283:beb7c760e0434a2eb3418176c1513464
+[IPKernelApp] ERROR | Failed to create history session in /gpfs/home5/scur1045/.ipython/profile_default/history.sqlite. History will not be saved.
+Traceback (most recent call last):
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/IPython/core/history.py", line 543, in __init__
+    self.new_session()
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/IPython/core/history.py", line 58, in needs_sqlite
+    return f(self, *a, **kw)
+  File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/IPython/core/history.py", line 569, in new_session
+    NULL, "") """, (datetime.datetime.now(),))
+sqlite3.OperationalError: disk I/O error
+[I 20:29:24.788 NotebookApp] Replaying 3 buffered messages
+[I 20:29:33.295 NotebookApp] Saving file at /LUMEN_serghei_reproducibility_and_full_eval.ipynb
+[E 20:29:33.382 NotebookApp] Error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+    Traceback (most recent call last):
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 492, in save
+        self.check_and_sign(nb, path)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 490, in check_and_sign
+        self.notary.sign(nb)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 464, in sign
+        self.store.store_signature(signature, self.algorithm)
+      File "/home/scur1045/.conda/envs/FACT/lib/python3.7/site-packages/nbformat/sign.py", line 207, in store_signature
+        (algorithm, digest, datetime.now(tz=timezone.utc)),
+    sqlite3.OperationalError: disk I/O error
+[W 20:29:33.382 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1): Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[W 20:29:33.382 NotebookApp] Unexpected error while saving file: LUMEN_serghei_reproducibility_and_full_eval.ipynb disk I/O error
+[E 20:29:33.382 NotebookApp] {
+      "Host": "localhost:5897",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Referer": "http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+[E 20:29:33.383 NotebookApp] 500 PUT /api/contents/LUMEN_serghei_reproducibility_and_full_eval.ipynb (::1) 98.330000ms referer=http://localhost:5897/notebooks/LUMEN_serghei_reproducibility_and_full_eval.ipynb
+slurmstepd: error: *** JOB 5076307 ON gcn48 CANCELLED AT 2024-02-01T20:30:08 DUE TO TIME LIMIT ***
+[I 20:30:08.019 NotebookApp] Starting buffering for 7d815a21-c4b1-424a-b7e0-7035ad90a283:beb7c760e0434a2eb3418176c1513464
+
+JOB STATISTICS
+==============
+Job ID: 5076307
+Cluster: snellius
+User/Group: scur1045/scur1045
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 9-00:03:54 core-walltime
+Job Wall-clock time: 12:00:13
+Memory Utilized: 29.69 GB
+Memory Efficiency: 24.74% of 120.00 GB

@@ -1,0 +1,47 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius+and+Lisa#SoftwarepolicySnelliusandLisa-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+To connect to the notebook type the following command from your local terminal:
+ssh -N -J scur1045@int6-pub.snellius.surf.nl scur1045@gcn4.local.snellius.surf.nl -L 5339:localhost:5339
+
+After connection is established in your local browser go to the address:
+http://localhost:5339
+[I 14:05:10.045 NotebookApp] Serving notebooks from local directory: /gpfs/home5/scur1045/FACT-project
+[I 14:05:10.045 NotebookApp] Jupyter Notebook 6.5.6 is running at:
+[I 14:05:10.045 NotebookApp] http://localhost:5339/?token=e40dc8ae5a16008d3201dbe3a60d3fc79b9e022d05ec4bcb
+[I 14:05:10.045 NotebookApp]  or http://127.0.0.1:5339/?token=e40dc8ae5a16008d3201dbe3a60d3fc79b9e022d05ec4bcb
+[I 14:05:10.045 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:05:10.049 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///gpfs/home5/scur1045/.local/share/jupyter/runtime/nbserver-808660-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:5339/?token=e40dc8ae5a16008d3201dbe3a60d3fc79b9e022d05ec4bcb
+     or http://127.0.0.1:5339/?token=e40dc8ae5a16008d3201dbe3a60d3fc79b9e022d05ec4bcb
+[I 14:09:02.198 NotebookApp] 302 GET /?token=e40dc8ae5a16008d3201dbe3a60d3fc79b9e022d05ec4bcb (::1) 1.960000ms
+[W 14:09:22.172 NotebookApp] Notebook LUMEN.ipynb is not trusted
+[I 14:09:22.806 NotebookApp] Kernel started: a7a3f19a-1687-4c21-871b-acb4be6125e9, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c0a05696-d1d9-43b2-927e-c67bd3a32d48
+[I 14:11:23.110 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:13:23.097 NotebookApp] Saving file at /LUMEN.ipynb
+[I 14:19:40.540 NotebookApp] Starting buffering for a7a3f19a-1687-4c21-871b-acb4be6125e9:2c22664a64364df2aabe1d968ed10768
+[I 14:19:41.483 NotebookApp] Kernel restarted: a7a3f19a-1687-4c21-871b-acb4be6125e9
+[I 14:19:41.789 NotebookApp] Restoring connection for a7a3f19a-1687-4c21-871b-acb4be6125e9:2c22664a64364df2aabe1d968ed10768
+[I 14:19:42.215 NotebookApp] Replaying 3 buffered messages
+[I 14:20:40.311 NotebookApp] Starting buffering for a7a3f19a-1687-4c21-871b-acb4be6125e9:2c22664a64364df2aabe1d968ed10768
+slurmstepd: error: *** JOB 4888093 ON gcn4 CANCELLED AT 2024-01-17T14:20:56 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/4888093/.ns: Invalid argument
+slurmstepd: error: container_g_join(4888093): Invalid argument

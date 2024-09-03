@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define variables
-REMOTE_DIR="/home/scur0402/danilo/adapt_med_seg/datasets"
+REMOTE_DIR="/home/scur0402/Downloads"
 RCLONE_REMOTE_NAME="send_to_drive"
 GOOGLE_DRIVE_DIR="Snellius"
 
