@@ -42,6 +42,7 @@ Guide to run jobs and manage Linux terminal in Snellius: the National Supercompu
 - Get access to GPU from terminal
     ```
     srun --partition=gpu --gpus=1 --ntasks=1 --cpus-per-task=4 --time=03:00:00 --pty bash -i
+    srun --partition=gpu_h100 --gpus=1 --ntasks=1 --cpus-per-task=18 --time=00:01:00 --pty bash -i
     ```
 
 - To query job accounting information: ID, user, state of the job (running, completed, failed), start and end time, CPU usage, memory usage 
@@ -68,6 +69,23 @@ Guide to run jobs and manage Linux terminal in Snellius: the National Supercompu
 - To test if jobs will break at the start
     ```
     ssh to gcn1
+    ```
+
+## Check NVIDIA GPU
+- To check the GPU usage
+    ```
+    nvidia-smi
+    ```
+
+## Environments and Modules 
+- To freeze requirements
+    ```
+    pip freeze > requirements.txt
+    ```
+- To remove newly install modules and install requirements,txt
+    ```
+    pip freeze > installed.txt 
+    grep -vxF -f requirements.txt installed.txt | xargs pip uninstall -y
     ```
 
 ## To use rclone
